@@ -1,0 +1,105 @@
+<%
+  const a = about;
+  const lcIcons = ['shield', 'chart', 'layers', 'scale'];
+%>
+<%- include('../partials/phero', { eyebrow: 'Who we are', title: a.excerpt, lead: 'End-to-end consultancy that supports businesses across the full lifecycle: creation, growth and managed exit.', image: '/wp-content/uploads/2026/05/people-standing-office-holding-hands-together-scaled.jpg', crumbs: [['Who we are']] }) %>
+
+<section class="section aboutintro">
+  <div class="wrap narrow reveal">
+    <div class="prose prose--lg"><%- a.intro %></div>
+  </div>
+</section>
+
+<section class="section section--mist" id="expertise">
+  <div class="wrap split">
+    <div class="split__copy reveal">
+      <p class="eyebrow"><%= a.expertise.label %></p>
+      <h2><%= a.expertise.title %></h2>
+      <div class="prose"><%- a.expertise.html %></div>
+      <a class="btn btn--navy" href="/practice-areas/">Explore our services <svg class="i"><use href="#i-arrow-right"/></svg></a>
+    </div>
+    <div class="split__media reveal" data-delay="1"><div class="frame"><%- pic(a.expertise.image, { alt: 'Advisor working on a laptop', sizes: '(min-width: 980px) 560px, 100vw', cls: 'frame__img' }) %></div></div>
+  </div>
+</section>
+
+<section class="section" id="believe">
+  <div class="wrap split split--rev">
+    <div class="split__copy reveal">
+      <p class="eyebrow"><%= a.believe.label %></p>
+      <h2><%= a.believe.title %></h2>
+      <div class="prose"><%- a.believe.html %></div>
+    </div>
+    <div class="split__media reveal" data-delay="1"><div class="frame"><%- pic(a.believe.image, { alt: 'Building long-term value', sizes: '(min-width: 980px) 560px, 100vw', cls: 'frame__img' }) %></div></div>
+  </div>
+</section>
+
+<section class="approach dark" id="approach">
+  <div class="approach__bg" aria-hidden="true"><%- pic(a.approach.image, { sizes: '100vw', cls: 'cover' }) %></div>
+  <div class="wrap approach__inner approach__inner--left reveal">
+    <p class="eyebrow">How we work</p>
+    <h2><%= a.approach.title %></h2>
+    <div class="prose prose--on-dark"><%- a.approach.html %></div>
+  </div>
+</section>
+
+<section class="section" id="purpose">
+  <div class="wrap split">
+    <div class="split__copy reveal">
+      <p class="eyebrow"><%= a.purpose.label %></p>
+      <h2><%= a.purpose.title %></h2>
+      <% a.purpose.paragraphs.forEach(function (p) { %><p class="prose"><%= p %></p><% }) %>
+    </div>
+    <div class="split__media reveal" data-delay="1"><div class="frame"><%- pic(a.purpose.image, { alt: 'Future of business and technology', sizes: '(min-width: 980px) 560px, 100vw', cls: 'frame__img' }) %></div></div>
+  </div>
+</section>
+
+<section class="section section--navy" id="lifecycle">
+  <div class="wrap">
+    <header class="sechead sechead--on-dark reveal">
+      <p class="eyebrow">Lifecycle</p>
+      <h2><%= a.lifecycle.title %></h2>
+      <div class="prose prose--on-dark"><%- a.lifecycle.html %></div>
+    </header>
+    <ul class="values__grid values__grid--4">
+      <% a.lifecycle.cards.forEach(function (c, i) { %>
+      <li class="vcard reveal" data-delay="<%= i % 4 %>">
+        <span class="vcard__ico"><svg class="i"><use href="#i-<%= lcIcons[i % lcIcons.length] %>"/></svg></span>
+        <h3><%= c.title %></h3>
+        <p><%= c.text %></p>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section excellence" id="excellence">
+  <div class="wrap">
+    <header class="sechead reveal">
+      <p class="eyebrow">Our strengths</p>
+      <h2><%= a.excellence.label %></h2>
+    </header>
+    <ul class="exgrid">
+      <% a.excellence.items.forEach(function (item, i) { %>
+      <li class="reveal" data-delay="<%= i % 3 %>"><svg class="i"><use href="#i-award"/></svg><span><%= item %></span></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--mist values" id="values">
+  <div class="wrap">
+    <header class="sechead reveal">
+      <p class="eyebrow"><%= home.values.label %></p>
+      <h2><%= home.values.title %></h2>
+    </header>
+    <ul class="values__grid values__grid--light">
+      <% home.values.cards.forEach(function (c, i) { const vi = ['shield', 'heart', 'layers', 'target', 'eye', 'award']; %>
+      <li class="vcard reveal" data-delay="<%= i % 3 %>">
+        <span class="vcard__ico"><svg class="i"><use href="#i-<%= vi[i] %>"/></svg></span>
+        <h3><%= c.title %></h3>
+        <p><%= c.text %></p>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>

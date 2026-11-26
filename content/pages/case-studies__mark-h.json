@@ -1,0 +1,23 @@
+{
+    "id": 7040,
+    "path": "/case-studies/mark-h/",
+    "title": "Mark H",
+    "excerpt": "HUF",
+    "excerpt_html": "HUF",
+    "parent": 569,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "e268506"
+        },
+        {
+            "type": "text",
+            "html": "<p>The financial advice and support I received have been invaluable. They have a deep understanding of my needs and have helped me navigate complex financial decisions with ease.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Read the case study",
+            "url": ""
+        }
+    ]
+}

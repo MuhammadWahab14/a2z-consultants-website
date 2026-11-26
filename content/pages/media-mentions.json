@@ -1,0 +1,214 @@
+{
+    "id": 907,
+    "path": "/media-mentions/",
+    "title": "Media Mentions",
+    "excerpt": "Beratung Consulting in the Media",
+    "excerpt_html": "Beratung Consulting in the Media",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "34e7b94"
+        },
+        {
+            "type": "section_start",
+            "id": "51f69b9"
+        },
+        {
+            "type": "text",
+            "html": "<p>For journalists and media professionals, please find our contact information below. We strive to respond promptly and kindly request that you refrain from leaving multiple messages. Please note that these contact details are specifically for media inquiries:</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "9ae36a0"
+        },
+        {
+            "type": "text",
+            "html": "<p>Phone:</p>"
+        },
+        {
+            "type": "button",
+            "text": "+1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Email:</p>"
+        },
+        {
+            "type": "button",
+            "text": "media@beratung.com",
+            "url": ""
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "13b72da"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Recent Media Statment",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "eb4c117"
+        },
+        {
+            "type": "card",
+            "title": "Forbes",
+            "text": "6 Tips for Crafting a Winning Business Plan",
+            "link": "https://www.forbes.com/sites/jpmorganchase/2017/03/17/6-tips-for-crafting-a-winning-business-plan/#1535039dff12",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://www.forbes.com/sites/jpmorganchase/2017/03/17/6-tips-for-crafting-a-winning-business-plan/#1535039dff12"
+        },
+        {
+            "type": "card",
+            "title": "BBC",
+            "text": "Why workers are still winning the return-to-office fight",
+            "link": "https://www.bbc.com/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://www.bbc.com/"
+        },
+        {
+            "type": "card",
+            "title": "Fortune",
+            "text": "A.I. could cut time spent coding by 45%. But even seasoned tech professionals will need ‘extensive’ training",
+            "link": "https://fortune.com/author/business-insider/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://fortune.com/author/business-insider/"
+        },
+        {
+            "type": "section_start",
+            "id": "519bc7a"
+        },
+        {
+            "type": "card",
+            "title": "CNBC",
+            "text": "Why Workers Are Still Winning The Return-to-office Fight",
+            "link": "https://www.cnbc.com/world/?region=world",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://www.cnbc.com/world/?region=world"
+        },
+        {
+            "type": "card",
+            "title": "SF Business Times",
+            "text": "How тo Evaluate аnd Enter Foreign Markets Successfully",
+            "link": "https://www.bizjournals.com/sanfrancisco/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://www.bizjournals.com/sanfrancisco/"
+        },
+        {
+            "type": "card",
+            "title": "Inc.",
+            "text": "Tips for Calculating Your Gross Margin",
+            "link": "https://www.inc.com/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://www.inc.com/"
+        },
+        {
+            "type": "section_start",
+            "id": "922aa36"
+        },
+        {
+            "type": "card",
+            "title": "Business Insider",
+            "text": "Funding Your Startup: Are You A Zero Or A One?",
+            "link": "https://fortune.com/author/business-insider/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://fortune.com/author/business-insider/"
+        },
+        {
+            "type": "card",
+            "title": "Inc.",
+            "text": "Top 10 Mistakes Entrepreneurs Make When Writing a Business Plan",
+            "link": "https://www.inc.com/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://www.inc.com/"
+        },
+        {
+            "type": "card",
+            "title": "Money Magazine",
+            "text": "Seeking Venture Capital: When аnd How It Makes Sense",
+            "link": "https://money.com/",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "https://money.com/"
+        },
+        {
+            "type": "section_start",
+            "id": "8d9d9d6"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Beratung Insights",
+            "html": "Beratung Insights",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read all",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "55eec14"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-carousel"
+        }
+    ]
+}

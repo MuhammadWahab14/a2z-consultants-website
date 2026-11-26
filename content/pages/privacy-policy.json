@@ -1,0 +1,66 @@
+{
+    "id": 3,
+    "path": "/privacy-policy/",
+    "title": "Privacy Policy",
+    "excerpt": "Privacy Policy\nfor Beratung LLC",
+    "excerpt_html": "Privacy Policy for Beratung LLC",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "131db5f"
+        },
+        {
+            "type": "section_start",
+            "id": "30995f5"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "What information do we collect?",
+            "html": "What information do we collect?",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "When you interact with us, we may collect your name, address, email address(es), telephone number(s), and, where appropriate, date of birth."
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "How do we collect information?",
+            "html": "How do we collect information?",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "We may collect information about you whenever you interact with us. For example, when you contact regarding our activities, register as a supporter, send or receive information or sign a petition, you specifically and knowingly provide us with your personal information. We may also receive information about you from third parties – but only if you have given them permission to share your information."
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Confidentiality",
+            "html": "Confidentiality",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "We will not be responsible for the privacy of data collected by websites not owned or managed by Charity, including those linked through our website."
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Making a complaint",
+            "html": "Making a complaint",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "If you are not satisfied with the response, please contact us at konstruktion@email.com with the details explaining your concerns. We will review your complaint and investigate if the right procedures have been followed and respond back to you as appropriate. We aim to complete this investigation within 15 working days of receiving your complaint, however, in some cases it may take longer. If you are still unsatisfied with the response, you may contact us."
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        }
+    ]
+}

@@ -1,0 +1,810 @@
+{
+    "id": 910,
+    "path": "/",
+    "title": "Home - Finance / Accounting",
+    "excerpt": "",
+    "excerpt_html": "",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1446755424.jpg"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/paperwork-scaled.jpg",
+            "slideshow": true
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/dynamic-data-visualization-3d-1-scaled.jpg",
+            "slideshow": true
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/executives-reviewing-last-report-scaled.jpg",
+            "slideshow": true
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/partnership-scaled.jpg",
+            "slideshow": true
+        },
+        {
+            "type": "section_start",
+            "id": "4e1d4b6"
+        },
+        {
+            "type": "hero_headline",
+            "before": "Your business potential with",
+            "rotating": [
+                "strategic advisory",
+                "regulatory compliance expertise",
+                "commercial understanding",
+                "end-to-end consultancy",
+                "sustainable business growth"
+            ],
+            "after": ""
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "End-to-end consultancy tailored to your business needs and journey.",
+            "html": "End-to-end consultancy tailored to your business needs and journey.",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Schedule a free consultation",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "2d9e6c6"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Our Firm",
+            "html": "Our Firm",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>A to Z Consultants, a part of the global <a href=\"https://alifgroups.com/\">Alif Group</a>, provides a comprehensive range of financial consulting and business advisory services. Whether you are a privately owned business, a growing enterprise, or an organization seeking specialist advice, we offer a complete service backed by a proven track record.</p><p>Our services are strategically designed to support businesses throughout their entire lifecycle—from initial start-up and market entry to growth, transformation, succession, and managed exit.</p><p>As part of the Alif Group, our capabilities extend far beyond traditional consulting. We leverage the Group’s extensive geographical footprint across the UAE, Saudi Arabia, Malaysia, Indonesia, the United Kingdom and Canada to facilitate seamless cross-border expansions. Furthermore, our close integration with our sister concerns allows us to provide clients with a true single-window solution. Through this network, we deliver streamlined access to world-class services including international tax planning, regulatory compliance, and cutting-edge corporate technology solutions on a global scale.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/11/business-growth-scaled.jpg",
+            "alt": "Business growth",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "74aa61b"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Services",
+            "html": "Services",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "To meet your needs",
+            "html": "To meet your needs",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "Business Setup • Feasibility & Market Assessment • Accounting Systems • UBO & AML/CFT",
+            "html": "Business Setup • Feasibility & Market Assessment • Accounting Systems • UBO & AML/CFT",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "f3a335a"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/engineer-consultant-formal-attire-evaluates-factory-workflow-scaled.jpg"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "01 Business Creation",
+            "html": "01 Business Creation",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "/business-creation/"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/business-growth-success-scaled.jpg"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "02 Business Growth",
+            "html": "02 Business Growth",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "/business-growth/"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/it-expert-server-hub-workplace-monitoring-supercomputers-scaled.jpg"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "03 Managed  Exit",
+            "html": "03 Managed <br> Exit",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": "/managed-exit/"
+        },
+        {
+            "type": "section_start",
+            "id": "1cdc104"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Services",
+            "html": "Services",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "To meet your needs",
+            "html": "To meet your needs",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "Business Setup • Feasibility & Market Assessment • Accounting Systems • UBO & AML/CFT",
+            "html": "Business Setup • Feasibility & Market Assessment • Accounting Systems • UBO & AML/CFT",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "e1606ad"
+        },
+        {
+            "type": "section_start",
+            "id": "f933e3c"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1125619200-square.jpg"
+        },
+        {
+            "type": "button",
+            "text": "01 Business Creation",
+            "url": "#service-tab-1"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Business Creation (The Launchpad)",
+            "html": "Business Creation (The Launchpad)",
+            "link": ""
+        },
+        {
+            "type": "card",
+            "title": "Business Setup Advisory",
+            "text": "End-to-end guidance on legal structures and registration.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Feasibility Studies & Market Assessment",
+            "text": "Validating the business case and market demand.",
+            "link": "financial-planning",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Accounting Systems Implementation",
+            "text": "Setting up the financial backbone from day one.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/05/engineer-consultant-formal-attire-evaluates-factory-workflow-scaled.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "fa4e4cf"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1125619200-square.jpg"
+        },
+        {
+            "type": "button",
+            "text": "02 Business Growth",
+            "url": "#service-tab-2"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Business Growth (The Engine Room)",
+            "html": "Business Growth (The Engine Room)",
+            "link": ""
+        },
+        {
+            "type": "card",
+            "title": "Risk Management Advisory",
+            "text": "Identifying and mitigating bottlenecks that come with higher volumes.",
+            "link": "#",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Internal Control & SOX Compliance",
+            "text": "Strengthening the environment for potential public listings or audits.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "SOP Drafting for Finance & Operations",
+            "text": "Standardization to ensure consistency across growing teams.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/05/business-growth-success-scaled.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "96e2411"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1125619200-square.jpg"
+        },
+        {
+            "type": "button",
+            "text": "03 Managed Exit",
+            "url": "#service-tab-3"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Managed Exit (The Harvest)",
+            "html": "Managed Exit (The Harvest)",
+            "link": ""
+        },
+        {
+            "type": "card",
+            "title": "Business & IP Valuation Advisory",
+            "text": "Determining the true market value of the company’s tangible and intangible assets.",
+            "link": "tax-and-estate-planning",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Purchase Price Allocation (IFRS 13)",
+            "text": "Ensuring accurate financial reporting during a merger or acquisition.",
+            "link": "#",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Transaction Advisory",
+            "text": "Managing the end-to-end deal process for the seller.",
+            "link": "#",
+            "image": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/05/it-expert-server-hub-workplace-monitoring-supercomputers-scaled.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "386cd8e"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Our Specialization",
+            "html": "Our Specialization",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>We are specialists for privately owned businesses, growing SMEs and mid-sized enterprises. Our strength lies in combining technical expertise with commercial understanding.</p>"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Privately owned and family-managed businesses",
+                    "link": ""
+                },
+                {
+                    "text": "Growing and mid-sized enterprises",
+                    "link": ""
+                },
+                {
+                    "text": "Start-ups and scale-up businesses",
+                    "link": ""
+                },
+                {
+                    "text": "Professional services firms",
+                    "link": ""
+                },
+                {
+                    "text": "Trading, manufacturing and service organizations",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/people-standing-office-holding-hands-together-scaled.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "938fcab"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Our Approach\n& Values",
+            "html": "Our Approach & Values",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read more",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "0f4482e"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Why Choose Our Advisory",
+            "html": "Why Choose Our Advisory",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Strategic experts with deep regulatory and business advisory expertise",
+            "html": "Strategic experts with deep regulatory and business advisory expertise",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "db443f6"
+        },
+        {
+            "type": "text",
+            "html": "<p>At A to Z Consultants, we are dedicated to supporting businesses through every stage of their journey with strategic insight, regulatory expertise, and a personalized approach. Our experienced advisors help businesses navigate creation, growth, and managed exit with confidence and clarity.</p><p>Our mission is to deliver practical, result-driven solutions that strengthen compliance, improve operations, and create sustainable long-term value for SMEs and growing enterprises.</p>"
+        },
+        {
+            "type": "button",
+            "text": "About us",
+            "url": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/05/ChatGPT-Image-May-10-2026-12_29_53-AM.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "10",
+            "html": "10",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "YEARS OF EXPERIENCE",
+            "html": "YEARS OF EXPERIENCE",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>A decade of proven financial expertise.</p>"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "110",
+            "html": "110",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "CUSTOMERS",
+            "html": "CUSTOMERS",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Serving a thriving community of satisfied customers.</p>"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "20+",
+            "html": "20+",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "SPECIALISTS",
+            "html": "SPECIALISTS",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>A dedicated team of financial experts at your service.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "e493e13"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/standard-quality-control-collage-concept-1-scaled.jpg"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Our Values",
+            "html": "Our Values",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Guided by integrity, delivery, and client-centricity, our values drive everything we do.",
+            "html": "Guided by integrity, delivery, and client-centricity, our values drive everything we do.",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "a500264"
+        },
+        {
+            "type": "card",
+            "title": "Integrity",
+            "text": "We operate with transparency and provide ethical advice built on trust, honesty, and professional standards.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Respect & Empathy",
+            "text": "We value relationships and understand each client’s unique business and personal circumstances.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Long-Term Partnerships",
+            "text": "We build lasting client relationships through every stage of the business lifecycle.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Delivery",
+            "text": "We focus on reliability, execution, and delivering practical results that create value.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Vision & Expertise",
+            "text": "We combine technical expertise with commercial insight to solve complex business challenges.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Accountability",
+            "text": "We continuously review strategies and performance to keep clients aligned with their goals.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "9033fc6"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Testimonials",
+            "html": "Testimonials",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Those who trust us",
+            "html": "Those who trust us",
+            "link": ""
+        },
+        {
+            "type": "loop",
+            "widget": "loop-carousel"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1407840013.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "2f4a6a6"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Team",
+            "html": "Team",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Get to know the incredible individuals behind our company",
+            "html": "Get to know the incredible individuals behind our company",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Our people",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Become part of our team",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "8b43317"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Get started",
+            "html": "Get started",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Schedule your strategic business consultation today.",
+            "html": "Schedule your strategic business consultation today.",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/05/office-desktop-with-laptop-business-man-scaled.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "We",
+            "html": "We",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "are",
+            "html": "are",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "better",
+            "html": "better",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "together.",
+            "html": "together.",
+            "link": ""
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "text",
+            "html": "<p>Share your business details with us, and our advisors will get in touch with you.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "734073c"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "OR REACH US AT:",
+            "html": "OR REACH US AT:",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "T:  +971 54 722 9600",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "E: info@a2z-consultant.com",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Suite 1002, New Century City Tower, Port Saeed, Deira, Dubai, UAE.",
+            "url": "https://www.google.com/maps/place/Ahmad+Alagbari+Chartered+Accountants/@25.2545014,55.3295148,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cc4ae7da21d:0xa127c4dbaa6eaa18!8m2!3d25.2545014!4d55.3295148!16s%2Fg%2F1q4knfgm2?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/Google_22G22_Logo.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "4.9",
+            "html": "4.9",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "Customer Reviews",
+            "html": "Customer Reviews",
+            "link": ""
+        },
+        {
+            "type": "form",
+            "fields": [
+                {
+                    "label": "Name",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": "",
+                    "name": "name",
+                    "options": ""
+                },
+                {
+                    "label": "Email",
+                    "type": "email",
+                    "required": true,
+                    "placeholder": "",
+                    "name": "email",
+                    "options": ""
+                },
+                {
+                    "label": "Phone number",
+                    "type": "tel",
+                    "required": true,
+                    "placeholder": "",
+                    "name": "field_b6dbfc9",
+                    "options": ""
+                },
+                {
+                    "label": "Company name",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_d50fdd0",
+                    "options": ""
+                },
+                {
+                    "label": "Website",
+                    "type": "url",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_027e865",
+                    "options": ""
+                },
+                {
+                    "label": "Message",
+                    "type": "textarea",
+                    "required": false,
+                    "placeholder": "Tell us more about your needs...",
+                    "name": "message",
+                    "options": ""
+                }
+            ],
+            "button": "Submit",
+            "title": "Schedule consultation - form"
+        },
+        {
+            "type": "section_start",
+            "id": "9c03253"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section_start",
+            "id": "847248c"
+        },
+        {
+            "type": "heading",
+            "level": "h5",
+            "text": "Articles",
+            "html": "Articles",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Valuable insights that \nempower your decision-making",
+            "html": "Valuable insights that empower your decision-making",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Subscribe to our monthly insights",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "e92ea92"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-carousel"
+        }
+    ]
+}

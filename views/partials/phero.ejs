@@ -1,0 +1,19 @@
+<%
+  /* Inner-page hero. Locals: eyebrow, title, lead, image (optional), crumbs [[label, url?]], actions (html, optional) */
+%>
+<section class="phero dark">
+  <% if (typeof image !== 'undefined' && image) { %><div class="phero__bg" aria-hidden="true"><%- pic(image, { sizes: '100vw', cls: 'cover', eager: true }) %></div><% } %>
+  <div class="phero__shade" aria-hidden="true"></div>
+  <div class="wrap phero__inner">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <% crumbs.forEach(function (c, i) { %><li><% if (c[1] && i < crumbs.length - 1) { %><a href="<%= c[1] %>"><%= c[0] %></a><% } else { %><span aria-current="page"><%= c[0] %></span><% } %></li><% }) %>
+      </ol>
+    </nav>
+    <% if (typeof eyebrow !== 'undefined' && eyebrow) { %><p class="eyebrow"><%= eyebrow %></p><% } %>
+    <h1 class="phero__title"><%= title %></h1>
+    <% if (typeof lead !== 'undefined' && lead) { %><p class="lead phero__lead"><%= lead %></p><% } %>
+    <% if (typeof actions !== 'undefined' && actions) { %><div class="phero__actions"><%- actions %></div><% } %>
+  </div>
+</section>

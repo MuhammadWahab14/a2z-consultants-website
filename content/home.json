@@ -1,0 +1,183 @@
+{
+  "hero": {
+    "before": "Your business potential with",
+    "rotating": [
+      "strategic advisory",
+      "regulatory compliance expertise",
+      "commercial understanding",
+      "end-to-end consultancy",
+      "sustainable business growth"
+    ],
+    "sub": "End-to-end consultancy tailored to your business needs and journey.",
+    "cta": "Schedule a free consultation",
+    "slides": [
+      "/wp-content/uploads/2026/05/paperwork-scaled.jpg",
+      "/wp-content/uploads/2026/05/dynamic-data-visualization-3d-1-scaled.jpg",
+      "/wp-content/uploads/2026/05/executives-reviewing-last-report-scaled.jpg",
+      "/wp-content/uploads/2026/05/partnership-scaled.jpg"
+    ]
+  },
+  "firm": {
+    "label": "Our Firm",
+    "html": "<p>A to Z Consultants, a part of the global <a href=\"https://alifgroups.com/\">Alif Group</a>, provides a comprehensive range of financial consulting and business advisory services. Whether you are a privately owned business, a growing enterprise, or an organization seeking specialist advice, we offer a complete service backed by a proven track record.</p><p>Our services are strategically designed to support businesses throughout their entire lifecycle—from initial start-up and market entry to growth, transformation, succession, and managed exit.</p><p>As part of the Alif Group, our capabilities extend far beyond traditional consulting. We leverage the Group’s extensive geographical footprint across the UAE, Saudi Arabia, Malaysia, Indonesia, the United Kingdom and Canada to facilitate seamless cross-border expansions. Furthermore, our close integration with our sister concerns allows us to provide clients with a true single-window solution. Through this network, we deliver streamlined access to world-class services including international tax planning, regulatory compliance, and cutting-edge corporate technology solutions on a global scale.</p>",
+    "image": "/wp-content/uploads/2026/11/business-growth-scaled.jpg",
+    "imageAlt": "Business growth"
+  },
+  "stages": {
+    "label": "Services",
+    "title": "To meet your needs",
+    "sub": "Business Setup • Feasibility & Market Assessment • Accounting Systems • UBO & AML/CFT",
+    "images": [
+      "/wp-content/uploads/2026/05/engineer-consultant-formal-attire-evaluates-factory-workflow-scaled.jpg",
+      "/wp-content/uploads/2026/05/business-growth-success-scaled.jpg",
+      "/wp-content/uploads/2026/05/it-expert-server-hub-workplace-monitoring-supercomputers-scaled.jpg"
+    ],
+    "tabs": [
+      {
+        "title": "Business Creation (The Launchpad)",
+        "cards": [
+          {
+            "title": "Business Setup Advisory",
+            "text": "End-to-end guidance on legal structures and registration."
+          },
+          {
+            "title": "Feasibility Studies & Market Assessment",
+            "text": "Validating the business case and market demand."
+          },
+          {
+            "title": "Accounting Systems Implementation",
+            "text": "Setting up the financial backbone from day one."
+          }
+        ],
+        "image": "/wp-content/uploads/2026/05/engineer-consultant-formal-attire-evaluates-factory-workflow-scaled.jpg"
+      },
+      {
+        "title": "Business Growth (The Engine Room)",
+        "cards": [
+          {
+            "title": "Risk Management Advisory",
+            "text": "Identifying and mitigating bottlenecks that come with higher volumes."
+          },
+          {
+            "title": "Internal Control & SOX Compliance",
+            "text": "Strengthening the environment for potential public listings or audits."
+          },
+          {
+            "title": "SOP Drafting for Finance & Operations",
+            "text": "Standardization to ensure consistency across growing teams."
+          }
+        ],
+        "image": "/wp-content/uploads/2026/05/business-growth-success-scaled.jpg"
+      },
+      {
+        "title": "Managed Exit (The Harvest)",
+        "cards": [
+          {
+            "title": "Business & IP Valuation Advisory",
+            "text": "Determining the true market value of the company’s tangible and intangible assets."
+          },
+          {
+            "title": "Purchase Price Allocation (IFRS 13)",
+            "text": "Ensuring accurate financial reporting during a merger or acquisition."
+          },
+          {
+            "title": "Transaction Advisory",
+            "text": "Managing the end-to-end deal process for the seller."
+          }
+        ],
+        "image": "/wp-content/uploads/2026/05/it-expert-server-hub-workplace-monitoring-supercomputers-scaled.jpg"
+      }
+    ]
+  },
+  "specialization": {
+    "label": "Our Specialization",
+    "html": "<p>We are specialists for privately owned businesses, growing SMEs and mid-sized enterprises. Our strength lies in combining technical expertise with commercial understanding.</p>",
+    "list": [
+      "Privately owned and family-managed businesses",
+      "Growing and mid-sized enterprises",
+      "Start-ups and scale-up businesses",
+      "Professional services firms",
+      "Trading, manufacturing and service organizations"
+    ]
+  },
+  "approach": {
+    "title": "Our Approach & Values",
+    "image": "/wp-content/uploads/2026/05/people-standing-office-holding-hands-together-scaled.jpg"
+  },
+  "why": {
+    "label": "Why Choose Our Advisory",
+    "title": "Strategic experts with deep regulatory and business advisory expertise",
+    "html": "<p>At A to Z Consultants, we are dedicated to supporting businesses through every stage of their journey with strategic insight, regulatory expertise, and a personalized approach. Our experienced advisors help businesses navigate creation, growth, and managed exit with confidence and clarity.</p><p>Our mission is to deliver practical, result-driven solutions that strengthen compliance, improve operations, and create sustainable long-term value for SMEs and growing enterprises.</p>",
+    "image": "/wp-content/uploads/2026/05/ChatGPT-Image-May-10-2026-12_29_53-AM.png",
+    "stats": [
+      {
+        "value": "10",
+        "label": "YEARS OF EXPERIENCE",
+        "text": "A decade of proven financial expertise."
+      },
+      {
+        "value": "110",
+        "label": "CUSTOMERS",
+        "text": "Serving a thriving community of satisfied customers."
+      },
+      {
+        "value": "20+",
+        "label": "SPECIALISTS",
+        "text": "A dedicated team of financial experts at your service."
+      }
+    ]
+  },
+  "values": {
+    "label": "Our Values",
+    "title": "Guided by integrity, delivery, and client-centricity, our values drive everything we do.",
+    "image": "/wp-content/uploads/2026/05/standard-quality-control-collage-concept-1-scaled.jpg",
+    "cards": [
+      {
+        "title": "Integrity",
+        "text": "We operate with transparency and provide ethical advice built on trust, honesty, and professional standards."
+      },
+      {
+        "title": "Respect & Empathy",
+        "text": "We value relationships and understand each client’s unique business and personal circumstances."
+      },
+      {
+        "title": "Long-Term Partnerships",
+        "text": "We build lasting client relationships through every stage of the business lifecycle."
+      },
+      {
+        "title": "Delivery",
+        "text": "We focus on reliability, execution, and delivering practical results that create value."
+      },
+      {
+        "title": "Vision & Expertise",
+        "text": "We combine technical expertise with commercial insight to solve complex business challenges."
+      },
+      {
+        "title": "Accountability",
+        "text": "We continuously review strategies and performance to keep clients aligned with their goals."
+      }
+    ]
+  },
+  "getStarted": {
+    "label": "Get started",
+    "title": "Schedule your strategic business consultation today.",
+    "image": "/wp-content/uploads/2026/05/office-desktop-with-laptop-business-man-scaled.jpg",
+    "lines": [
+      "We",
+      "are",
+      "better",
+      "together."
+    ],
+    "text": "Share your business details with us, and our advisors will get in touch with you."
+  },
+  "contact": {
+    "phone": "+971 54 722 9600",
+    "email": "info@a2z-consultant.com",
+    "address": "Suite 1002, New Century City Tower, Port Saeed, Deira, Dubai, UAE.",
+    "mapUrl": "https://www.google.com/maps/place/Ahmad+Alagbari+Chartered+Accountants/@25.2545014,55.3295148,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cc4ae7da21d:0xa127c4dbaa6eaa18!8m2!3d25.2545014!4d55.3295148!16s%2Fg%2F1q4knfgm2?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "reviews": {
+    "rating": "4.9",
+    "label": "Customer Reviews"
+  }
+}

@@ -1,0 +1,183 @@
+{
+    "id": 890,
+    "path": "/subscribe/",
+    "title": "Subscribe",
+    "excerpt": "Subscribe to Beratung insights",
+    "excerpt_html": "Subscribe to Beratung insights",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "c11c868"
+        },
+        {
+            "type": "text",
+            "html": "<p>Gain valuable insights from Beratung with just a few simple clicks! Register using your name and email address, select the newsletters and alerts that catch your interest, and then hit the \"Submit\" button. Once you receive a confirmation email, open it and click \"confirm\" to start receiving the latest updates from Beratung.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7a451b6"
+        },
+        {
+            "type": "form",
+            "fields": [
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_2c8dece",
+                    "options": ""
+                },
+                {
+                    "label": "First name",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": "Your first name",
+                    "name": "field_45ef11b",
+                    "options": ""
+                },
+                {
+                    "label": "Last name",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": "Your last name",
+                    "name": "field_44bf954",
+                    "options": ""
+                },
+                {
+                    "label": "Email",
+                    "type": "email",
+                    "required": true,
+                    "placeholder": "Your email address",
+                    "name": "email",
+                    "options": ""
+                },
+                {
+                    "label": "Your relationship to Beratung",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_f09a685",
+                    "options": "Select\nAlumni\nCurrent Client\nPast Client\nPotential Client\nIndustry Analyst\nJob Seeker\nJournalist\nOther"
+                },
+                {
+                    "label": "Job title",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "Your job title",
+                    "name": "field_41e353f",
+                    "options": "Alumni\nCurrent Client\nPast Client\nPotential Client\nIndustry Analyst\nJob Seeker\nJournalist\nOther\nSelect"
+                },
+                {
+                    "label": "Company name",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "Your company name",
+                    "name": "field_7035fe0",
+                    "options": "Alabama\nAlaska\nArizona\nArkansas\nCalifornia\nColorado\nConnecticut\nDelaware\nFlorida\nGeorgia\nHawaii\nIdaho\nIllinoisIndiana\nIowa\nKansas\nKentucky\nLouisiana\nMaine\nMaryland\nMassachusetts\nMichigan\nMinnesota\nMississippi\nMissouri\nMontanaNebraska\nNevada\nNew Hampshire\nNew Jersey\nNew Mexico\nNew York\nNorth Carolina\nNorth Dakota\nOhio\nOklahoma\nOregon\nPennsylvaniaRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVermont\nVirginia\nWashington\nWest Virginia\nWisconsin\nWyoming\nSelect"
+                },
+                {
+                    "label": "Your industry",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "Your company name",
+                    "name": "field_d2583b2",
+                    "options": "Select\nAerospace and defense\nAgribusiness\nAirlines\nAutomotive\nChemicals\nConstruction and building products\nFinancial services\nForest products, paper and packaging"
+                },
+                {
+                    "label": "Country",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_75ede22",
+                    "options": "Select\nAfghanistan\nAlbania\nAlgeria\nAndorra\nAngola\nAntigua and Barbuda\nArgentina\nArmenia\nAustralia\nAustria\nAzerbaijan\nThe Bahamas\nBahrain\nBangladesh\nBarbados\nBelarus\nBelgium\nBelize\nBenin\nBhutan\nBolivia\nBosnia and Herzegovina\nBotswana\nBrazil\nBrunei\nBulgaria\nBurkina Faso\nBurundi\nCabo Verde\nCambodia\nCameroon\nCanada\nCentral African Republic\nChad\nChile\nChina\nColombia\nComoros\nCongo, Democratic Republic of the\nCongo, Republic of the\nCosta Rica\nCôte d’Ivoire\nCroatia\nCuba\nCyprus\nCzech Republic\nDenmark\nDjibouti\nDominica\nDominican Republic\nEast Timor (Timor-Leste)\nEcuador\nEgypt\nEl Salvador\nEquatorial Guinea\nEritrea\nEstonia\nEswatini\nEthiopia\nFiji\nFinland\nFrance\nGabon\nThe Gambia\nGeorgia\nGermany\nGhana\nGreece\nGrenada\nGuatemala\nGuinea\nGuinea-Bissau\nGuyana\nHaiti\nHonduras\nHungary\nIceland\nIndia\nIndonesia\nIran\nIraq\nIreland\nIsrael\nItaly\nJamaica\nJapan\nJordan\nKazakhstan\nKenya\nKiribati\nKorea, North\nKorea, South\nKosovo\nKuwait\nKyrgyzstan\nLaos\nLatvia\nLebanon\nLesotho\nLiberia\nLibya\nLiechtenstein\nLithuania\nLuxembourg\nMadagascar\nMalawi\nMalaysia\nMaldives\nMali\nMalta\nMarshall Islands\nMauritania\nMauritius\nMexico\nMicronesia, Federated States of\nMoldova\nMonaco\nMongolia\nMontenegro\nMorocco\nMozambique\nMyanmar (Burma)\nNamibia\nNauru\nNepal\nNetherlands\nNew Zealand\nNicaragua\nNiger\nNigeria\nNorth Macedonia\nNorway\nOman\nPakistan\nPalau\nPanama\nPapua New Guinea\nParaguay\nPeru\nPhilippines\nPoland\nPortugal\nQatar\nRomania\nRussia\nRwanda\nSaint Kitts and Nevis\nSaint Lucia\nSaint Vincent and the Grenadines\nSamoa\nSan Marino\nSao Tome and Principe\nSaudi Arabia\nSenegal\nSerbia\nSeychelles\nSierra Leone\nSingapore\nSlovakia\nSlovenia\nSolomon Islands\nSomalia\nSouth Africa\nSpain\nSri Lanka\nSudan\nSudan, South\nSuriname\nSweden\nSwitzerland\nSyria\nTaiwan\nTajikistan\nTanzania\nThailand\nTogo\nTonga\nTrinidad and Tobago\nTunisia\nTurkey\nTurkmenistan\nTuvalu\nUganda\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited States\nUruguay\nUzbekistan\nVanuatu\nVatican City\nVenezuela\nVietnam\nYemen\nZambia\nZimbabwe"
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_6c4f84a",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "checkbox",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_0fea433",
+                    "options": "Beratung insights"
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_c0cc45f",
+                    "options": "Beratung insights"
+                },
+                {
+                    "label": "",
+                    "type": "checkbox",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_2317d98",
+                    "options": "Automotive\nAviation & Transportation\nChemicals\nConsumer Products\nIndustrial Goods & Services\nMetals & Mining\nOil & Gas\nSocial & Public Sector"
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_a3e343b",
+                    "options": "Beratung insights"
+                },
+                {
+                    "label": "",
+                    "type": "checkbox",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_a2a2e6e",
+                    "options": "Advanced Analytics\nAgile\nChange Management\nCustomer Experience\nDigital Transformation\nDiversity, Equity & Inclusion\nMerger & Acquisitions\nOperations\nSales & Marketing\nStrategy\nSupply Chain\nSustainability"
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": true,
+                    "placeholder": "",
+                    "name": "field_23a84df",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "acceptance",
+                    "required": true,
+                    "placeholder": "",
+                    "name": "field_e966663",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "honeypot",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_5abafd5",
+                    "options": ""
+                }
+            ],
+            "button": "Submit",
+            "title": "Subscribe From"
+        },
+        {
+            "type": "section_start",
+            "id": "4166252"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/illustration-1.svg",
+            "alt": "",
+            "link": ""
+        }
+    ]
+}

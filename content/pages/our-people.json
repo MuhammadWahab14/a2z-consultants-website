@@ -1,0 +1,158 @@
+{
+    "id": 899,
+    "path": "/our-people/",
+    "title": "Our People",
+    "excerpt": "Building Bridges for Sustainable and Inclusive Growth",
+    "excerpt_html": "Building Bridges for Sustainable and Inclusive Growth",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "249573e"
+        },
+        {
+            "type": "section_start",
+            "id": "66267ac"
+        },
+        {
+            "type": "text",
+            "html": "<p>We approach every client relationship with a unique and invigorating perspective, coupled with an unwavering energy that inspires action. Our commitment to teamwork, trust, and an open-mindedness towards differing opinions creates an environment where clients can concentrate on their potential opportunities, enhance their capabilities, and ultimately succeed in shaping the future. </p><p>Together, we achieve remarkable results that transcend the boundaries of what is currently achievable and unlock the true potential of our clients' visions.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-kindel-media-7688339.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "8e72497"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/BPTW-logo-ENG.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "fa6465a"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "The values driving our culture",
+            "html": "The values driving our culture",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Explore our open positions",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>At Beratung, we firmly believe that a robust culture built on well-defined values is the cornerstone of our leadership in the market. We are unwavering in our commitment to upholding the highest standards of ethics, business conduct, and company principles. These standards serve as our guiding compass in every decision we make and action we take.</p><p>We recognize that our employees play a pivotal role in maintaining and nurturing this culture. Therefore, it is an essential expectation for every individual within our organization to uphold these standards in their daily interactions and professional conduct. We place great emphasis on frequent communication and reinforcement of our values to ensure that they remain ingrained in the fabric of our company.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "ee38511"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Empower",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "9ab5b87"
+        },
+        {
+            "type": "section_start",
+            "id": "014a41c"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "30k",
+            "html": "30k",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Diverse talent & perspectives",
+            "html": "Diverse talent & perspectives",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Our team includes management consultants, data scientists, engineers, venture architects, and more, operating in over 10 countries.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "~900",
+            "html": "~900",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Commitment to social impact",
+            "html": "Commitment to social impact",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>In 2022, we successfully executed social impact consulting projects.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "100+",
+            "html": "100+",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Partnering for greater value",
+            "html": "Partnering for greater value",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>We are proud to be a leading organization in our global partner ecosystem.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "18e386d"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/illustration-2.svg"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Meet our leaders",
+            "html": "Meet our leaders",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung’s global leadership is comprised of several key entities, including the managing partner, the Shareholders Council (elected board of directors), the Acceleration Team (global leadership team), and the leaders of various offices and practices. Together, they drive the strategic direction and operations of the organization.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "6c75245"
+        }
+    ]
+}

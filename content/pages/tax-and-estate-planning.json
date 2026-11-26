@@ -1,0 +1,225 @@
+{
+    "id": 6957,
+    "path": "/tax-and-estate-planning/",
+    "title": "Tax and Estate Planning",
+    "excerpt": "Secure a Prosperous Financial Future",
+    "excerpt_html": "Secure a Prosperous Financial Future",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "7daa7b25"
+        },
+        {
+            "type": "text",
+            "html": "<p>With a comprehensive approach, we tailor strategies to suit your unique circumstances, ensuring effective management and preservation of your wealth across borders and generations.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1371643065-square.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "ab2ac17"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our Mission",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "60a382dd"
+        },
+        {
+            "type": "card",
+            "title": "Ensuring",
+            "text": "Through comprehensive estate planning, savor life's moments, ensure a prosperous future, and start the process early.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Advice",
+            "text": "Our expert advice ensures your money benefits your chosen individuals and aligns with your intentions.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Planning",
+            "text": "Pensions aid estate planning, often exempt from inheritance tax. Optimize by preserving and passing on tax-free.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "3abedec8"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "39051e61"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our Capabilities",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Maximize Inheritance Planning",
+            "html": "Maximize Inheritance Planning",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "519403dc"
+        },
+        {
+            "type": "card",
+            "title": "Tax Planning",
+            "text": "By integrating tax considerations into your overall financial plan, we aim to create a tax-efficient strategy that maximizes your after-tax income, preserves wealth, and aligns with your long-term financial objectives. Our goal is to help you make informed decisions that optimize your tax situation and support your financial well-being both now and in the future.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Estate Planning",
+            "text": "Our aim is to empower you with a comprehensive understanding of your estate planning and support you in making informed decisions that align with your wishes and protect the interests of your beneficiaries. By collaborating with estate planning professionals, we ensure that all aspects of your estate plan are properly addressed and executed.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Wealth Preservation",
+            "text": "Strategies to protect assets and wealth for future generations while minimizing tax implications. By seeking professional advice and engaging in meticulous planning, you can set in motion an enduring financial legacy that positively impacts future generations, providing them with the means to flourish and thrive.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "194a547b"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Our process",
+            "html": "Our process",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "f95d157"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "01.",
+            "html": "01.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Getting to Know You</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>Prior to formal engagement, we prioritize understanding your personal situation, financial goals, and key concerns that drive your search for financial advice. This forms the basis for a mutually agreed-upon scope of work. Please find below a comprehensive list of our capabilities.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "5de587b7"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "02.",
+            "html": "02.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Gaining Clarity on Your Finances</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>Our comprehensive planning engagements start by jointly assessing your balance sheet and cash flow. Access our secure client portal to upload documents or link your accounts electronically.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7fb0d9e6"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "03.",
+            "html": "03.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Building Your Financial Vision</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>We collaborate with you to prioritize your goals and assess the financial choices and risks involved in achieving them. Through close partnership, we establish a baseline projection of your future financial wealth, providing a roadmap for your success.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "6f2b0c4d"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "04.",
+            "html": "04.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Analyzing Tradeoffs</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>We use our financial model to develop alternative scenarios, informing recommendations on taxes, insurance, and investments to align with your goals. Exploring scenarios to align recommendations.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "3a1d948e"
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "31a74112"
+        },
+        {
+            "type": "text",
+            "html": "<p>We are here to address any questions you may have as you implement your plan. Additionally, for clients seeking an ongoing partnership, we provide comprehensive <a href=\"/financial-planning\">Financial Planning</a>.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/paths.svg",
+            "alt": "",
+            "link": ""
+        }
+    ]
+}

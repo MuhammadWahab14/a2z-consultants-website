@@ -1,0 +1,84 @@
+[
+  {
+    "id": "creation",
+    "slug": "business-creation",
+    "page": "business-creation",
+    "n": "01",
+    "name": "Business Creation",
+    "code": "The Launchpad",
+    "icon": "rocket",
+    "intro": "Focuses on the foundational setup, regulatory compliance, and initial validation required to bring a new entity to life in the UAE market.",
+    "tagline": "The Launchpad: setting your business up on solid ground",
+    "serviceCount": 8,
+    "tagline2": "Start Right. Build Smart. Stay Compliant.",
+    "headline": "From Blueprint to Launch: Building Compliance-Ready Foundations",
+    "paragraphs": [
+      "The first steps are the most critical. We turn your concepts into operational realities by securing your legal foundation and validating your market potential. We handle the complexity of UAE regulations so that you can focus on your vision. We take the guesswork out of entry. Our advisors ensure your venture begins with a bulletproof legal structure, validated market data, and a financial backbone that meets the highest regulatory standards from day one."
+    ],
+    "keySolutions": [
+      "Business Setup Advisory",
+      "Feasibility & Market Assessments",
+      "UAE UBO & AML Compliance",
+      "Seed-Stage Financial Modelling",
+      "Initial IT & Accounting Setup"
+    ],
+    "outcome": "A fully compliant, market-ready entity built for long-term survival.",
+    "heroImage": "/wp-content/uploads/2026/05/middle-age-business-woman-giving-charts-her-young-colleague-conference-room-scaled.jpg"
+  },
+  {
+    "id": "growth",
+    "slug": "business-growth",
+    "page": "business-growth",
+    "n": "02",
+    "name": "Business Growth",
+    "code": "The Engine Room",
+    "icon": "chart",
+    "intro": "Focuses on scaling operations, optimizing internal controls, and ensuring the business is robust enough to handle rapid expansion.",
+    "tagline": "The Engine Room: scaling and strengthening your operations",
+    "serviceCount": 10,
+    "tagline2": "Drive Efficiency. Scale Performance. Attract Capital.",
+    "headline": "Scaling with Precision: Optimizing Systems for Sustainable Expansion.",
+    "paragraphs": [
+      "Once you’ve found your footing, growth requires discipline. We help you transition from a \"founder-led\" operation to an institutional-grade enterprise. Our team optimizes your internal controls and elevates your reporting to attract the next level of investment.",
+      "Growth without control leads to chaos. We implement the institutional-grade governance, ERP systems, and risk frameworks necessary to transform your high-performing business into a scalable, investor-ready enterprise."
+    ],
+    "keySolutions": [
+      "Corporate Governance",
+      "ERP Selection & MIS Design",
+      "Risk Management & Internal Audit (SOX)",
+      "ESG Implementation",
+      "Capital Raising & Investor Pitch Decks",
+      "Actuarial & HR Consulting"
+    ],
+    "outcome": "A scalable, transparent, and high-performance organization that operates like a market leader.",
+    "heroImage": "/wp-content/uploads/2026/05/business-executives-having-meeting-scaled.jpg"
+  },
+  {
+    "id": "exit",
+    "slug": "managed-exit",
+    "page": "managed-exit",
+    "n": "03",
+    "name": "Managed Exit",
+    "code": "The Harvest",
+    "icon": "flag",
+    "intro": "Focuses on maximizing value during a transition, whether the business is being sold, merged, or strategically dissolved.",
+    "tagline": "The Harvest: maximizing value at transition",
+    "serviceCount": 6,
+    "tagline2": "Capture Value. Manage Transitions. Secure Your Legacy.",
+    "headline": "Maximizing the Harvest: Strategic Value Realization and Clean Transitions.",
+    "paragraphs": [
+      "Every business journey eventually reaches a transition point. Whether you are seeking a strategic merger, a management buyout, or a planned dissolution, we ensure the process is seamless and the valuation is maximized.",
+      "Whether you are preparing for a landmark sale or a strategic sunset, we ensure you exit on your terms. We specialize in maximizing valuation through rigorous due diligence and IFRS-compliant reporting to protect your legacy and your returns."
+    ],
+    "keySolutions": [
+      "Business & IP Valuation",
+      "Transaction Advisory",
+      "Financial & Commercial Due Diligence",
+      "Purchase Price Allocation (IFRS 13)",
+      "Corporate Restructuring",
+      "Dual Structuring Advisory"
+    ],
+    "outcome": "A clean, high value exit that rewards your years of hard work and ensures a professional transition.",
+    "heroImage": "/wp-content/uploads/2026/05/business-people-working-with-ipad-high-angle-scaled.jpg"
+  }
+]

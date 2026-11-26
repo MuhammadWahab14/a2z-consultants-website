@@ -1,0 +1,23 @@
+{
+    "id": 7037,
+    "path": "/case-studies/robert-g/",
+    "title": "Robert G",
+    "excerpt": "Nike",
+    "excerpt_html": "Nike",
+    "parent": 569,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "89f5e26"
+        },
+        {
+            "type": "text",
+            "html": "<p>Working with Beratung has been a game-changer for my financial future. Their expertise and personalized guidance have helped me achieve my goals with confidence.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Read the case study",
+            "url": ""
+        }
+    ]
+}

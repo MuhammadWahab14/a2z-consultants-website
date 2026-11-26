@@ -1,0 +1,225 @@
+{
+    "id": 6955,
+    "path": "/wealth-management/",
+    "title": "Wealth Management",
+    "excerpt": "Finding the Right Advisor for Your Path",
+    "excerpt_html": "Finding the Right Advisor for Your Path",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "bd74c09"
+        },
+        {
+            "type": "text",
+            "html": "<p>Financial achievements empower dreams—comfortable retirement, new home, lasting legacy. Together, we collaborate to make it happen, transforming aspirations into reality.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1448474068-square.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "425cccc8"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our Mission",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "1deec06"
+        },
+        {
+            "type": "card",
+            "title": "Developing",
+            "text": "The core reason behind our wealth management services is to create a solid foundation for your financial future.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Understanding",
+            "text": "By understanding your situation, goals, and experience, we tailor investments for your wealth goals.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Financial plan",
+            "text": "We conduct annual reviews to update your financial plan and address related matters like retirement planning, insurance, tax-efficiency etc.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "71f227d3"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "551ce59a"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our Capabilities",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Efficient Execution & Seize Opportunities",
+            "html": "Efficient Execution & Seize Opportunities",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "6048ef27"
+        },
+        {
+            "type": "card",
+            "title": "Portfolio Management",
+            "text": "With an expansive investment opportunity set encompassing stocks, bonds, real estate, and commodities, our commitment to effective diversification extends beyond capital allocation across diverse asset classes. We also meticulously diversify across various economic and market risk factors, ensuring a resilient and well-rounded investment approach.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Asset Allocation",
+            "text": "With a vigilant eye, we continuously monitor the relative performance and valuation of diverse asset classes amid the ever-changing global economic landscape. Our approach involves making dynamic allocation decisions, informed by perceived opportunities and risks across various investment domains.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Risk Management",
+            "text": "As a part of our holistic approach, we place a strong emphasis on conducting thorough risk assessments and implementing effective risk mitigation strategies, which include insurance solutions and various other tactics. By diligently evaluating and addressing potential financial risks, we aim to provide you with a secure and stable financial foundation, safeguarding your wealth and future aspirations.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "fb9dbcb"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Our process",
+            "html": "Our process",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "bc07f1b"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "01.",
+            "html": "01.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Getting to Know You</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>Prior to formal engagement, we prioritize understanding your personal situation, financial goals, and key concerns that drive your search for financial advice. This forms the basis for a mutually agreed-upon scope of work. Please find below a comprehensive list of our capabilities.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "a3f87d7"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "02.",
+            "html": "02.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Gaining Clarity on Your Finances</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>Our comprehensive planning engagements start by jointly assessing your balance sheet and cash flow. Access our secure client portal to upload documents or link your accounts electronically.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "49d5061"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "03.",
+            "html": "03.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Building Your Financial Vision</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>We collaborate with you to prioritize your goals and assess the financial choices and risks involved in achieving them. Through close partnership, we establish a baseline projection of your future financial wealth, providing a roadmap for your success.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "daf2725"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "04.",
+            "html": "04.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Analyzing Tradeoffs</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>We use our financial model to develop alternative scenarios, informing recommendations on taxes, insurance, and investments to align with your goals. Exploring scenarios to align recommendations.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "4c0d416e"
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "3ecdadb4"
+        },
+        {
+            "type": "text",
+            "html": "<p>We are here to address any questions you may have as you implement your plan. Additionally, for clients seeking an ongoing partnership, we provide comprehensive <a href=\"/tax-and-estate-planning\">Tax &amp; Estate planning</a>.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/paths.svg",
+            "alt": "",
+            "link": ""
+        }
+    ]
+}

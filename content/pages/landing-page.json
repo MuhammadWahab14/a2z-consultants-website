@@ -1,0 +1,627 @@
+{
+    "id": 12990,
+    "path": "/landing-page/",
+    "title": "Landing Page",
+    "excerpt": "",
+    "excerpt_html": "",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/08/homes-all.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "c0e9321"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/logo.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h1",
+            "text": "Modern Consulting and Finance Theme",
+            "html": "Modern Consulting and Finance Theme",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>This lovely niche theme is built and suitable for any business operating in the Consulting and Finance industry.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Explore theme",
+            "url": "https://themes.vamtam.com/?theme=beratung&n=1"
+        },
+        {
+            "type": "background",
+            "src": "https://beratung.vamtam.com/wp-content/plugins/elementor/assets/images/placeholder.png"
+        },
+        {
+            "type": "section_start",
+            "id": "2880a51"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/1-click-demo-1-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "3c3da5c"
+        },
+        {
+            "type": "card",
+            "title": "100 000+",
+            "text": "Clients trust Vamtam",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "FREE",
+            "text": "Lifetime updates",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "24/7",
+            "text": "Dedicated support team",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "06a9319"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/free-image.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Get $370 Worth of Premium Stock Images FREE with Your Package!",
+            "html": "Get $370 Worth of Premium Stock Images FREE with Your Package!",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2024/09/Premium-Stock-images.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "All images shown on the demo website come with the demo content, and can be used in your next project, without the need to buy any additional licences.",
+            "html": "All images shown on the demo website come with the demo content, and can be used in your next project, without the need to buy any additional licences.",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "a97dcb3"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Home-1-1.jpg",
+            "alt": "",
+            "link": "https://themes.vamtam.com/?theme=beratung&n=1"
+        },
+        {
+            "type": "section_start",
+            "id": "7de011d"
+        },
+        {
+            "type": "text",
+            "html": "<p>Finance &amp; Accounting</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Home-2-1.jpg",
+            "alt": "",
+            "link": "https://themes.vamtam.com/?theme=beratung&n=2"
+        },
+        {
+            "type": "section_start",
+            "id": "957920c"
+        },
+        {
+            "type": "text",
+            "html": "<p>Business Consulting</p>"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/08/Details-1.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "037af69"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Details,\nnot only in\nhome pages...",
+            "html": "Details,<br> not only in <br>home pages...",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "054f435"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/vamtam-elite-1-1-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Elementor-Logo-Full-Red-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "6a5c6d4d"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Key Features",
+            "html": "Key Features",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "eccf5f1"
+        },
+        {
+            "type": "card",
+            "title": "Timely Support 8hours Average Response Time",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Elementor Drag and Drop Builder",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Elementor Pro Support",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Powerful Theme Option Panel",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "23 HD Video Tutorials for Beginners",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Extensive Setup Guide",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "3355682e"
+        },
+        {
+            "type": "card",
+            "title": "100+ Help Articles",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Niche Specific Design and Functionality",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "No Coding Knowledge Required",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Exceptional Page-Load Performance",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "One-Click Demo Content Installer",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "TranslationReady",
+            "text": "",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "1b1761d1"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Icons",
+            "html": "Icons",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Custom created icons crafted for your personal needs.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7e1f13d8"
+        },
+        {
+            "type": "section_start",
+            "id": "738b2ed9"
+        },
+        {
+            "type": "section_start",
+            "id": "157140bb"
+        },
+        {
+            "type": "section_start",
+            "id": "41b92392"
+        },
+        {
+            "type": "section_start",
+            "id": "4270da08"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Compatible plugins",
+            "html": "Compatible plugins",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "14c78673"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/99-free-1-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Group-6.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "WP101 Video \nTutorials",
+            "html": "WP101 Video Tutorials",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Elementor-Logo-Symbol-White.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Elementor\nPage Builder",
+            "html": "Elementor<br> Page Builder",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Elementor-Logo-Symbol-White2.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "ElementorPRO \nPage Builder",
+            "html": "Elementor<br>PRO Page Builder",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/woocommerce-logo.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "WooCommerce",
+            "html": "WooCommerce",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/plugins-icon-1-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "3594ea05"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/yoast_icon_rgb_optm.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Yoast SEO",
+            "html": "Yoast SEO",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/WPForms-icon-1-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Contact Form WPForms",
+            "html": "Contact Form WPForms",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/udp-logo-1-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "UpdraftPlus\n\nBackup Plugin",
+            "html": "UpdraftPlus <br> Backup Plugin",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/wordfence-security-logo-1-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Wordfence Security\nWooCommerce",
+            "html": "Wordfence Security WooCommerce",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/icon-256x256-1.webp",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Translate Multilingual Sites",
+            "html": "Translate Multilingual Sites",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/really-simple-sll-logo-1-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Really Simple SSL",
+            "html": "Really Simple SSL",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "7f0ccaf9"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/loco-1-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Loco Translate",
+            "html": "Loco Translate",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Limit-Login-Copy.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Limit Login\nAttempts Reloaded",
+            "html": "Limit Login<br> Attempts Reloaded",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Monsterlights-Copy-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Monsterinsights",
+            "html": "Monsterinsights",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/acf-logo-2.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Advanced Custom Fields",
+            "html": "Advanced Custom Fields",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/icon-256x256-1-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "Cookie Notice for \nGTPR & CCPA",
+            "html": "Cookie Notice for <br>GTPR & CCPA",
+            "link": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Rectangle-4.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "p",
+            "text": "LiteSpeed \n\nCache",
+            "html": "LiteSpeed <br> Cache",
+            "link": ""
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/08/Tablets-2.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "152866b3"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Lovely\nniche theme.",
+            "html": "Lovely<br> niche theme.",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Buy Theme",
+            "url": "https://1.envato.market/vamtam-beratung-checkout"
+        },
+        {
+            "type": "section_start",
+            "id": "3e3a954f"
+        },
+        {
+            "type": "text",
+            "html": "<p>It has purpose oriented design and it is suitable for users with zero programming skills as well as advanced developers.</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p><a href=\"https://vamtam.com\">VamTam. All rights reserved.</a></p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>© 2022</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7df34305"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/08/Phone-1.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "5b963f8d"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Lovely\nniche theme.",
+            "html": "Lovely<br> niche theme.",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "6ceaa8f9"
+        },
+        {
+            "type": "text",
+            "html": "<p>It has purpose oriented design and it is suitable for users with zero programming skills as well as advanced developers.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Buy Theme",
+            "url": "https://1.envato.market/vamtam-beratung-checkout"
+        },
+        {
+            "type": "text",
+            "html": "<p>© 2022</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p><a href=\"https://vamtam.com\">VamTam. All rights reserved.</a></p>"
+        }
+    ]
+}

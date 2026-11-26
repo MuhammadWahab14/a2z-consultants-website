@@ -1,0 +1,87 @@
+<body class="<%= page.bodyClass || '' %>">
+<%- include('sprite') %>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar" role="complementary" aria-label="Contact strip">
+  <p class="topbar__where"><%= site.countries.join(' · ') %></p>
+  <p class="topbar__links">
+    <a href="tel:<%= site.phoneTel %>"><%= site.phone %></a>
+    <a href="mailto:<%= site.email %>"><%= site.email %></a>
+    <a class="topbar__pill" href="<%= site.group.url %>" target="_blank" rel="noopener"><%= site.group.short %></a>
+  </p>
+</div>
+
+<header class="hdr" id="hdr" data-hdr>
+  <div class="hdr__bar">
+    <a class="hdr__logo" href="/" aria-label="<%= site.name %> – home"><%- logo('logo-a2z', 46) %></a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <ul class="nav__list">
+        <% nav.forEach(function (item) { const on = page.nav === item.url; %>
+        <li class="nav__item<%= item.mega ? ' has-mega' : '' %>">
+          <a class="nav__link<%= on ? ' is-active' : '' %>" href="<%= item.url %>"<%- on ? ' aria-current="page"' : '' %>><%= item.label %></a>
+          <% if (item.mega) { %>
+          <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mega" aria-label="Show practice areas"><svg class="i"><use href="#i-chevron"/></svg></button>
+          <% } %>
+        </li>
+        <% }) %>
+      </ul>
+    </nav>
+
+    <div class="hdr__actions">
+      <a class="pill" href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg><span><%= site.phone %></span></a>
+      <a class="btn btn--sky btn--sm" href="/get-a-consultation/">Get a consultation</a>
+      <a class="hdr__group" href="<%= site.group.url %>" target="_blank" rel="noopener" aria-label="<%= site.group.name %> (opens in a new tab)"><%- logo('logo-alif', 40) %></a>
+    </div>
+
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="i i--open"><use href="#i-menu"/></svg><svg class="i i--close"><use href="#i-close"/></svg></button>
+  </div>
+
+  <div class="mega" id="mega" role="region" aria-label="Practice areas">
+    <div class="mega__grid">
+      <% stages.forEach(function (st) { %>
+      <section class="mega__col">
+        <a class="mega__head" href="<%= st.url %>"><span class="mono"><%= st.n %></span><strong><%= st.name %></strong><em><%= st.code %></em></a>
+        <ul>
+          <% st.services.forEach(function (s) { %><li><a href="<%= s.url %>"><%= s.title %></a></li><% }) %>
+        </ul>
+      </section>
+      <% }) %>
+      <aside class="mega__aside">
+        <p class="mono">Talk to us</p>
+        <h3>Not sure where to start?</h3>
+        <a class="btn btn--sky" href="/get-a-consultation/">Schedule a free consultation <svg class="i"><use href="#i-arrow-right"/></svg></a>
+        <a class="btn btn--glass" href="/practice-areas/">View all practice areas</a>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<div class="mobile" id="mobile-menu" hidden>
+  <nav aria-label="Mobile navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li>
+        <details>
+          <summary>Practice Areas <svg class="i"><use href="#i-chevron"/></svg></summary>
+          <a class="mobile__all" href="/practice-areas/">All practice areas</a>
+          <% stages.forEach(function (st) { %>
+          <details class="mobile__stage">
+            <summary><span class="mono"><%= st.n %></span> <%= st.name %> <svg class="i"><use href="#i-chevron"/></svg></summary>
+            <a class="mobile__all" href="<%= st.url %>">Overview of <%= st.name %></a>
+            <ul><% st.services.forEach(function (s) { %><li><a href="<%= s.url %>"><%= s.title %></a></li><% }) %></ul>
+          </details>
+          <% }) %>
+        </details>
+      </li>
+      <li><a href="/about/">Who We Are</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="mobile__cta">
+    <a class="btn btn--sky" href="/get-a-consultation/">Get a consultation <svg class="i"><use href="#i-arrow-right"/></svg></a>
+    <a class="btn btn--glass" href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg> <%= site.phone %></a>
+  </div>
+</div>
+
+<main id="main" tabindex="-1">

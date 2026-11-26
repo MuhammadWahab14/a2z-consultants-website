@@ -1,0 +1,92 @@
+{
+    "id": 988376,
+    "path": "/managed-exit/",
+    "title": "Managed Exit",
+    "excerpt": "The Harvest: maximizing value at transition",
+    "excerpt_html": "The Harvest: maximizing value at transition",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "bd015fa"
+        },
+        {
+            "type": "section_start",
+            "id": "cbdb5c5"
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on maximizing value during a transition, whether the business is being sold, merged, or strategically dissolved.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "bda1459"
+        },
+        {
+            "type": "section_start",
+            "id": "7ffb4a2"
+        },
+        {
+            "type": "card",
+            "title": "Business & IP Valuation Advisory",
+            "text": "Determining the true market value of the company’s tangible and intangible assets.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Purchase Price Allocation & Fair Value Measurement",
+            "text": "Ensuring accurate financial reporting during a merger or acquisition.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Transaction Advisory",
+            "text": "Managing the end-to-end deal process for the seller.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "2526757"
+        },
+        {
+            "type": "card",
+            "title": "Due Diligence (Financial, Operational & Commercial)",
+            "text": "Preparing the \"data room\" to withstand scrutiny from potential buyers.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Corporate Restructuring & Reorganization",
+            "text": "Streamlining the entity for a cleaner sale or preparing for dissolution.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Dual Structuring Advisory",
+            "text": "Optimizing the exit for both local and offshore stakeholders.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "a78a10c"
+        },
+        {
+            "type": "card",
+            "title": "If you do not see your specific practice areas, please contact us",
+            "text": "",
+            "link": "",
+            "button": "Contact us",
+            "image": ""
+        }
+    ]
+}

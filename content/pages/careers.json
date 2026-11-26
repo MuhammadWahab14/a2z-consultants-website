@@ -1,0 +1,216 @@
+{
+    "id": 95,
+    "path": "/careers/",
+    "title": "Careers",
+    "excerpt": "A Career Where Your Potential Matter",
+    "excerpt_html": "A Career Where Your Potential Matter",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "2a6e5f6"
+        },
+        {
+            "type": "section_start",
+            "id": "09ea4cf"
+        },
+        {
+            "type": "text",
+            "html": "<p>What are your aspirations? Whether it's consulting, marketing, sustainability, technology, or any other field, we believe we can help you achieve your goals. Join us and collaborate with a diverse group of talented individuals who support and uplift one another. Unlock your potential in an environment that fosters growth and teamwork.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-fauxels-3184416.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "681fbad"
+        },
+        {
+            "type": "section_start",
+            "id": "9305b2d"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "A career where your potential, ideas and drive matter",
+            "html": "A career where your potential, ideas and drive matter",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Explore our open positions",
+            "url": "https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm"
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung is seeking problem solvers, creative thinkers, engineers, and business builders like you. Embrace a world of limitless opportunities where your talents can shine, and each day brings a meaningful impact. Whether you're an experienced professional or a recent graduate, joining Beratung can offer you a challenging and rewarding next step in your career.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "9cfb686"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Find your ideal role",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "23f94e2"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Students",
+            "html": "Students",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Join Beratung to apply your talents and knowledge in a dynamic and rewarding career. We welcome exceptional individuals from diverse academic backgrounds, whether you're completing your undergraduate degree or pursuing postgraduate studies.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Experienced professionals",
+            "html": "Experienced professionals",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung seeks professionals from diverse fields including technology, finance, government, engineering, law, medicine, and more. Join our team and bring your expertise to make a difference across industries.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Internal roles",
+            "html": "Internal roles",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Experience the inner workings of our firm as our global internal teams bring their skills, experience, and unique perspectives to drive meaningful impact and optimize our operations.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "2b59c07"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-ron-lach-9543743.jpg"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Join us",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Why Join Beratung?",
+            "html": "Why Join Beratung?",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Join Beratung and become part of a collaborative global team that makes a transformative impact on millions of lives worldwide. Together, we make a profound and transformative impact on the lives of millions worldwide.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Explore our open positions",
+            "url": "https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm"
+        },
+        {
+            "type": "section_start",
+            "id": "a6988ca"
+        },
+        {
+            "type": "card",
+            "title": "Pro Bono Work",
+            "text": "Our biggest asset at Beratung is our people, and the unmatched skills and experience that each of them brings to their work.",
+            "link": "",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Community Responsibility",
+            "text": "At Beratung, we believe in giving back, in using our time and expertise to make the world a better place. We recognize our responsibility to local communities and the world at large, and we know that lifting up those most in need benefits us all.",
+            "link": "",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/illustration-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "card",
+            "title": "Diversity and Inclusion",
+            "text": "With our expertise and cutting-edge competencies, we drive impactful and enduring change.",
+            "link": "",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Global Community",
+            "text": "Welcome to the vibrant community of Beratung Consulting. As a member of our team, you become part of a global network spanning across the globe. With approximately 8,000 current and former employees, our diverse community represents a wide range of expertise .",
+            "link": "",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "7a66636"
+        },
+        {
+            "type": "text",
+            "html": "<p>No two paths at Beratung are the same, and many of us find ourselves in roles far from where we started. The opportunity is endless.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Apply Now",
+            "url": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/paths.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "366fe10"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Meet our leaders",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "View more",
+            "url": ""
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+<%
+  const heroActions = '<a class="btn btn--sky btn--lg" href="/get-a-consultation/">Get a consultation <svg class="i"><use href="#i-arrow-right"/></svg></a>';
+%>
+<%- include('../partials/phero', { eyebrow: 'Stage ' + stage.n + ' · ' + stage.code, title: stage.name, lead: stage.tagline, image: stage.heroImage, crumbs: [['Practice areas', '/practice-areas/'], [stage.name]], actions: heroActions }) %>
+
+<section class="section stage">
+  <div class="wrap stage__grid">
+    <div class="stage__main reveal">
+      <p class="eyebrow"><%= stage.tagline2 %></p>
+      <h2><%= stage.headline %></h2>
+      <% stage.paragraphs.forEach(function (p) { %><p class="prose"><%= p %></p><% }) %>
+      <% if (stage.outcome) { %><div class="outcome"><span class="mono">The outcome</span><p><%= stage.outcome %></p></div><% } %>
+    </div>
+    <aside class="stage__side reveal" data-delay="1">
+      <h3 class="mono">Key solutions</h3>
+      <ul class="ticks">
+        <% stage.keySolutions.forEach(function (k) { %><li><svg class="i"><use href="#i-check"/></svg><span><%= k %></span></li><% }) %>
+      </ul>
+      <a class="btn btn--navy btn--block" href="/get-a-consultation/">Talk to an advisor</a>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--mist">
+  <div class="wrap">
+    <header class="sechead reveal">
+      <p class="eyebrow"><%= stage.services.length %> services</p>
+      <h2>Services in <%= stage.name %></h2>
+    </header>
+    <ul class="svcgrid">
+      <% stage.services.forEach(function (s, i) { %>
+      <li class="reveal" data-delay="<%= i % 3 %>">
+        <a class="svc" href="<%= s.url %>">
+          <span class="svc__n mono"><%= String(s.order).padStart(2, '0') %></span>
+          <h3><%= s.title %></h3>
+          <p><%= s.summary %></p>
+          <span class="svc__go">Learn more <svg class="i"><use href="#i-arrow-up-right"/></svg></span>
+        </a>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section stagenav">
+  <div class="wrap">
+    <p class="eyebrow">Other stages</p>
+    <ul class="stagenav__list">
+      <% stages.filter(function (s) { return s.id !== stage.id; }).forEach(function (s) { %>
+      <li><a class="rowcard" href="<%= s.url %>"><span class="mono"><%= s.n %></span><strong><%= s.name %></strong><em><%= s.code %></em><svg class="i"><use href="#i-arrow-right"/></svg></a></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>

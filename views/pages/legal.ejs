@@ -1,0 +1,25 @@
+<%- include('../partials/phero', { eyebrow: 'Legal', title: doc.title, lead: doc.lead, crumbs: [[doc.title]] }) %>
+
+<section class="section legal">
+  <div class="wrap legal__grid">
+    <nav class="legal__toc reveal" aria-label="On this page">
+      <h2 class="mono">On this page</h2>
+      <ol>
+        <% doc.sections.forEach(function (s, i) { %><li><a href="#s<%= i + 1 %>"><%= s.h %></a></li><% }) %>
+      </ol>
+    </nav>
+    <article class="legal__body">
+      <p class="legal__updated mono">Last updated: <%= legal.updated %></p>
+      <% doc.sections.forEach(function (s, i) { %>
+      <section id="s<%= i + 1 %>" class="legal__sec reveal">
+        <h2><%= s.h %></h2>
+        <% s.p.forEach(function (t) { %><p><%= t %></p><% }) %>
+      </section>
+      <% }) %>
+      <section class="legal__sec reveal">
+        <h2>Contact us</h2>
+        <p>Questions about this page? Email <a href="mailto:<%= site.email %>"><%= site.email %></a>, call <a href="tel:<%= site.phoneTel %>"><%= site.phone %></a> or write to <%= site.address.full %></p>
+      </section>
+    </article>
+  </div>
+</section>

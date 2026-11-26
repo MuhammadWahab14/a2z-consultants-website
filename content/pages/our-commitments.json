@@ -1,0 +1,174 @@
+{
+    "id": 897,
+    "path": "/our-commitments/",
+    "title": "Our Commitments",
+    "excerpt": "Pionering Global Research and Practices",
+    "excerpt_html": "Pionering Global Research and Practices",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "cdd1da3"
+        },
+        {
+            "type": "section_start",
+            "id": "84a882f"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "$2B",
+            "html": "$2B",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Commitment",
+            "html": "Commitment",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>in cash and pro bono support to social responsibility efforts by 2030</p>"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "3,900",
+            "html": "3,900",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Nonprofits supported",
+            "html": "Nonprofits supported",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>in 2021 through pro bono engagements, Beratung Gives, and Beratung Grants</p>"
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "321K",
+            "html": "321K",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Hours dedicated",
+            "html": "Hours dedicated",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>by our colleagues in 2021 in volunteering, board service, pro bono engagements, and fellowships at nonprofits</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "af0ddf8"
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung’s $2 billion commitment to social responsibility by 2030 drives impactful pro bono efforts for inclusive growth. We prioritize actions aligned with our values, fostering inclusion and leveraging the expertise of our talented professionals.</p><p>Engaging our colleagues through volunteering and giving, we empower them to serve local communities. Additionally, we forge partnerships with nonprofits and organizations tackling global challenges head-on. Together, we aim to make a meaningful difference in the world.</p>"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-sora-shimazaki-5668778.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "ff59864"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-mirco-hunziker-1099217.jpg"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Our commitment to environmental sustainability",
+            "html": "Our commitment to environmental sustainability",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>The well-being of our society hinges on the health of our planet, and the threat of climate change puts both at risk. Recognizing this, Beratung is dedicated to achieving net-zero climate impact by 2030. In addition to serving clients and sharing valuable insights, we are committed to building a more sustainable and inclusive future. While we understand the challenges ahead, we believe in the collective effort required to make a meaningful difference. Together, we can and must do more to address the urgent global challenges we face.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "f29c0d7"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our four key pillars",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "7a39de7"
+        },
+        {
+            "type": "accordion",
+            "items": [
+                {
+                    "title": "Driving Social Impact",
+                    "html": "<p>Our commitment to finding and catalyzing effective solutions to pressing societal issues is at the heart of our company’s purpose. We bring world-class expertise to the work of addressing the UN’s Sustainable Development Goals, helping organizations develop and focus their social impact agendas and partnering with them to build their capabilities and maximize their impact and effectiveness. We help our clients leverage their core business assets and operations to drive positive societal impact in ways that enhance their sustainable competitive advantage, and we do so by focusing on six key areas:</p> <ul> <li>Economic Development. Accelerating the end of extreme poverty and improve livelihoods. </li> <li>Global Health. Making health care more accessible to promote healthy lives for all. </li> <li>Education. Creating quality education and skills support for all. </li> <li>Diversity, Equity, and Inclusion. Build more equitable and inclusive businesses and societies. </li> <li>Climate Risk, Adaptation, and Resilience. Fostering a just transition to a more sustainable world. </li> <li>Humanitarian Response. Strengthening preparedness, response, and longer-term recovery.</li></ul>"
+                },
+                {
+                    "title": "Protecting our Planet",
+                    "html": "<p>Combating the climate crisis is the defining challenge of our time and a top priority for Beratung. We are partnering with businesses and governments to help them transform and build a more sustainable and resilient world. This is the right move, not just for the good of the planet but also for the long-term sustainability of our clients. Beratung is committed to shaping the global agenda through our climate partnerships and to leading by example by making progress on our own net zero transformation.</p><p>We have committed to reach net zero climate impact by 2030, a significant step in our internal commitment to sustainability. Here are some of our key targets in this area:</p>"
+                },
+                {
+                    "title": "Empowering our People",
+                    "html": "<p>We aim to be the employer of choice by offering an unparalleled employee experience and by creating an environment that allows our people to thrive personally and professionally. Our mission is to unlock the potential of diversity, equity, and inclusion at Beratung. We know that diverse teams with inclusive and equitable work practices strengthen our organization, allowing us to better support our clients and advance justice, dignity, and belonging.</p>"
+                },
+                {
+                    "title": "Promoting Responsible Business Practices",
+                    "html": "<p>In our relentless pursuit of integrity and in our efforts to prevent and detect misconduct, we have established the 'Speak Up' line at Beratung. This reporting option serves as an alternative for individuals who may hesitate to directly approach our senior leaders with their concerns. Through the 'Speak Up' line, employees, customers, suppliers, and other relevant third parties are provided with a confidential platform to report any suspected violations of applicable laws or Beratung policies.</p><p>At Beratung, we take these reports seriously and undertake a thorough and confidential review of each submission. If necessary, we promptly forward concrete reports to external parties that are best suited to address the specific concerns raised. We understand the importance of anonymity, and users can choose to remain anonymous when submitting a report, ensuring their identity remains protected, unless they decide otherwise.</p>"
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "31b74e4"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Enhancing Our Impact",
+            "html": "Enhancing Our Impact",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read all",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "1b953dd"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-carousel"
+        }
+    ]
+}

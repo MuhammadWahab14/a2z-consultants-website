@@ -1,0 +1,98 @@
+{
+    "id": 987877,
+    "path": "/practice-areas/capital-raising-support/",
+    "title": "Capital Raising Support",
+    "excerpt": "Drive Efficiency. Scale Performance. Attract Capital.\n\n  Scaling with Precision: Optimizing Systems for Sustainable Expansion.\n\n  \n    Once you’ve found your footing, growth requires discipline. We help you transition from a \"founder-led\" operation to an institutional-grade enterprise. Our team optimizes your internal controls and elevates your reporting to attract the next level of investment.\n  \n\n  \n    Growth without control leads to chaos. We implement the institutional-grade governance, ERP systems, and risk frameworks necessary to transform your high-performing business into a scalable, investor-ready enterprise.\n  \n\n  Key Solutions:\n\n  \n    Corporate Governance\n    ERP Selection & MIS Design\n    Risk Management & Internal Audit (SOX)\n    ESG Implementation\n    Capital Raising & Investor Pitch Decks\n    Actuarial & HR Consulting\n  \n\n  The Outcome:\n\n  \n    A scalable, transparent, and high-performance organization that operates like a market leader.",
+    "excerpt_html": "<h2>Drive Efficiency. Scale Performance. Attract Capital.</h2> <h4>Scaling with Precision: Optimizing Systems for Sustainable Expansion.</h4> <p> Once you’ve found your footing, growth requires discipline. We help you transition from a \"founder-led\" operation to an institutional-grade enterprise. Our team optimizes your internal controls and elevates your reporting to attract the next level of investment. </p> <p> Growth without control leads to chaos. We implement the institutional-grade governance, ERP systems, and risk frameworks necessary to transform your high-performing business into a scalable, investor-ready enterprise. </p> <h4>Key Solutions:</h4> <ul> <li>Corporate Governance</li> <li>ERP Selection & MIS Design</li> <li>Risk Management & Internal Audit (SOX)</li> <li>ESG Implementation</li> <li>Capital Raising & Investor Pitch Decks</li> <li>Actuarial & HR Consulting</li> </ul> <h4>The Outcome:</h4> <p> A scalable, transparent, and high-performance organization that operates like a market leader. </p>",
+    "parent": 89,
+    "blocks": [
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/hand-pampered-coins-small-house-model-scaled.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "831f741"
+        },
+        {
+            "type": "section_start",
+            "id": "c070531"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Business Growth (The Engine Room)",
+            "html": "Business Growth (The Engine Room)",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on scaling operations, optimizing internal controls, and ensuring the business is robust enough to handle rapid expansion.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7254012"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section_start",
+            "id": "7670459"
+        },
+        {
+            "type": "background",
+            "src": "https://beratung.vamtam.com/wp-content/uploads/2023/07/pexels-jopwell-2422293.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "300633e"
+        },
+        {
+            "type": "section_start",
+            "id": "e0fae52"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/illustration-1.svg"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Capital Raising Support",
+            "html": "Capital Raising Support",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Contact us",
+            "url": ""
+        },
+        {
+            "type": "card",
+            "title": "",
+            "text": "Leading Series A/B rounds or securing debt financing for expansion. We provide hands-on Capital Raising Support to businesses seeking equity, debt, or structured financing solutions.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "",
+            "text": "Our support includes fundraising strategy development, investor readiness assessments, financial modeling, valuation support, and coordination with legal and corporate advisors. We assist management teams throughout the capital-raising process—from preparation to investor engagement and closing.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "",
+            "text": "With experience across regional and international investor markets, we help clients secure capital aligned with their strategic objectives.",
+            "link": "",
+            "image": ""
+        }
+    ]
+}

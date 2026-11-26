@@ -1,0 +1,30 @@
+{
+    "id": 903,
+    "path": "/insights/",
+    "title": "Insights",
+    "excerpt": "Valuable Insights That \nEmpower Your Decision-making",
+    "excerpt_html": "Valuable Insights That Empower Your Decision-making",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "2f445ce"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-grid"
+        },
+        {
+            "type": "section_start",
+            "id": "ba3c770"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/GettyImages-1185765407.jpg"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-grid"
+        }
+    ]
+}

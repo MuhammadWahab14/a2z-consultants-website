@@ -1,0 +1,36 @@
+<%- include('../partials/phero', { eyebrow: service.stageInfo.name + ' · ' + service.stageInfo.code, title: service.title, lead: service.summary, image: service.heroImage, crumbs: [['Practice areas', '/practice-areas/'], [service.stageInfo.name, service.stageInfo.url], [service.title]] }) %>
+
+<section class="section svcpage">
+  <div class="wrap svcpage__grid">
+    <article class="svcpage__main">
+      <p class="eyebrow reveal"><%= service.tagline %></p>
+      <% service.body.forEach(function (p, i) { %><p class="<%= i === 0 ? 'lead ' : '' %>prose reveal"><%= p %></p><% }) %>
+      <div class="svcpage__cta reveal">
+        <a class="btn btn--navy btn--lg" href="/get-a-consultation/">Request this service <svg class="i"><use href="#i-arrow-right"/></svg></a>
+        <a class="btn btn--ghost btn--lg" href="/contact/">Ask a question</a>
+      </div>
+    </article>
+    <aside class="svcpage__side reveal" data-delay="1">
+      <div class="sidecard">
+        <h3 class="mono">In this stage</h3>
+        <ul class="sidelist">
+          <% service.stageInfo.services.forEach(function (s) { %><li><a href="<%= s.url %>"<%- s.slug === service.slug ? ' aria-current="page"' : '' %>><%= s.title %></a></li><% }) %>
+        </ul>
+        <a class="link" href="<%= service.stageInfo.url %>">About <%= service.stageInfo.name %></a>
+      </div>
+      <div class="sidecard sidecard--navy dark">
+        <h3>Speak to an advisor</h3>
+        <p>Share your business details and we will get in touch.</p>
+        <a class="btn btn--sky btn--block" href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg> <%= site.phone %></a>
+        <a class="btn btn--glass btn--block" href="mailto:<%= site.email %>"><svg class="i"><use href="#i-mail"/></svg> Email us</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section pn">
+  <div class="wrap pn__grid">
+    <a class="pn__a" href="<%= nb.prev.url %>"><span class="mono">Previous</span><strong><%= nb.prev.title %></strong></a>
+    <a class="pn__a pn__a--next" href="<%= nb.next.url %>"><span class="mono">Next</span><strong><%= nb.next.title %></strong></a>
+  </div>
+</section>

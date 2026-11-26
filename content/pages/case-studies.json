@@ -1,0 +1,34 @@
+{
+    "id": 569,
+    "path": "/case-studies/",
+    "title": "Case Studies",
+    "excerpt": "Industry Experience and Innovative Thinking",
+    "excerpt_html": "Industry Experience and Innovative Thinking",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "9a8569d"
+        },
+        {
+            "type": "section_start",
+            "id": "63cf0db"
+        },
+        {
+            "type": "text",
+            "html": "<p>At Beratung, bold thinking, inspired people and a passion for results come together for extraordinary impact. We work with clients who do not hide from the future but want to define it. Explore our success stories to see how we have helped businesses like yours overcome challenges and achieve tangible results.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "d4e33ac"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-grid"
+        }
+    ]
+}

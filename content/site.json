@@ -1,0 +1,22 @@
+{
+  "name": "A to Z Consultants",
+  "legalName": "A to Z Consultants",
+  "tagline": "Strategic guidance for every business stage",
+  "description": "A to Z Consultants is a Dubai advisory firm, part of the Alif Group, supporting privately owned businesses, SMEs and growing enterprises from business creation and growth to managed exit.",
+  "phone": "+971 54 722 9600",
+  "phoneTel": "+971547229600",
+  "email": "info@a2z-consultant.com",
+  "address": {
+    "line1": "Suite 1002, New Century City Tower",
+    "line2": "Port Saeed, Deira",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "full": "Suite 1002, New Century City Tower, Port Saeed, Deira, Dubai, UAE."
+  },
+  "geo": { "lat": 25.2545014, "lng": 55.3295148 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.2545014,55.3295148",
+  "group": { "name": "Alif Group", "url": "https://alifgroups.com/", "short": "An Alif Group company" },
+  "countries": ["UAE", "Saudi Arabia", "Malaysia", "Indonesia", "UK", "Canada"],
+  "defaultUrl": "https://a2z-consultant.com",
+  "hours": "Sunday to Thursday"
+}

@@ -1,0 +1,394 @@
+{
+    "id": 16,
+    "path": "/home-business-consulting/",
+    "title": "Home - Business Consulting",
+    "excerpt": "",
+    "excerpt_html": "",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/GettyImages-1059660908.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "0066be4"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/dots-left-GettyImages-1478119123.png"
+        },
+        {
+            "type": "section_start",
+            "id": "525eca3"
+        },
+        {
+            "type": "background",
+            "src": "https://beratung.vamtam.com/wp-content/uploads/2023/06/dots-left-GettyImages-1478119123.png"
+        },
+        {
+            "type": "hero_headline",
+            "before": "Transforming  Businesses for​",
+            "rotating": [
+                "Success",
+                "Growth"
+            ],
+            "after": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Expert Business Consulting Services to Drive Growth and Efficiency</p>"
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "38ff16a"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Our services empower businesses to:",
+            "html": "Our services empower businesses to:",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "158f8af"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Identify growth opportunities and expand market presence",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Enhance operational efficiency and reduce waste",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Make informed decisions based on data-driven insights",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Successfully adapt to changing market dynamics and technologies",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/GettyImages-1150296423.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "f3b6f77"
+        },
+        {
+            "type": "button",
+            "text": "Get to know us",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "4b9b857"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our expertise",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "ed50b99"
+        },
+        {
+            "type": "card",
+            "title": "Business Strategy Development",
+            "text": "Craft effective strategies to drive competitiveness and achieve business objectives.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Process Optimization",
+            "text": "Streamline operations and improve efficiency to maximize productivity and reduce costs.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Market Research and Analysis",
+            "text": "Gain valuable insights into your target market, competitors, and customer needs.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "75c5318"
+        },
+        {
+            "type": "card",
+            "title": "Change Management",
+            "text": "Navigate organizational change smoothly and ensure successful implementation.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Technology Solutions",
+            "text": "Our partners with leading technology providers to guide our clients through the implementation process.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "button",
+            "text": "Explore our practice areas",
+            "url": ""
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1277288373.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "129f629"
+        },
+        {
+            "type": "section_start",
+            "id": "3354d1e"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Scale, growth and optimizing as fast as you need to.",
+            "html": "Scale, growth and optimizing as fast as you need to.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>In today's fast-paced business landscape, staying ahead requires the ability to scale, grow, and optimize operations at the speed of your ambitions. Our comprehensive solutions empower you to unleash the full potential of your business, providing the tools, strategies, and guidance needed to drive sustainable growth.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/illustration-1.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "0654c30"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our values",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "937f54e"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Integrity",
+            "html": "Integrity",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Acting with honesty and transparency.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Excellence",
+            "html": "Excellence",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Striving for high-quality work and exceeding expectations.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Collaboration",
+            "html": "Collaboration",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Fostering teamwork and open communication.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Client-Centricity",
+            "html": "Client-Centricity",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Putting clients' needs first.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Adaptability",
+            "html": "Adaptability",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Being flexible and adaptable to change.</p>"
+        },
+        {
+            "type": "heading",
+            "level": "h6",
+            "text": "Confidentiality",
+            "html": "Confidentiality",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Respecting client privacy and data security.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "4022468"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/illustration-2.svg"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Success stories",
+            "html": "Success stories",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Explore our success stories to see how we have helped businesses like yours overcome challenges and achieve tangible results.</p>"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-carousel"
+        },
+        {
+            "type": "button",
+            "text": "See all client results",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "0c5c1d7"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "What we're thinking",
+            "html": "What we're thinking",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Read all",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "14486ea"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-grid"
+        },
+        {
+            "type": "loop",
+            "widget": "loop-carousel"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/GettyImages-1347652268-parallax.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "7f50328"
+        },
+        {
+            "type": "section_start",
+            "id": "1ccdeac"
+        },
+        {
+            "type": "section_start",
+            "id": "77a9003"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Ready to achieve your goals?\nLet us guide you!",
+            "html": "Ready to achieve your goals? Let us guide you!",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "11a1b78"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/illustration-3.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Let’s talk",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Leave us a little info, and we'll be in touch.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Find an office",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Reach out to us today to discuss your business challenges and explore.</p>"
+        }
+    ]
+}

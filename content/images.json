@@ -1,0 +1,551 @@
+{
+ "images": {
+  "business-executives-having-meeting-scaled.jpg": {
+   "name": "business-executives-having-meeting-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1709,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQBACdASoYABAAPu1krU2ppaSiMAgBMB2JYwDG9B583hGEzCfNlf7/gahwAPvEnqekH2mbmG2VA+HM+f8jKQaZYzED9jEO9fc7WUE6O/Rq9Yo2Wq3lgDWEId2ikksefCVn/ng3OmF6IpO5jM/vofDE1YzjgeaAAAA=",
+   "alpha": false
+  },
+  "business-growth-scaled.jpg": {
+   "name": "business-growth-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1993,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBACdASoYABMAPu1mq06ppaOiKA1RMB2JYgCdLzwAjSksVvwN6PvW0XBUc/WAAP7AJDICUxHERTVVaFzOGT9vVkRXcGzuswZiWy6KD7DGg+ZjBNxPR9Ku/tuj6gSIAbyR2rvPWx36KcttuNhCwKJgtV69Q16vPSGODEbpAAA=",
+   "alpha": false
+  },
+  "business-growth-success-scaled.jpg": {
+   "name": "business-growth-success-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1792,
+   "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACwBACdASoYABEAPuFcp02opSOiMAwBEBwJZDcAA2CPLgtddSuY8mm0cas+BVgAAP7QwpVXRaSSjyAUasJ/atNbJV9Jme+K6tJ1wX2v6Jz97RijCugL/aQ5oeehz18QMY/xv8b/GaOP6umLfCVSQmifOAAAAA==",
+   "alpha": false
+  },
+  "business-man-working-office-desktop-scaled.jpg": {
+   "name": "business-man-working-office-desktop-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1706,
+   "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoYABAAPu1kqU2ppaQiMAgBMB2JZQDImCIGxKMz4rnBYRzgAAD+5yrlEGXpcvtAA6ryYKEHnyGn+6/CzwI19OEAjpp50Jwj/QbhhuAVht31asdDeMwqzSnHkAA=",
+   "alpha": false
+  },
+  "business-meeting-office-scaled.jpg": {
+   "name": "business-meeting-office-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1440,
+   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBACdASoYAA4APu1iqk4ppaQiMAgBMB2JQBadA3a8tSMsDbTDLO8/oKxEAADifk3HUJFBosTLxKXfFforKkofaroboZ5Qia4XxDfXbbaNd8SWmZ/Gpk+6ln0RuT0JACANubDeXpkHN+QQYuW/5hobwc+gU3XaII1FvG7LKDB+js9gAAA=",
+   "alpha": false
+  },
+  "business-people-meeting-office-writing-memos-sticky-notes-scaled.jpg": {
+   "name": "business-people-meeting-office-writing-memos-sticky-notes-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1709,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoYABAAPu1kqU2ppaQiMAgBMB2JQBWAAxnXuriMyGRA9yxTFKAA/kbYyVjyLx1ouqREhrNzSqrKJuMLMmN2N9koag3lA3KH8aTrm6gTcGll9cFB0UsXulovvxBBM7wcqhyKi1JaBiM5bOSbrXOb6TqgAAA=",
+   "alpha": false
+  },
+  "business-people-working-with-ipad-high-angle-1-scaled.jpg": {
+   "name": "business-people-working-with-ipad-high-angle-1-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1708,
+   "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoYABAAPu1kq04ppaQiMAgBMB2JZQDCgBn7hGAnwhXDgPNYYAD+8qax4CGU0+jj4A1CWmuMcGiK75jqYY2p4J1+DRUXOSb+6LIZEQBfqhpe3Ji+/ySde6gSgHoU5iGqe9Bv1OX2JBf1XYWZqWUAAA==",
+   "alpha": false
+  },
+  "business-people-working-with-ipad-high-angle-scaled.jpg": {
+   "name": "business-people-working-with-ipad-high-angle-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1708,
+   "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoYABAAPu1kq04ppaQiMAgBMB2JZQDCgBn7hGAnwhXDgPNYYAD+8qax4CGU0+jj4A1CWmuMcGiK75jqYY2p4J1+DRUXOSb+6LIZEQBfqhpe3Ji+/ySde6gSgHoU5iGqe9Bv1OX2JBf1XYWZqWUAAA==",
+   "alpha": false
+  },
+  "business-team-collaborating-corporate-culture-initiatives-development-scaled.jpg": {
+   "name": "business-team-collaborating-corporate-culture-initiatives-development-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1440,
+   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoYAA4APu1mq04ppaQiMAgBMB2JYgCdH8ABax2Ql2Nj3zEZN4AA/qjeM0r9bfrex2Uqe9XzOdNPTEAJJpyZtov3XyDsDNTnT2FSiqUpmOSlOIJX7PaNnk2vu1nMPC0q0XEo40ObBfQsIAAA",
+   "alpha": false
+  },
+  "business-team-discussing-their-ideas-office-working-collaborate-together-analysis-chart-scaled.jpg": {
+   "name": "business-team-discussing-their-ideas-office-working-collaborate-together-analysis-chart-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1706,
+   "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoYABAAPu1mqk4ppaOiMAgBMB2JZACdICXC8xaW7khiZJIipAAA9HT2XoiUnVJb7aQs4p53jd/q+LgkajD6GFSNekOuH8k/Ksih/5tnhpMbId/uSkvoTiivZXUkKKDv+AVapPpf+ecrS+JdBbRzuAAA",
+   "alpha": false
+  },
+  "business-team-situation-present-share-idea-scaled.jpg": {
+   "name": "business-team-situation-present-share-idea-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBACdASoYABAAPu1iqk4ppaQiMAgBMB2JQBOmUGXSiEe/Mvc0seUl+bg8ooAA/pUHQ+wi5Erkcag8qbcxNc0tmCAr9OKA7eNvBv6mhtvil0Ni75STJDRSDn5ZFM48eehyvGf11VCVLfICkup4jT1vvi31hE060L1u9+FpJ3SgnHfNkQsbQu/GyIuZV8jYAAA=",
+   "alpha": false
+  },
+  "businessman-sitting-with-laptop-talking-other-colleagues-scaled.jpg": {
+   "name": "businessman-sitting-with-laptop-talking-other-colleagues-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCxC8ACuL1ZV4dcH7tKhQAA/B6UwzMNNwZqjzHOIdpeirBYV9lCjw08tTjdd99Lpv/SK8Cns1ZkgP0P2jD+vnABuRUtlHIAsEubTweL9XHuYVvh4njx5p7WXwoZ3ehnAAAA",
+   "alpha": false
+  },
+  "businessman-touching-glowing-increasing-arrow-business-profit-investment-growth-concept-scaled.jpg": {
+   "name": "businessman-touching-glowing-increasing-arrow-business-profit-investment-growth-concept-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwBACdASoYABAAPu1krU6ppaSiMAgBMB2JQBbZBCqDI913HJ/SBli/igAA/uvjASkXFQrny3/P8i6haJti3cx1HiTvreLSgxPnO8KHvQurkHPgAAA=",
+   "alpha": false
+  },
+  "businessmen-hands-white-table-with-documents-drafts-1-scaled.jpg": {
+   "name": "businessmen-hands-white-table-with-documents-drafts-1-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYABAAPu1kqk4ppaQiMAgBMB2JZQAAPU0DVb1tv/xm3WtygADie2xLQ+VqANrNrbzB3X+EAoRt8I8GR3z0276s3D1EmJZs+7lgHwDbcuCMYqGzuiiB/gUQEh9b8XZNwEW1kVc8ZfEcWOhJ0iCDbJNKfqvMbFkAAAA=",
+   "alpha": false
+  },
+  "ChatGPT-Image-May-10-2026-12_29_53-AM.png": {
+   "name": "chatgpt-image-may-10-2026-12-29-53-am",
+   "widths": [
+    480,
+    800,
+    1024
+   ],
+   "width": 1024,
+   "height": 1024,
+   "lqip": "data:image/webp;base64,UklGRpICAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSIQBAAANkGbb1to2932iT5KZUmae/1zCzDGqsvj73vshZQ4RMQEAEPTdLLcAoS14Vb/7MdhePRRwR3Nvvay7CPGP78P07GzvzH9/kYvDVRfg9odhtsyUWnyf8dPFGtJVFKpZu4FiCUKbM6E7GsryOhnqqLl7jCZR5NUtcj78w+VDMD4YJcdXsvgx2tyVrejr+33lf55q5/GlTs23j+vDZxZgNDUigy9v7MP/8Siz+lP4fF2QwCFhwmBkLtzPvhHuLbBMAUlTf+wKTLoNZpoVKtJOAyDZ+LOgfLpZBoP+dKHl5UlPCUBTcujtj0/KdxMTfBnz8732SQDUxvGzp53jqKSYTyTJNBEAVMb1jXEUSVF5sanFQZushWIoJWQNXBhFHSCqGuWRAtgadrWyr2W5H5ESMDeFO/QsdyEpdJ8IYFvnahQ20sVJFfZABDEmwzA2Amk1iY21IpA0TcaDobVoCxsb9VBYuGT2HIbcIWUaihmN8wYay9IjNwYAoWQdUtL/jBq6urERU9ACVlA4IOgAAABwBQCdASoYABgAPu1urlIppiQiqAgBMB2JaQALAEcB0Y+doa2Q/3MfOQOHUBM48gkydP/QAP12zUpoLLh1kI/o+ze0n56SB3c7qp00Wm7xT5E+xt8tXSRYRUbSsi0JNs3A7ymqfi4W6b/g6X0lbgjXJe8FMaA4sF/XvPpP/jvEHa85j6Q5mPnGpmUUB8Jg2MKqRBv4SOpRbsfB/RWkptClCqsCQblvrbgZPLJeceKyLyT8QC4VWvL/RRRZrIqLi1DMbdYmyKYjPleuj6rlMARMkUGqFL1h0tRTun9YvrtpNOXyRrFwAAAA",
+   "alpha": true
+  },
+  "discussing-charts-scaled.jpg": {
+   "name": "discussing-charts-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1709,
+   "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoYABAAPu1mqk4ppaOiMAgBMB2JYgCdMoAC/C42z2/ouAHZ4AAA/vE7tmWvff3RKcC9v3s79LFO4YuxnzeVUYPfc3ndojUT+ZrDXrfWGnHkD2qPPSRD0rYseJHqtsHg/NzRDfLUY4eAAA==",
+   "alpha": false
+  },
+  "diverse-executive-business-team-clapping-conference-room-scaled.jpg": {
+   "name": "diverse-executive-business-team-clapping-conference-room-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1618,
+   "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JZwBTAbwE8ACayKqfHHOXMhXxT8AA/tWSM+6FRoVgl0aoyfzgLqvFejrFLB22tHkl/t3Vx3jC7PHKstQ7ygdtn64XRNQUOPX2t4s1I0s4xUq+wMJ5T5Y0FwKnZlohTy/LID7YFT4jIOB4mH55gAAA",
+   "alpha": false
+  },
+  "dynamic-data-visualization-3d-1-scaled.jpg": {
+   "name": "dynamic-data-visualization-3d-1-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1750,
+   "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoYABAALrV2u12jqampiYC0SgCdAEO/e9xzR2tY5AAA/vd3Az4K9GT+n2Pz/71zx0dbCDurSZ7NL4grZXn2DMqWSZBr1/xC9MASE4AA",
+   "alpha": false
+  },
+  "empowered-female-ceo-working-her-high-end-corporate-office-scaled.jpg": {
+   "name": "empowered-female-ceo-working-her-high-end-corporate-office-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZQCdACEFMc2MT7GNuDt4AP7qtPt4ZcENHBFq9RuT/5ymQo9Bm+KTPxYvQpB+Rs5XxjislKzDlhTi6r7/4w+KyaWMFlgPB92VFjnn47/eU8ZFmgUNdlf8cAA=",
+   "alpha": false
+  },
+  "engineer-consultant-formal-attire-evaluates-factory-workflow-scaled.jpg": {
+   "name": "engineer-consultant-formal-attire-evaluates-factory-workflow-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JQBOgAfFe/9cnmjItrPAA/pRtAoFB1zOPohLuFfrwOen/ZbvWuUIAs1csd3IgiRhkOlPcATbBZJVoJZ35dSyF1HZzE0qllZw587y68P0FTReuGFLXP4AA",
+   "alpha": false
+  },
+  "entrepreneurs-business-working-togethe-modern-conference-room-tablet-with-charts-scaled.jpg": {
+   "name": "entrepreneurs-business-working-togethe-modern-conference-room-tablet-with-charts-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1477,
+   "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoYAA4APu1iqk2ppaQiMAgBMB2JQBdkGQA8a5wSn1tV/yRFwAD+rAKCWcSTtmlJnfwzSa9FWx44qYHPVaKeXeYPwfc8+N/0aWzbq5NYb5yG7yICbb3dq2odRRlKixnaWaOFJcfE4v7yehVtH3GGbQb4JTmwaAAA",
+   "alpha": false
+  },
+  "executive-manager-modern-office-engaged-infographics-analysis-scaled.jpg": {
+   "name": "executive-manager-modern-office-engaged-infographics-analysis-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoYABAAPu1kq04ppaQiMAgBMB2JYwDG9BwYcQvnjRn9999wAAD+19JwJ9ZwfMF5PUbgbuz5XRdBBEr9A+ZLHzeyx5r0wXX4f7d8ap1eS0Dm9iw2F+KhO0TvbHDPSLFTSw7IfFth32XIRBR934aid85LpqSAAA==",
+   "alpha": false
+  },
+  "executives-reviewing-last-report-scaled.jpg": {
+   "name": "executives-reviewing-last-report-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBAAASeg0qa4fFIIGc4AAP5p/xQvA5AW3Deq0hKxHvX/V1/OqyyYTZoWglLkS1OAfbk4Yrc/RzXzXe50tE/I6WLOxcS5pskoJrlCBtrbBoDvfVRyNCHag6ST0033JIaToAAA",
+   "alpha": false
+  },
+  "family-buying-car-dealer-scaled.jpg": {
+   "name": "family-buying-car-dealer-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBdgAxMkBxx8kkR7Q3YAAP7KJl3CtVIEK9jYFYnYr8/6u+kLCaEOZjMnQjywKGEnQsXpJLaA2Dv4zmFMx3PZ4xN/TMju1/zTqvApfio6ExOpNdmUEJj/fUKOTV04NF/Cgo3QAAA=",
+   "alpha": false
+  },
+  "future-visions-business-technology-concept-scaled.jpg": {
+   "name": "future-visions-business-technology-concept-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1750,
+   "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoYABAAPu1kqk4ppaQiMAgBMB2JagCdMoADTuEYpImscldYayIAAP7u3RKhFuihNq6cIYippu53KBTuS4nQUTuvKZyvyj4pJy41kfkQmYPJVZBXEka9rdinqMBqrAAA",
+   "alpha": false
+  },
+  "hand-pampered-coins-small-house-model-scaled.jpg": {
+   "name": "hand-pampered-coins-small-house-model-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JbACdMoR3ACnGcNKF1h+wMCsDXwAA/ugMZper82QaLWqBiFye9dofZwjx6bYqpV290y8N+HsOH8VYXgrRCN/XaoAT8SMelWXPBuRHM8xPFH26AehgAA==",
+   "alpha": false
+  },
+  "i-have-good-idea-scaled.jpg": {
+   "name": "i-have-good-idea-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 1828,
+   "height": 2560,
+   "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoYACIAPu1mqE8ppSOiMBVaqTAdiWcAAJ1unTKsPZZY4X+vIAAA/u/qb9EUCzayqt5wxzQ1tHBNPxO7ihCzv1rSmLZt5SbcRRx6GRQfQCu+155W4vZ8KXbDMD+TdX7e8svcVmSggKoHwAAA",
+   "alpha": false
+  },
+  "it-expert-server-hub-workplace-monitoring-supercomputers-scaled.jpg": {
+   "name": "it-expert-server-hub-workplace-monitoring-supercomputers-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1440,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwAwCdASoYAA4APu1iqk2ppaQiMAgBMB2JYgCdMoAC+DTWgz40PxPwAPYe5JrOfHC45bwIQkwv+fGD9IAWZLmqtvKpuQUhY3rOPVpJS3Re7pb8U5qyOwaeXRVmjN1a6nPeAuMxSBZiw73y8Omf21Y/Nz+xBfkLsRcAAA==",
+   "alpha": false
+  },
+  "middle-age-business-woman-giving-charts-her-young-colleague-conference-room-scaled.jpg": {
+   "name": "middle-age-business-woman-giving-charts-her-young-colleague-conference-room-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1586,
+   "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoYAA8APu1kq04ppaQiMAgBMB2JQBOgAZR2YlmRMmZtDmcAAP7L1JtSiCkLuTKxr+hh4CIdxfpNidvwQlhqYuuIMyRib5hY3tLpRJucz954pP72D23Qe84giE4mzK9nXZQ9LETlzSFcBFXnNjEKryj0AAA=",
+   "alpha": false
+  },
+  "office-desktop-with-laptop-business-man-scaled.jpg": {
+   "name": "office-desktop-with-laptop-business-man-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1708,
+   "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoYABAAPu1kq04ppaQiMAgBMB2JYwC7MoADg9EHHan2nmeix1L7AAD5b8jZLPevY+klZ5mhTE+VNo7urwO6UJ/OR6ZlDzF6xf6fnQFo3ecYFKYfClwFVfBfrNZfm4AJhizPUw5ZDDs9OsUnVOYfoJhYDHzPrHhwUAA=",
+   "alpha": false
+  },
+  "paperwork-scaled.jpg": {
+   "name": "paperwork-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1709,
+   "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoYABAAPu1mqk2ppaQiMAgBMB2JQBZwtQAzbxnlCyK20LKwgAD+8PheLBJfmq1U2mvicv08k6aSEmXySBj+cVhUDvSWTLM0SC9a3W4mJCxNFQSRx2ORv6MPBfdOu+Tf+TStJT3AmvtrfIurFRSh3GlyWLcAAA==",
+   "alpha": false
+  },
+  "partnership-scaled.jpg": {
+   "name": "partnership-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1709,
+   "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdL5D6SATqV0/92ZMrdr5shoAA/tldAaTgk7iuIICVlPM4s3Ef4zk5VHV68fsSBJtinHy42v7x4kEvIjzsIPYX2xQM5AA=",
+   "alpha": false
+  },
+  "people-standing-office-holding-hands-together-scaled.jpg": {
+   "name": "people-standing-office-holding-hands-together-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoYABAAPu1mqk2ppaQiMAgBMB2JZgCdAFo4XMn6DeUfkRw68QAA/op4v4Ykp8IRfv191tG/t6XTkTwP3p7otlE0nRh+pulWiLBSDD0tqWLG2IymetYGjocbBb8mxBxEHJAsj1dXMVmKuiQbn7XINMqILOslvJtkPM0VBEkAAAA=",
+   "alpha": false
+  },
+  "person-working-html-computer-1-scaled.jpg": {
+   "name": "person-working-html-computer-1-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1920,
+   "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACwBQCdASoYABIAPuFep02opSOiMAwBEBwJbACdMoR+JwGC/YMbZLd504/KWT8f3NKBKmGGbPQA/u9KqVoHCGzibAEIGNk23WnVHz4x8t5BEj6zQOI5LH1cLI3ydeOBsZdyBMsAMBMxgnDobDe3embK8yUzY7O/hfAC6Q6KVcpGHizt1zm2/cHjeqC8h2MobHZw/ExvqpDSb1T5OLSAAA==",
+   "alpha": false
+  },
+  "person-working-html-computer-scaled.jpg": {
+   "name": "person-working-html-computer-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1920,
+   "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACwBQCdASoYABIAPuFep02opSOiMAwBEBwJbACdMoR+JwGC/YMbZLd504/KWT8f3NKBKmGGbPQA/u9KqVoHCGzibAEIGNk23WnVHz4x8t5BEj6zQOI5LH1cLI3ydeOBsZdyBMsAMBMxgnDobDe3embK8yUzY7O/hfAC6Q6KVcpGHizt1zm2/cHjeqC8h2MobHZw/ExvqpDSb1T5OLSAAA==",
+   "alpha": false
+  },
+  "risk-assessment-graph-chart-spreadsheet-table-word-scaled.jpg": {
+   "name": "risk-assessment-graph-chart-spreadsheet-table-word-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 2110,
+   "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABQBQCdASoYABQAPu1mq08ppaOiKA1RMB2JQBhs0AAjvXTb6+QnxIYPV4MEokG+AILxxwAA/qFL47KwWCUxt8Mis/5I/KsqCvcKS4I0VC04epTBNZismESK0MDje77GzYBu1Md+Q8zytlOAiKl5umxIZIrX73jGeM1icR5m5IPSWyeT7ga+BTFrSIBHMuOAAAA=",
+   "alpha": false
+  },
+  "standard-quality-control-collage-concept-1-scaled.jpg": {
+   "name": "standard-quality-control-collage-concept-1-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1708,
+   "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JYgCdACD2pn1LPFrOMtb23oAA/qrynXCJs1jREezr/kd0UPyHIuMnvjEC03nNlinoccRdehqVPfytwfMjCqxW/fzzgBx++dhZN/btgLNG/hfW7/pjwhIwl2s2e/E2Nwbd80NvbXsQYAAA",
+   "alpha": false
+  },
+  "table-laptop-showing-charts-conference-room-business-people-having-important-discussion-scaled.jpg": {
+   "name": "table-laptop-showing-charts-conference-room-business-people-having-important-discussion-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1440,
+   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoYAA4APu1oqk6ppiQiMAgBMB2JZACdMoMYACCHVVm2kQFy0AD6f/K7EAkO2Nrm/ocfxTLSHIqsA/9rnJVN2q0OpmJDR4sOnwCGXlB+GtZSTSvCp0W1AA+ZvAt3Lm7sLnUTYyy6C3jNDDJ4TU1oVhqmxwx1HQip+SBjhMwwAAA=",
+   "alpha": false
+  },
+  "two-young-businessman-having-successful-meeting-restaurant-scaled.jpg": {
+   "name": "two-young-businessman-having-successful-meeting-restaurant-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1707,
+   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQDKABtyos0woKxxkP0+8QAA/tYRCayfsEksZzBqlTE+rMiikNhXd1TjfyxO5NGk/PdDX0EKKLQcUc4QeoL8KAMFW596kweAk9nIDPch39wlPWKiQxLmxURjC7wCueaO8RmERO1M7PswoAA=",
+   "alpha": false
+  },
+  "view-woman-working-as-economist-scaled.jpg": {
+   "name": "view-woman-working-as-economist-scaled",
+   "widths": [
+    480,
+    800,
+    1200,
+    1800
+   ],
+   "width": 2560,
+   "height": 1703,
+   "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgC06BJxIHufESpRNuwAAPa+fGDxnd2TiYz2GRBq7+NQJddJ5e4tg1DdJcyo35ZW7C1q/8CnGnBnja3ZelUjvbpmTre3GBZyJkU8yPZrQN8gOC0AAA==",
+   "alpha": false
+  }
+ },
+ "logos": {
+  "logo-a2z": {
+   "sizes": [
+    {
+     "h": 56,
+     "w": 127
+    },
+    {
+     "h": 112,
+     "w": 253
+    }
+   ],
+   "ratio": 2.263157894736842
+  },
+  "logo-alif": {
+   "sizes": [
+    {
+     "h": 56,
+     "w": 94
+    },
+    {
+     "h": 112,
+     "w": 188
+    }
+   ],
+   "ratio": 1.6788321167883211
+  }
+ }
+}

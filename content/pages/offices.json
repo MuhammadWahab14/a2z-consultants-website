@@ -1,0 +1,560 @@
+{
+    "id": 5015,
+    "path": "/offices/",
+    "title": "Offices",
+    "excerpt": "We Leveraging Our Expertise Globally",
+    "excerpt_html": "We Leveraging Our Expertise Globally",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "227e300"
+        },
+        {
+            "type": "section_start",
+            "id": "97aa3ef"
+        },
+        {
+            "type": "text",
+            "html": "<p>At Beratung, the firm operates as a cohesive unit, leveraging our collective knowledge, experience, and global network to serve clients effectively. With offices in 12 cities across 40 countries, we ensure that our clients have access to our expertise wherever they need us. Our extensive presence allows us to provide seamless service and tap into diverse perspectives to deliver valuable solutions.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "ae660f5"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "North & South America",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "87d6833"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Atlanta",
+            "html": "Atlanta",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Austin",
+            "html": "Austin",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Boston",
+            "html": "Boston",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "368627b"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Bogota",
+            "html": "Bogota",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Buenos Aires",
+            "html": "Buenos Aires",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Chicago",
+            "html": "Chicago",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "2103ac5"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Dallas",
+            "html": "Dallas",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Denver",
+            "html": "Denver",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Houston",
+            "html": "Houston",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "525ab35"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Los Angeles",
+            "html": "Los Angeles",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Minneapolis",
+            "html": "Minneapolis",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "New York",
+            "html": "New York",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "div",
+            "text": "Headquarter",
+            "html": "Headquarter",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "54dc3f5"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Europe & Africa",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "bad3976"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Amsterdam",
+            "html": "Amsterdam",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Athens",
+            "html": "Athens",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Berlin",
+            "html": "Berlin",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "6f2f0f2"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Copenhagen",
+            "html": "Copenhagen",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Lisbon",
+            "html": "Lisbon",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Zurich",
+            "html": "Zurich",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "73f26ca"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Middle East",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "d10a5a7"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Doha",
+            "html": "Doha",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Dubai",
+            "html": "Dubai",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Riyadh",
+            "html": "Riyadh",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>2280 Peachtree Street NE, Suite 3400<br>Atlanta, Georgia 30309<br>United States</p>"
+        },
+        {
+            "type": "button",
+            "text": "Phone:  1 202 822 2424",
+            "url": ""
+        },
+        {
+            "type": "button",
+            "text": "Get direction",
+            "url": "https://goo.gl/maps/w5JNjQZR1Mst9wCa8"
+        },
+        {
+            "type": "section_start",
+            "id": "079f77b"
+        },
+        {
+            "type": "text",
+            "html": "<p>Thank you for your interest in Beratung. Whether you have a specific project in mind or simply have a question, please don’t hesitate to contact us.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Contact us",
+            "url": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/illustration-3.svg",
+            "alt": "",
+            "link": ""
+        }
+    ]
+}

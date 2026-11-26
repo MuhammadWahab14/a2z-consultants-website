@@ -1,0 +1,333 @@
+{
+    "id": 99,
+    "path": "/get-a-consultation/",
+    "title": "Get a consultation",
+    "excerpt": "Let’s Get Started!",
+    "excerpt_html": "Let’s Get Started!",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "774eaf8"
+        },
+        {
+            "type": "background",
+            "src": "https://beratung.vamtam.com/wp-content/uploads/2023/06/dots-left-GettyImages-1478119123.png"
+        },
+        {
+            "type": "text",
+            "html": "<p>Please tell us how we can help you. Only fields marked with * are required. Your information is protected by our privacy policy.</p>"
+        },
+        {
+            "type": "form",
+            "fields": [
+                {
+                    "label": "",
+                    "type": "step",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_66c7c7b",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_ca6ae10",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_2e20d7a",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_8a8c7e5",
+                    "options": ""
+                },
+                {
+                    "label": "Name",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": "Your name",
+                    "name": "field_45ef11b",
+                    "options": ""
+                },
+                {
+                    "label": "Email",
+                    "type": "email",
+                    "required": true,
+                    "placeholder": "Your email address",
+                    "name": "email",
+                    "options": ""
+                },
+                {
+                    "label": "Phone number",
+                    "type": "tel",
+                    "required": true,
+                    "placeholder": "Your phone number",
+                    "name": "field_ff64b3e",
+                    "options": ""
+                },
+                {
+                    "label": "City",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_41e353f",
+                    "options": ""
+                },
+                {
+                    "label": "Country",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_75ede22",
+                    "options": "Select\nAfghanistan\nAlbania\nAlgeria\nAndorra\nAngola\nAntigua and Barbuda\nArgentina\nArmenia\nAustralia\nAustria\nAzerbaijan\nThe Bahamas\nBahrain\nBangladesh\nBarbados\nBelarus\nBelgium\nBelize\nBenin\nBhutan\nBolivia\nBosnia and Herzegovina\nBotswana\nBrazil\nBrunei\nBulgaria\nBurkina Faso\nBurundi\nCabo Verde\nCambodia\nCameroon\nCanada\nCentral African Republic\nChad\nChile\nChina\nColombia\nComoros\nCongo, Democratic Republic of the\nCongo, Republic of the\nCosta Rica\nCôte d’Ivoire\nCroatia\nCuba\nCyprus\nCzech Republic\nDenmark\nDjibouti\nDominica\nDominican Republic\nEast Timor (Timor-Leste)\nEcuador\nEgypt\nEl Salvador\nEquatorial Guinea\nEritrea\nEstonia\nEswatini\nEthiopia\nFiji\nFinland\nFrance\nGabon\nThe Gambia\nGeorgia\nGermany\nGhana\nGreece\nGrenada\nGuatemala\nGuinea\nGuinea-Bissau\nGuyana\nHaiti\nHonduras\nHungary\nIceland\nIndia\nIndonesia\nIran\nIraq\nIreland\nIsrael\nItaly\nJamaica\nJapan\nJordan\nKazakhstan\nKenya\nKiribati\nKorea, North\nKorea, South\nKosovo\nKuwait\nKyrgyzstan\nLaos\nLatvia\nLebanon\nLesotho\nLiberia\nLibya\nLiechtenstein\nLithuania\nLuxembourg\nMadagascar\nMalawi\nMalaysia\nMaldives\nMali\nMalta\nMarshall Islands\nMauritania\nMauritius\nMexico\nMicronesia, Federated States of\nMoldova\nMonaco\nMongolia\nMontenegro\nMorocco\nMozambique\nMyanmar (Burma)\nNamibia\nNauru\nNepal\nNetherlands\nNew Zealand\nNicaragua\nNiger\nNigeria\nNorth Macedonia\nNorway\nOman\nPakistan\nPalau\nPanama\nPapua New Guinea\nParaguay\nPeru\nPhilippines\nPoland\nPortugal\nQatar\nRomania\nRussia\nRwanda\nSaint Kitts and Nevis\nSaint Lucia\nSaint Vincent and the Grenadines\nSamoa\nSan Marino\nSao Tome and Principe\nSaudi Arabia\nSenegal\nSerbia\nSeychelles\nSierra Leone\nSingapore\nSlovakia\nSlovenia\nSolomon Islands\nSomalia\nSouth Africa\nSpain\nSri Lanka\nSudan\nSudan, South\nSuriname\nSweden\nSwitzerland\nSyria\nTaiwan\nTajikistan\nTanzania\nThailand\nTogo\nTonga\nTrinidad and Tobago\nTunisia\nTurkey\nTurkmenistan\nTuvalu\nUganda\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited States\nUruguay\nUzbekistan\nVanuatu\nVatican City\nVenezuela\nVietnam\nYemen\nZambia\nZimbabwe"
+                },
+                {
+                    "label": "State",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_7035fe0",
+                    "options": "Select\nAlabama\nAlaska\nArizona\nArkansas\nCalifornia\nColorado\nConnecticut\nDelaware\nFlorida\nGeorgia\nHawaii\nIdaho\nIllinoisIndiana\nIowa\nKansas\nKentucky\nLouisiana\nMaine\nMaryland\nMassachusetts\nMichigan\nMinnesota\nMississippi\nMissouri\nMontanaNebraska\nNevada\nNew Hampshire\nNew Jersey\nNew Mexico\nNew York\nNorth Carolina\nNorth Dakota\nOhio\nOklahoma\nOregon\nPennsylvaniaRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVermont\nVirginia\nWashington\nWest Virginia\nWisconsin\nWyoming"
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_2c8dece",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "step",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_eba4050",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_6c4f84a",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_5e631e7",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_f297d8a",
+                    "options": ""
+                },
+                {
+                    "label": "Company Name",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "Your company name",
+                    "name": "name",
+                    "options": ""
+                },
+                {
+                    "label": "Website",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "Enter your website",
+                    "name": "field_6666f78",
+                    "options": ""
+                },
+                {
+                    "label": "Industry / Market",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "Your Industry / Market",
+                    "name": "field_9862377",
+                    "options": ""
+                },
+                {
+                    "label": "Current Stage",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_661ee8f",
+                    "options": "Select\nIdea/Concept Stage\nPrototyping/Planning Stage\nReady to Launch\nEarly Revenue Stage\nGrowth/Mature Stage\n"
+                },
+                {
+                    "label": "Business Description",
+                    "type": "textarea",
+                    "required": true,
+                    "placeholder": "Please supply enough information so that we can connect you with the best consultant",
+                    "name": "field_8741a9c",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_7ca2a1a",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "step",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_682b79d",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_ff70410",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_7428f53",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_5b198c9",
+                    "options": ""
+                },
+                {
+                    "label": "How much capital are you raising?",
+                    "type": "select",
+                    "required": false,
+                    "placeholder": "City",
+                    "name": "field_3549fd1",
+                    "options": "No capital required\nUncertain\nUnder $500,000\n$500,000 - $999,999\n$1,000,000 - $2,499,999\n$2,500,000 - $4,999,999\n$5,000,000 - $9,999,999\n$10,000,000 or more"
+                },
+                {
+                    "label": "Services Required/Select all that apply/",
+                    "type": "checkbox",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_ad6ae18",
+                    "options": "How much capital are you raising?\nBusiness Plan\nBusiness Model Design\nFinancial Forecast \nPrivate Placement Memorandum\nExecutive Education\nMarket Research & Analysis\nCompetitor Research & Analysis\nPitch Deck / Investor Presentation\nSBA Certification\nTurnaround Consulting\nCompany Valuation"
+                },
+                {
+                    "label": "Other (please specify below):",
+                    "type": "textarea",
+                    "required": false,
+                    "placeholder": "Other services required",
+                    "name": "field_0d1f3f9",
+                    "options": ""
+                },
+                {
+                    "label": "How fast do you need it?",
+                    "type": "textarea",
+                    "required": false,
+                    "placeholder": "How fast do you need it?",
+                    "name": "field_e7d539f",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_9066bf3",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "step",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_ada562e",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_bf4ed23",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_8bb7289",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_33f1c98",
+                    "options": ""
+                },
+                {
+                    "label": "How did you find us?",
+                    "type": "text",
+                    "required": false,
+                    "placeholder": "How did you discover us?",
+                    "name": "field_e4e3404",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "html",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_e538d52",
+                    "options": ""
+                },
+                {
+                    "label": "May we send you our newsletter?",
+                    "type": "acceptance",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_49e4fb3",
+                    "options": ""
+                },
+                {
+                    "label": "",
+                    "type": "honeypot",
+                    "required": false,
+                    "placeholder": "",
+                    "name": "field_40ad88e",
+                    "options": ""
+                }
+            ],
+            "button": "Request quote",
+            "title": "Get a consultation Form"
+        }
+    ]
+}

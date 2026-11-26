@@ -1,0 +1,55 @@
+<%- include('../partials/phero', { eyebrow: 'Get a consultation', title: forms.consultation.excerpt, lead: 'Tell us about your business in four short steps. Our advisors will review your details and get back to you.', image: '/wp-content/uploads/2026/05/business-meeting-office-scaled.jpg', crumbs: [['Get a consultation']] }) %>
+
+<section class="section consult">
+  <div class="wrap consult__grid">
+    <div class="consult__card reveal">
+      <p class="prose consult__intro"><%= forms.consultation.intro %></p>
+
+      <form class="form wizard" method="post" action="/api/enquiry" data-enquiry data-wizard novalidate>
+        <input type="hidden" name="form" value="consultation">
+        <input type="hidden" name="started" value="">
+        <div class="form__hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website_url" tabindex="-1" autocomplete="off"></label></div>
+
+        <ol class="wizard__steps" aria-label="Progress">
+          <% forms.consultation.steps.forEach(function (s, i) { %>
+          <li class="wizard__step<%= i === 0 ? ' is-on' : '' %>" data-step-dot="<%= i %>"><span class="wizard__dot mono"><%= i + 1 %></span><span class="wizard__name"><%= s.title %></span></li>
+          <% }) %>
+        </ol>
+        <div class="wizard__bar" aria-hidden="true"><i></i></div>
+
+        <% forms.consultation.steps.forEach(function (s, i) { %>
+        <fieldset class="wizard__panel<%= i === 0 ? ' is-on' : '' %>" data-step="<%= i %>"<%= i === 0 ? '' : ' hidden' %>>
+          <legend class="mono">Step <%= i + 1 %> of <%= forms.consultation.steps.length %> · <%= s.title %></legend>
+          <div class="form__grid">
+            <% s.fields.forEach(function (f) { %><%- include('../partials/field', { f: f, id: 'consult-' + f.name }) %><% }) %>
+          </div>
+        </fieldset>
+        <% }) %>
+
+        <p class="form__note">Your information is protected by our <a href="/privacy-policy/">privacy policy</a>. Fields marked * are required.</p>
+        <div class="wizard__nav">
+          <button class="btn btn--ghost" type="button" data-prev hidden><svg class="i i--flip"><use href="#i-arrow-right"/></svg> Back</button>
+          <button class="btn btn--navy btn--lg" type="button" data-next>Next <svg class="i"><use href="#i-arrow-right"/></svg></button>
+          <button class="btn btn--navy btn--lg" type="submit" data-submit hidden><span><%= forms.consultation.button %></span> <svg class="i"><use href="#i-arrow-right"/></svg></button>
+        </div>
+        <p class="form__status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <aside class="consult__side reveal" data-delay="1">
+      <div class="infocard">
+        <h3 class="mono">What happens next</h3>
+        <ol class="flow">
+          <li><b>We review</b><span>An advisor reads your business details.</span></li>
+          <li><b>We get in touch</b><span>By phone or email to understand your goals.</span></li>
+          <li><b>We propose</b><span>A clear scope of the services that fit your stage.</span></li>
+        </ol>
+      </div>
+      <div class="infocard infocard--navy dark">
+        <h3>Prefer to talk now?</h3>
+        <a class="btn btn--sky btn--block" href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg> <%= site.phone %></a>
+        <a class="btn btn--glass btn--block" href="mailto:<%= site.email %>"><svg class="i"><use href="#i-mail"/></svg> <%= site.email %></a>
+      </div>
+    </aside>
+  </div>
+</section>

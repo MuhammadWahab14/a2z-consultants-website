@@ -1,0 +1,216 @@
+{
+    "id": 901,
+    "path": "/awards-recognitions/",
+    "title": "Awards & Recognitions",
+    "excerpt": "Celebrating Excellence in Extraordinary Achievements",
+    "excerpt_html": "Celebrating Excellence in Extraordinary Achievements",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "fd890e1"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-cottonbro-studio-5990030.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "765e66a"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/BPTW-logo-ENG.svg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "077119f"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Best places to work 2023, Glassdoor",
+            "html": "Best places to work 2023, Glassdoor",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Learn more on Glasdoor",
+            "url": "https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm"
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung’s consistent recognition on Glassdoor's prestigious rankings highlights its standing as a premier workplace. With the top spot on Glassdoor's Best Places to Work U.S. list, Beratung has solidified its reputation as an exceptional employer. Remarkably, Beratung has maintained its place in the top four on Glassdoor's U.S. list for an impressive 15 consecutive years, a testament to its unwavering commitment to providing an outstanding working environment for its employees.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "20efbfd"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section_start",
+            "id": "2c89ee8"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Awards",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "html": "<p>At Beratung, we excel at attracting and retaining top talent, enabling us to serve our clients exceptionally. We take pride in being recognized as a great place to work worldwide. </p><p>Our competitive spirit drives us to deliver outstanding results for our clients, while our supportive culture fosters collaboration and a genuine passion for what we do. Working with us means benefiting from the expertise of individuals who love what they do, making them exceptional partners.</p>"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/07/pexels-tima-miroshnichenko-5439162.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "0fecf74"
+        },
+        {
+            "type": "section_start",
+            "id": "7320555"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/c500-champions-badge_dark.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Culture Champion, Culture 500 awards",
+            "html": "Culture Champion, Culture 500 awards",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>We're proud to be named a Culture 500 Culture Champion in 2020.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/mogul-2022-logo.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Top 100 Companies with the Best DEIB Initiatives in 2022",
+            "html": "Top 100 Companies with the Best DEIB Initiatives in 2022",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratun is honored to be chosen as one of Mogul's Top 100 Companies with the Best DEIB Initiatives in 2022.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/num1ranked_natop50_vaultseal_2023_2.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Vault Consulting 50, Vault 2023",
+            "html": "Vault Consulting 50, Vault 2023",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung is proud to be ranked #1 in the Vault Consulting 50 North America for 2023.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "df0731d"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/ceo.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Highest Rated CEOs 2019, Glassdoor",
+            "html": "Highest Rated CEOs 2019, Glassdoor",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Glassdoor recognized Beratung’s worldwide managing partner, John Smith, as a Highest Rated CEO in 2019.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/100-Best-20-Years-01.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Top 100 Companies with the Best DEIB Initiatives in 2022",
+            "html": "Top 100 Companies with the Best DEIB Initiatives in 2022",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung is proud to be among the top-ranked companies named as one of the FORTUNE 100 Best Companies.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/2020-08.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "heading",
+            "level": "h4",
+            "text": "Best Workplaces for Women, FORTUNE",
+            "html": "Best Workplaces for Women, FORTUNE",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Beratung is proud to be named one of Fortune's Best Large Workplaces for Women in 2020.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "bce3d07"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our people",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "html": "<p>Get to know the leaders who drive Be’ratungs mission of delivering impactful results for our clients while investing in the learning and growth of our employees.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Meet the people",
+            "url": ""
+        }
+    ]
+}

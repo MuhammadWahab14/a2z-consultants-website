@@ -1,0 +1,110 @@
+{
+    "id": 988374,
+    "path": "/business-creation/",
+    "title": "Business Creation",
+    "excerpt": "The Launchpad: setting your business up on solid ground",
+    "excerpt_html": "The Launchpad: setting your business up on solid ground",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "bd015fa"
+        },
+        {
+            "type": "section_start",
+            "id": "cbdb5c5"
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on the foundational setup, regulatory compliance, and initial validation required to bring a new entity to life in the UAE market.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "2f2dffe"
+        },
+        {
+            "type": "section_start",
+            "id": "ab53d11"
+        },
+        {
+            "type": "card",
+            "title": "Business Setup Advisory",
+            "text": "End-to-end guidance on legal structures and registration.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Feasibility Studies & Market Assessment:",
+            "text": "Validating the business case and market demand",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Accounting Systems Implementation",
+            "text": "Setting up the financial backbone from day one.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "6736dce"
+        },
+        {
+            "type": "card",
+            "title": "Ultimate Beneficial Owner (UBO) Services",
+            "text": "Ensuring early compliance with UAE transparency regulations.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "AML & CFT Services",
+            "text": "Establishing mandatory Anti-Money Laundering frameworks for new licenses.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Investment & Pitch Deck Preparation",
+            "text": "Crafting the narrative to secure initial seed or angel funding.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "661918d"
+        },
+        {
+            "type": "card",
+            "title": "Financial Modelling for Investors",
+            "text": "Building the initial projections to prove scalability.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "IT Consulting",
+            "text": "Planning the core digital infrastructure for the new office.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "a78a10c"
+        },
+        {
+            "type": "card",
+            "title": "If you do not see your specific practice areas, please contact us",
+            "text": "",
+            "link": "",
+            "button": "Contact us",
+            "image": ""
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+</main>
+
+<% if (page.cta !== false) { %>
+<section class="ctaband dark" aria-labelledby="cta-title">
+  <div class="wrap ctaband__inner">
+    <div class="ctaband__copy reveal">
+      <p class="eyebrow">Get started</p>
+      <h2 id="cta-title">Schedule your strategic business consultation today.</h2>
+      <p>Share your business details with us, and our advisors will get in touch with you.</p>
+    </div>
+    <div class="ctaband__actions reveal">
+      <a class="btn btn--sky btn--lg" href="/get-a-consultation/">Get a consultation <svg class="i"><use href="#i-arrow-right"/></svg></a>
+      <a class="btn btn--glass btn--lg" href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg> <%= site.phone %></a>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<footer class="ftr dark">
+  <div class="wrap ftr__grid">
+    <div class="ftr__brand">
+      <a href="/" class="ftr__logo" aria-label="<%= site.name %> – home"><%- logo('logo-a2z', 52) %></a>
+      <p>A to Z Consultants provides end-to-end consultancy across the business lifecycle: creation, growth and managed exit.</p>
+      <a class="ftr__group" href="<%= site.group.url %>" target="_blank" rel="noopener"><%- logo('logo-alif', 44) %><span>Part of the <%= site.group.name %></span></a>
+    </div>
+    <nav class="ftr__col" aria-label="Practice areas">
+      <h3 class="mono">Practice areas</h3>
+      <ul>
+        <% stages.forEach(function (st) { %><li><a href="<%= st.url %>"><%= st.name %></a></li><% }) %>
+        <li><a href="/practice-areas/">All 24 services</a></li>
+      </ul>
+    </nav>
+    <nav class="ftr__col" aria-label="Company">
+      <h3 class="mono">Company</h3>
+      <ul>
+        <li><a href="/about/">Who we are</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/get-a-consultation/">Get a consultation</a></li>
+        <li><a href="/privacy-policy/">Privacy policy</a></li>
+        <li><a href="/terms-of-use/">Terms of use</a></li>
+      </ul>
+    </nav>
+    <div class="ftr__col">
+      <h3 class="mono">Reach us</h3>
+      <address>
+        <a href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg><%= site.phone %></a>
+        <a href="mailto:<%= site.email %>"><svg class="i"><use href="#i-mail"/></svg><%= site.email %></a>
+        <a href="<%= site.mapsUrl %>" target="_blank" rel="noopener"><svg class="i"><use href="#i-pin"/></svg><span><%= site.address.line1 %>, <%= site.address.line2 %>, <%= site.address.city %>, UAE</span></a>
+      </address>
+    </div>
+  </div>
+  <div class="ftr__bar">
+    <div class="wrap ftr__barin">
+      <p>&copy; <%= year %> <%= site.name %>. All rights reserved.</p>
+      <p><%= site.countries.join(' · ') %></p>
+    </div>
+  </div>
+</footer>
+
+<div class="dock" aria-label="Quick contact">
+  <a class="dock__a dock__a--1" href="/get-a-consultation/" aria-label="Get a consultation" title="Get a consultation"><svg class="i"><use href="#i-message"/></svg></a>
+  <a class="dock__a dock__a--2" href="mailto:<%= site.email %>" aria-label="Email us" title="Email us"><svg class="i"><use href="#i-mail"/></svg></a>
+  <a class="dock__a dock__a--3" href="tel:<%= site.phoneTel %>" aria-label="Call us" title="Call us"><svg class="i"><use href="#i-phone"/></svg></a>
+  <button class="dock__a dock__top" type="button" aria-label="Back to top" title="Back to top"><svg class="i"><use href="#i-up"/></svg></button>
+</div>
+</body>
+</html>

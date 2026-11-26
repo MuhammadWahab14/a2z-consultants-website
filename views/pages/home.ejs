@@ -1,0 +1,189 @@
+<%
+  const h = home;
+  const icons = ['building', 'users', 'chart', 'briefcase', 'target'];
+  const valueIcons = ['shield', 'heart', 'layers', 'target', 'eye', 'award'];
+%>
+<section class="hero dark" id="top">
+  <div class="hero__slides" aria-hidden="true">
+    <% h.hero.slides.forEach(function (s, i) { %><div class="hero__slide<%= i === 0 ? ' is-on' : '' %>"><%- pic(s, { sizes: '100vw', cls: 'cover', eager: i === 0 }) %></div><% }) %>
+  </div>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <canvas class="hero__net" aria-hidden="true"></canvas>
+
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow">Strategic advisory · Part of the Alif Group</p>
+      <h1 class="hero__title"><span class="hero__before"><%= h.hero.before %></span> <span class="rot" data-rotate="<%= JSON.stringify(h.hero.rotating) %>"><%= h.hero.rotating[0] %></span></h1>
+      <p class="lead hero__sub"><%= h.hero.sub %></p>
+      <div class="hero__cta">
+        <a class="btn btn--sky btn--lg" href="/get-a-consultation/"><%= h.hero.cta %> <svg class="i"><use href="#i-arrow-right"/></svg></a>
+        <a class="btn btn--glass btn--lg" href="#services">Explore our services</a>
+      </div>
+      <p class="chips__label mono">What do you need today?</p>
+      <ul class="chips">
+        <% h.chips.forEach(function (c) { %><li><a href="<%= c.url %>"><%= c.label %></a></li><% }) %>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <ul class="stats" aria-label="At a glance">
+      <li class="stat reveal"><span class="mono">Stages</span><b data-count="<%= stats.stages %>">0</b><p>From start-up and market entry to growth and managed exit.</p></li>
+      <li class="stat reveal" data-delay="1"><span class="mono">Services</span><b data-count="<%= stats.services %>">0</b><p>Governance, finance, compliance and transaction advisory.</p></li>
+      <li class="stat reveal" data-delay="2"><span class="mono">Countries</span><b data-count="<%= stats.countries %>">0</b><p><%= site.countries.slice(0, -1).join(', ') %> and <%= site.countries[site.countries.length - 1] %>.</p></li>
+      <li class="stat reveal" data-delay="3"><span class="mono">Backed by</span><b>Alif</b><p>A specialist company within the Alif Group.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section firm" id="about">
+  <div class="wrap split">
+    <div class="split__copy reveal">
+      <p class="eyebrow"><%= h.firm.label %></p>
+      <h2>A to Z Consultants, part of the global <a class="uline" href="<%= site.group.url %>" target="_blank" rel="noopener">Alif Group</a></h2>
+      <div class="prose"><%- h.firm.html %></div>
+      <a class="btn btn--navy" href="/about/">Who we are <svg class="i"><use href="#i-arrow-right"/></svg></a>
+    </div>
+    <div class="split__media reveal" data-delay="1">
+      <div class="frame"><%- pic(h.firm.image, { alt: h.firm.imageAlt, sizes: '(min-width: 980px) 560px, 100vw', cls: 'frame__img' }) %></div>
+      <div class="badge badge--rating">
+        <svg class="i"><use href="#i-star"/></svg>
+        <div><b><%= h.reviews.rating %></b><span><%= h.reviews.label %></span></div>
+      </div>
+      <div class="badge badge--group"><svg class="i"><use href="#i-globe"/></svg><span>Present in <%= site.countries.length %> countries</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker__track">
+  <% for (let r = 0; r < 2; r++) { services.forEach(function (s) { %><span><%= s.title %></span><% }) } %>
+</div></div>
+
+<section class="section section--mist explorer" id="services" aria-labelledby="svc-title">
+  <div class="wrap">
+    <header class="sechead reveal">
+      <p class="eyebrow"><%= h.stages.label %></p>
+      <h2 id="svc-title"><%= h.stages.title %></h2>
+      <p class="sechead__sub"><%= h.stages.sub %></p>
+    </header>
+
+    <div class="tabs" data-tabs>
+      <div class="tabs__list" role="tablist" aria-label="Business stages">
+        <% h.stages.tabs.forEach(function (t, i) { const st = stages[i]; %>
+        <button class="tab<%= i === 0 ? ' is-on' : '' %>" role="tab" id="tab-<%= st.id %>" aria-selected="<%= i === 0 %>" aria-controls="panel-<%= st.id %>" tabindex="<%= i === 0 ? 0 : -1 %>">
+          <span class="mono"><%= st.n %></span><strong><%= st.name %></strong><em><%= st.code %></em>
+        </button>
+        <% }) %>
+      </div>
+
+      <% h.stages.tabs.forEach(function (t, i) { const st = stages[i]; %>
+      <div class="tabs__panel<%= i === 0 ? ' is-on' : '' %>" role="tabpanel" id="panel-<%= st.id %>" aria-labelledby="tab-<%= st.id %>"<%= i === 0 ? '' : ' hidden' %>>
+        <div class="panel">
+          <div class="panel__media"><%- pic(t.image, { alt: st.name, sizes: '(min-width: 980px) 520px, 100vw', cls: 'cover' }) %><span class="panel__num mono"><%= st.n %></span></div>
+          <div class="panel__body">
+            <h3><%= st.name %> <small><%= st.code %></small></h3>
+            <p class="panel__intro"><%= st.intro %></p>
+            <ul class="cards3">
+              <% t.cards.forEach(function (c) { %>
+              <li><a class="mini" href="<%= c.url %>"><strong><%= c.title %></strong><span><%= c.text %></span><svg class="i"><use href="#i-arrow-up-right"/></svg></a></li>
+              <% }) %>
+            </ul>
+            <div class="panel__actions">
+              <a class="btn btn--navy" href="<%= st.url %>">Explore <%= st.name %> <svg class="i"><use href="#i-arrow-right"/></svg></a>
+              <a class="link" href="/practice-areas/#<%= st.id %>">See all <%= st.services.length %> services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section spec" id="specialization">
+  <div class="wrap split split--rev">
+    <div class="split__copy reveal">
+      <p class="eyebrow"><%= h.specialization.label %></p>
+      <h2>Who we work with</h2>
+      <div class="prose"><%- h.specialization.html %></div>
+    </div>
+    <ul class="speclist reveal" data-delay="1">
+      <% h.specialization.list.forEach(function (item, i) { %>
+      <li><span class="speclist__ico"><svg class="i"><use href="#i-<%= icons[i % icons.length] %>"/></svg></span><span><%= item %></span></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="approach dark" id="approach">
+  <div class="approach__bg" aria-hidden="true"><%- pic(h.approach.image, { sizes: '100vw', cls: 'cover', style: '' }) %></div>
+  <div class="wrap approach__inner reveal">
+    <p class="eyebrow">How we work</p>
+    <h2><%= h.approach.title %></h2>
+    <a class="btn btn--sky btn--lg" href="/about/#approach">Read more <svg class="i"><use href="#i-arrow-right"/></svg></a>
+  </div>
+</section>
+
+<section class="section why" id="why">
+  <div class="wrap why__grid">
+    <div class="why__copy reveal">
+      <p class="eyebrow"><%= h.why.label %></p>
+      <h2><%= h.why.title %></h2>
+      <div class="prose"><%- h.why.html %></div>
+      <a class="btn btn--navy" href="/about/">About us <svg class="i"><use href="#i-arrow-right"/></svg></a>
+    </div>
+    <div class="why__art reveal" data-delay="1"><%- pic(h.why.image, { alt: 'Advisors collaborating', sizes: '(min-width: 980px) 420px, 80vw', cls: 'why__img' }) %></div>
+    <ul class="why__stats">
+      <% h.why.stats.forEach(function (s, i) { const m = String(s.value).match(/^(\d+)(.*)$/); %>
+      <li class="reveal" data-delay="<%= i %>">
+        <b><% if (m) { %><span data-count="<%= m[1] %>">0</span><%= m[2] %><% } else { %><%= s.value %><% } %></b>
+        <span class="mono"><%= s.label %></span>
+        <p><%= s.text %></p>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--navy values" id="values">
+  <div class="wrap">
+    <div class="values__head">
+      <div class="reveal">
+        <p class="eyebrow"><%= h.values.label %></p>
+        <h2><%= h.values.title %></h2>
+      </div>
+      <div class="values__img reveal" data-delay="1"><%- pic(h.values.image, { sizes: '(min-width: 980px) 420px, 100vw', cls: 'cover' }) %></div>
+    </div>
+    <ul class="values__grid">
+      <% h.values.cards.forEach(function (c, i) { %>
+      <li class="vcard reveal" data-delay="<%= i % 3 %>">
+        <span class="vcard__ico"><svg class="i"><use href="#i-<%= valueIcons[i % valueIcons.length] %>"/></svg></span>
+        <h3><%= c.title %></h3>
+        <p><%= c.text %></p>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section start" id="contact">
+  <div class="wrap start__grid">
+    <div class="start__copy reveal">
+      <p class="eyebrow"><%= h.getStarted.label %></p>
+      <h2><%= h.getStarted.title %></h2>
+      <p class="start__big"><span>We</span> <span>are</span> <span>better</span> <span class="accent">together.</span></p>
+      <p class="prose"><%= h.getStarted.text %></p>
+      <div class="start__card">
+        <p class="mono">Or reach us at</p>
+        <a href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg><span>T: <%= h.contact.phone %></span></a>
+        <a href="mailto:<%= site.email %>"><svg class="i"><use href="#i-mail"/></svg><span>E: <%= h.contact.email %></span></a>
+        <a href="<%= site.mapsUrl %>" target="_blank" rel="noopener"><svg class="i"><use href="#i-pin"/></svg><span><%= h.contact.address %></span></a>
+        <div class="start__rating"><svg class="i"><use href="#i-star"/></svg><b><%= h.reviews.rating %></b><span><%= h.reviews.label %></span></div>
+      </div>
+    </div>
+    <div class="start__form reveal" data-delay="1">
+      <h3 class="mono">Tell us about your business</h3>
+      <%- include('../partials/enquiry-form', { formId: 'home', idPrefix: 'home', fields: forms.home.fields, button: 'Submit' }) %>
+    </div>
+  </div>
+</section>

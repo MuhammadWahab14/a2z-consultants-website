@@ -1,0 +1,15 @@
+<%
+  /* One-step enquiry form. Locals: formId, fields[], button, idPrefix */
+  const idp = idPrefix || formId;
+%>
+<form class="form" method="post" action="/api/enquiry" data-enquiry novalidate>
+  <input type="hidden" name="form" value="<%= formId %>">
+  <input type="hidden" name="started" value="">
+  <div class="form__hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website_url" tabindex="-1" autocomplete="off"></label></div>
+  <div class="form__grid">
+    <% fields.forEach(function (f) { %><%- include('field', { f: f, id: idp + '-' + f.name }) %><% }) %>
+  </div>
+  <p class="form__note">Your information is protected by our <a href="/privacy-policy/">privacy policy</a>.</p>
+  <button class="btn btn--navy btn--lg" type="submit"><span><%= button %></span> <svg class="i"><use href="#i-arrow-right"/></svg></button>
+  <p class="form__status" role="status" aria-live="polite"></p>
+</form>

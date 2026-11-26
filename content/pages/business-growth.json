@@ -1,0 +1,128 @@
+{
+    "id": 988375,
+    "path": "/business-growth/",
+    "title": "Business Growth",
+    "excerpt": "The Engine Room: scaling and strengthening your operations",
+    "excerpt_html": "The Engine Room: scaling and strengthening your operations",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "bd015fa"
+        },
+        {
+            "type": "section_start",
+            "id": "cbdb5c5"
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on scaling operations, optimizing internal controls, and ensuring the business is robust enough to handle rapid expansion.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "4633090"
+        },
+        {
+            "type": "section_start",
+            "id": "16a5cf4"
+        },
+        {
+            "type": "card",
+            "title": "Corporate Governance Framework Development",
+            "text": "Transitioning from founder-led to board-level oversight.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Risk Management Advisory",
+            "text": "Identifying and mitigating bottlenecks that come with higher volumes.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Internal Control & SOX Compliance",
+            "text": "Strengthening the environment for potential public listings or audits.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "b75468f"
+        },
+        {
+            "type": "card",
+            "title": "SOP Drafting for Finance & Operations",
+            "text": "Standardization to ensure consistency across growing teams.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "ERP Selection & Implementation Advisory",
+            "text": "Moving from basic accounting to enterprise-level resource planning.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "MIS Reporting Design",
+            "text": "Providing leadership with real-time data for faster decision-making.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "017d470"
+        },
+        {
+            "type": "card",
+            "title": "Capital Raising Support",
+            "text": "Leading Series A/B rounds or securing debt financing for expansion.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "ESG Reporting & Implementation Advisory",
+            "text": "Building sustainability frameworks to attract institutional investors.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Human Resources Consulting",
+            "text": "Scaling the workforce and managing organizational culture.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "4772644"
+        },
+        {
+            "type": "card",
+            "title": "Actuarial Services",
+            "text": "Managing long-term financial risks and employee benefit liabilities",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "a78a10c"
+        },
+        {
+            "type": "card",
+            "title": "If you do not see your specific practice areas, please contact us",
+            "text": "",
+            "link": "",
+            "button": "Contact us",
+            "image": ""
+        }
+    ]
+}

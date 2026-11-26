@@ -1,0 +1,31 @@
+<%
+  /* One form control. Locals: f {name,label,type,required,placeholder,rows,options}, id */
+  const full = f.type === 'textarea' || f.type === 'checkbox' || f.type === 'consent' || f.full === true;
+%>
+<div class="field<%= full ? ' field--full' : '' %>">
+<% if (f.type === 'checkbox') { %>
+  <fieldset class="checks">
+    <legend><%= f.label %></legend>
+    <div class="checks__grid">
+      <% f.options.forEach(function (o, i) { %>
+      <label class="check"><input type="checkbox" name="<%= f.name %>" value="<%= o %>"><span><%= o %></span></label>
+      <% }) %>
+    </div>
+  </fieldset>
+<% } else if (f.type === 'consent') { %>
+  <label class="check check--consent"><input type="checkbox" name="<%= f.name %>" value="yes"><span><%= f.label %></span></label>
+<% } else { %>
+  <label for="<%= id %>"><%= f.label %><% if (f.required) { %> <abbr title="required">*</abbr><% } %></label>
+  <% if (f.type === 'textarea') { %>
+    <textarea id="<%= id %>" name="<%= f.name %>" rows="<%= f.rows || 5 %>"<% if (f.required) { %> required<% } %><% if (f.placeholder) { %> placeholder="<%= f.placeholder %>"<% } %>></textarea>
+  <% } else if (f.type === 'select') { %>
+    <select id="<%= id %>" name="<%= f.name %>"<% if (f.required) { %> required<% } %><% if (f.name === 'country') { %> autocomplete="country-name"<% } %>>
+      <option value=""><%= f.placeholder || 'Select' %></option>
+      <% f.options.forEach(function (o) { %><option value="<%= o %>"><%= o %></option><% }) %>
+    </select>
+  <% } else { %>
+    <input id="<%= id %>" name="<%= f.name %>" type="<%= f.type %>"<% if (f.required) { %> required<% } %><% if (f.placeholder) { %> placeholder="<%= f.placeholder %>"<% } %><% if (f.type === 'tel') { %> inputmode="tel" autocomplete="tel"<% } else if (f.type === 'email') { %> autocomplete="email"<% } else if (f.name === 'name') { %> autocomplete="name"<% } else if (f.name === 'company') { %> autocomplete="organization"<% } else if (f.name === 'city') { %> autocomplete="address-level2"<% } else if (f.name === 'state') { %> autocomplete="address-level1"<% } else if (f.name === 'website') { %> autocomplete="url"<% } %>>
+  <% } %>
+  <p class="field__err" role="alert"></p>
+<% } %>
+</div>

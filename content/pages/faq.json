@@ -1,0 +1,196 @@
+{
+    "id": 103,
+    "path": "/faq/",
+    "title": "FAQ",
+    "excerpt": "",
+    "excerpt_html": "",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "8f01c85"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "What we believe",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h1",
+            "text": "Hello, how we can help?",
+            "html": "Hello, how we can help?",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Choose a category to quickly find the help you need</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "2358988"
+        },
+        {
+            "type": "card",
+            "title": "Working with an Advisor",
+            "text": "",
+            "link": "#FAQ_01",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Financial Planning Support",
+            "text": "",
+            "link": "#FAQ_02",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Investment Management Support",
+            "text": "",
+            "link": "#FAQ_03",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Working with an Advisor",
+            "text": "",
+            "link": "#FAQ_04",
+            "button": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "7ec1b1c"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Working with an Advisor",
+            "html": "Working with an Advisor",
+            "link": ""
+        },
+        {
+            "type": "accordion",
+            "items": [
+                {
+                    "title": "What type of clients do you specialize in working with?",
+                    "html": "<p>Whether you’re going through the loss of a loved one, a divorce, planning for retirement, or a career change, Beratun Financial understands the challenge of life-altering events for women. We offer an oasis of solid financial guidance for many clients in the midst of stressful life transitions.</p><p>Our highly-skilled and caring team of financial professionals pledge to be there for you with sound financial advice throughout both the ups and the downs:</p><ul><li>Loss of Loved One—With a mission to relieve stress, encourage healing and build a secure financial future, we assist clients with estate planning, tax planning, investments, and more after losing a loved one.</li><li>Divorce— As a top-rated divorce financial advisory firm, we help clients with valuable information on financial issues related to divorce, including taxes, retirement plans, health insurance coverage, and more.</li><li>Inheritance—Beratung Financial helps clients make the most impact with inherited assets through thoughtful, expert guidance to help ease that overwhelming feeling that can accompany the arrival of a large sum of money.</li><li>Retirement—As one of the top financial advisory firms in the United States, Beratung Financial works to ensure our clients can retire confidently and on their own terms through expert wealth management.</li><li>Career Change—Although changing careers can be rewarding, it also involves important financial decisions, and Beratung Financial helps ease the transition by providing expert financial advice.</li></ul>"
+                },
+                {
+                    "title": "What makes your client experience unique?",
+                    "html": "<p>The firm maintains a boutique feel with a personalized approach that differentiates us from many other financial advisory firms. We have a low client-to-advisor ratio, which allows us to be uniquely attentive to our clients, and give them financial peace of mind even in the midst of turbulent changes in their lives.</p><p>Our award-winning, team was founded and is led by powerful, motivated, and experienced women. We are somewhat of a unicorn in the industry, as only 9% of financial advisory firms have a female owner.</p><p>Each of us have a deeply personal reason why we were drawn to do this work. Our passion and dedication are some of the many reasons why our clients love working with us. We have effective, long-lasting relationships with our clients and a client retention rate of 98%, which is far above the industry average.</p>"
+                },
+                {
+                    "title": "Are you a fiduciary? Are you Fee-Only?",
+                    "html": "<p>Yes and yes! We are independent, fiduciary and fee-only. We have taken a fiduciary oath to keep your interests first.</p><p>The core principles that we follow as a Fiduciary are to put you, our client's, best interests first. Act with prudence, that is, with the skill, care, diligence, and good judgment of a professional. Do not mislead you, our client —provide conspicuous, full, and fair disclosure of all important facts. Avoid conflicts of interest and fully disclose and fairly manage.</p><p>The White House’s Council on Economic Advisors found that non-fiduciary advice costs investors an extra $17 billion per year. Being a fee-only wealth management firm means that we never receive any type of commission or kickback from an investment or insurance product. You can rest assured that if we are making a recommendation to you, it is because it is in your best interest. We are committed to you, and to helping you live your very best life!</p><p><a href=\"https://www.napfa.org/member/434\">You can view our profile on NAPFA HERE</a> and our advisor profiles on the Fee-Only Network here:<br><a href=\"https://www.napfa.org/member/434\">Stacy Smith</a><br><a href=\"https://www.napfa.org/member/434\">Matt Davies</a></p>"
+                },
+                {
+                    "title": "Will you work with my accountant, lawyer, etc.?",
+                    "html": "<p>Yes! We will work in tandem with any professionals who are already providing guidance in your life. With your permission, we can exchange information and ideas with your team to optimize the advice we provide to you. Your team might include an accountant, estate planning attorney, property and casualty insurance agent, as well as other professionals such as life, disability, long-term care, and health insurance experts.</p><p>Over the last two decades, Beratung Financial has also built trusted relationships with professionals you may need along your financial journey. We are happy to be a resource for you if you need help building your team of smart and caring professionals!</p>"
+                },
+                {
+                    "title": "Is there a fee for an initial meeting with you?",
+                    "html": "<p>No. There is no fee for your initial meeting with our Beratung Financial advisors. In this meeting, we will answer any questions you may have and help determine if we are the right advisor for you.</p>"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Financial Planning Support",
+            "html": "Financial Planning Support",
+            "link": ""
+        },
+        {
+            "type": "accordion",
+            "items": [
+                {
+                    "title": "Do you offer financial planning as well?",
+                    "html": "<p>Yes! Are you halfway to retirement and need a solid plan? About to change jobs or have a pending marriage or divorce? Saving for a child’s education? We will build you a customized financial plan that will help you reach your goals and map out your financial future until age 95, and beyond.</p><p>Beratung Financial has been recognized six years in a row as one of the “Top 10 Financial Advisors in New York, ” beating out thousands of other wealth management firms. This award was bestowed upon us in recognition of our comprehensive approach to financial planning and our robust investing strategies. We are here to advise you on any aspect of your life that is touched by money. We consider all the topics outlined in the chart, below, to ensure that you have a secure financial future.</p>"
+                },
+                {
+                    "title": "How often will you evaluate my situation and make necessary changes?",
+                    "html": "<p>Your financial plan is a living, breathing document. For most of our clients, we update their financial plan each year.</p>"
+                },
+                {
+                    "title": "Do you have any tools that can help me track my finances?",
+                    "html": "<p>Yes! Our interactive, easy-to-use software solution will allow you to stay on top of your finances as never before. You will be able to see all your bills and money at a glance on your custom Beratung Financial client dashboard. You can effortlessly track your spending and check your account balances in real time.</p><p>We’re committed to keeping your data secure, and use multiple safety measures, like secure encryption. We are serious about security, and work to keep your information protected.</p><p>To learn more about your Beratung Financial Client Dashboard: <a href=\"https://www.youtube.com/watch?v=AG5IbA5MES8\">Click Here</a></p>"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Investment Management Support",
+            "html": "Investment Management Support",
+            "link": ""
+        },
+        {
+            "type": "accordion",
+            "items": [
+                {
+                    "title": "What is your investment philosophy?",
+                    "html": "<p>As independent, fee-only, fiduciary advisors, we have access to thousands of investment solutions and can objectively choose the best investments to help you reach your goals. We partner with the top research firms to thoroughly vet every investment that we recommend for your portfolio. Beratun Financial also uses a disciplined process to add and remove investments from your portfolio, along with rebalancing the mix of stocks and bonds that is right for you. We structure portfolios for the long term, so that you can live your best life - now and in the future. The financial markets have been as unpredictable as ever, so you need a seasoned professional by your side who can build you a resilient portfolio that can adjust for the changing tides and protect your money. Beratung Financial is here for you!</p>"
+                },
+                {
+                    "title": "Does Beratung Financial provide stand-alone comprehensive financial planning?",
+                    "html": "<p>Beratung Financial offers both financial planning and investment management. If you want only stand-alone financial planning, then we’re probably not the right fit.</p>"
+                },
+                {
+                    "title": "What is a Certified Divorce Financial Analyst® (CDFA®)?",
+                    "html": "<p>In addition to the Certified Financial Planner™ designation, our advisors are also Certified Divorce Financial Analyst® professionals. A CDFA® is an expert on the financial facets of divorce and plays a critical role in making sure that you are financially secure during and after your divorce.</p>"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Getting Started",
+            "html": "Getting Started",
+            "link": ""
+        },
+        {
+            "type": "accordion",
+            "items": [
+                {
+                    "title": "How can I get started?",
+                    "html": "<p>Finding a top wealth management firm to trust with your money and financial future is just as important as finding a good doctor. You want someone you can trust, who has your best interests at heart, and takes the time to get to know you. Let’s get started!</p><p>Please click on the link to <a href=\"/contact/\">our calendar</a> or call our office at 292-3454-9008, and our team will set up your initial complimentary consultation. In this meeting, we will review your full financial picture, and evaluate if we are the best financial advisor for you.</p>"
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "9da42ae"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "You still have a question?",
+            "html": "You still have a question?",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>If you cannot find answer to your question in our FAQ, you can always contact us. We will answer to you shortly!</p>"
+        },
+        {
+            "type": "button",
+            "text": "Contact us",
+            "url": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/06/illustration-3.svg",
+            "alt": "",
+            "link": ""
+        }
+    ]
+}

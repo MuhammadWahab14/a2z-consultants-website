@@ -1,0 +1,332 @@
+{
+    "id": 89,
+    "path": "/practice-areas/",
+    "title": "Practice Аreas",
+    "excerpt": "Expert Business Advisory Services",
+    "excerpt_html": "Expert Business Advisory Services",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "bd015fa"
+        },
+        {
+            "type": "section_start",
+            "id": "cbdb5c5"
+        },
+        {
+            "type": "text",
+            "html": "<p>Our expertise spans the full business lifecycle from Business Creation and Growth to Managed Exit. We provide specialized advisory across areas including corporate governance, risk management, ERP implementation, financial modelling, MIS reporting, valuation, due diligence, and transaction advisory.</p><p>What sets us apart is our ability to combine technical expertise with commercial understanding. We don’t offer isolated solutions we deliver integrated, end-to-end advisory that aligns strategy, compliance, operations, and financial performance.</p><p>By strengthening governance, optimizing systems, and ensuring regulatory alignment, we help businesses operate efficiently, scale sustainably, and maximize long-term value.</p>"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "2f2dffe"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "01 Business Creation (The Launchpad)",
+            "html": "01 Business Creation (The Launchpad)",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on the foundational setup, regulatory compliance, and initial validation required to bring a new entity to life in the UAE market.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "ab53d11"
+        },
+        {
+            "type": "card",
+            "title": "Business Setup Advisory",
+            "text": "End-to-end guidance on legal structures and registration.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Feasibility Studies & Market Assessment:",
+            "text": "Validating the business case and market demand",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Accounting Systems Implementation",
+            "text": "Setting up the financial backbone from day one.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "6736dce"
+        },
+        {
+            "type": "card",
+            "title": "Ultimate Beneficial Owner (UBO) Services",
+            "text": "Ensuring early compliance with UAE transparency regulations.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "AML & CFT Services",
+            "text": "Establishing mandatory Anti-Money Laundering frameworks for new licenses.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Investment & Pitch Deck Preparation",
+            "text": "Crafting the narrative to secure initial seed or angel funding.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "661918d"
+        },
+        {
+            "type": "card",
+            "title": "Financial Modelling for Investors",
+            "text": "Building the initial projections to prove scalability.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "IT Consulting",
+            "text": "Planning the core digital infrastructure for the new office.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "4633090"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "02 Business Growth (The Engine Room)",
+            "html": "02 Business Growth (The Engine Room)",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on scaling operations, optimizing internal controls, and ensuring the business is robust enough to handle rapid expansion.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "16a5cf4"
+        },
+        {
+            "type": "card",
+            "title": "Corporate Governance Framework Development",
+            "text": "Transitioning from founder-led to board-level oversight.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Risk Management Advisory",
+            "text": "Identifying and mitigating bottlenecks that come with higher volumes.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Internal Control & SOX Compliance",
+            "text": "Strengthening the environment for potential public listings or audits.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "b75468f"
+        },
+        {
+            "type": "card",
+            "title": "SOP Drafting for Finance & Operations",
+            "text": "Standardization to ensure consistency across growing teams.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "ERP Selection & Implementation Advisory",
+            "text": "Moving from basic accounting to enterprise-level resource planning.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "MIS Reporting Design",
+            "text": "Providing leadership with real-time data for faster decision-making.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "017d470"
+        },
+        {
+            "type": "card",
+            "title": "Capital Raising Support",
+            "text": "Leading Series A/B rounds or securing debt financing for expansion.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "ESG Reporting & Implementation Advisory",
+            "text": "Building sustainability frameworks to attract institutional investors.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Human Resources Consulting",
+            "text": "Scaling the workforce and managing organizational culture.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "4772644"
+        },
+        {
+            "type": "card",
+            "title": "Actuarial Services",
+            "text": "Managing long-term financial risks and employee benefit liabilities",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "bda1459"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "03 Managed Exit (The Harvest)",
+            "html": "03 Managed Exit (The Harvest)",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on maximizing value during a transition, whether the business is being sold, merged, or strategically dissolved.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7ffb4a2"
+        },
+        {
+            "type": "card",
+            "title": "Business & IP Valuation Advisory",
+            "text": "Determining the true market value of the company’s tangible and intangible assets.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Purchase Price Allocation & Fair Value Measurement",
+            "text": "Ensuring accurate financial reporting during a merger or acquisition.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Transaction Advisory",
+            "text": "Managing the end-to-end deal process for the seller.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "2526757"
+        },
+        {
+            "type": "card",
+            "title": "Due Diligence (Financial, Operational & Commercial)",
+            "text": "Preparing the \"data room\" to withstand scrutiny from potential buyers.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Corporate Restructuring & Reorganization",
+            "text": "Streamlining the entity for a cleaner sale or preparing for dissolution.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Dual Structuring Advisory",
+            "text": "Optimizing the exit for both local and offshore stakeholders.",
+            "link": "Business Strategy Development",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "a78a10c"
+        },
+        {
+            "type": "card",
+            "title": "If you do not see your specific practice areas, please contact us",
+            "text": "",
+            "link": "",
+            "button": "Contact us",
+            "image": ""
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/medical-team-examining-x-ray-report-scaled.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "488e908"
+        },
+        {
+            "type": "section_start",
+            "id": "fee1a81"
+        },
+        {
+            "type": "text",
+            "html": "<p>We deliver practical business insights based on deep advisory experience across key sectors and complex regulatory environments.</p>"
+        },
+        {
+            "type": "button",
+            "text": "Business Advisory",
+            "url": ""
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2026/05/top-view-statistics-presentation-with-pie-chart.png",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "1b68879"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our leaders",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "View more",
+            "url": ""
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<%- include('../partials/phero', { eyebrow: 'Practice areas', title: 'Strategic guidance for every business stage', lead: 'Three stages, ' + services.length + ' specialist services: from setting up and staying compliant to scaling with control and exiting at the right value.', image: stages[1].heroImage, crumbs: [['Practice areas']] }) %>
+
+<section class="section pa">
+  <div class="wrap">
+    <ul class="jump" aria-label="Jump to a stage">
+      <% stages.forEach(function (st) { %><li><a href="#<%= st.id %>"><span class="mono"><%= st.n %></span> <%= st.name %> <small><%= st.services.length %></small></a></li><% }) %>
+    </ul>
+
+    <% stages.forEach(function (st) { %>
+    <section class="pa__stage" id="<%= st.id %>" aria-labelledby="h-<%= st.id %>">
+      <header class="pa__head reveal">
+        <span class="pa__n mono"><%= st.n %></span>
+        <div>
+          <p class="eyebrow"><%= st.code %></p>
+          <h2 id="h-<%= st.id %>"><a href="<%= st.url %>"><%= st.name %></a></h2>
+          <p><%= st.intro %></p>
+        </div>
+        <a class="btn btn--navy" href="<%= st.url %>">Stage overview <svg class="i"><use href="#i-arrow-right"/></svg></a>
+      </header>
+      <ul class="svcgrid">
+        <% st.services.forEach(function (s, i) { %>
+        <li class="reveal" data-delay="<%= i % 3 %>">
+          <a class="svc" href="<%= s.url %>">
+            <span class="svc__n mono"><%= String(s.order).padStart(2, '0') %></span>
+            <h3><%= s.title %></h3>
+            <p><%= s.summary %></p>
+            <span class="svc__go">Learn more <svg class="i"><use href="#i-arrow-up-right"/></svg></span>
+          </a>
+        </li>
+        <% }) %>
+      </ul>
+    </section>
+    <% }) %>
+  </div>
+</section>

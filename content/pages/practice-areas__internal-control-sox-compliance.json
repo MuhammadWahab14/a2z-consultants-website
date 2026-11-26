@@ -1,0 +1,98 @@
+{
+    "id": 987844,
+    "path": "/practice-areas/internal-control-sox-compliance/",
+    "title": "Internal Control & SOX Compliance",
+    "excerpt": "Drive Efficiency. Scale Performance. Attract Capital.\n\n  Scaling with Precision: Optimizing Systems for Sustainable Expansion.\n\n  \n    Once you’ve found your footing, growth requires discipline. We help you transition from a \"founder-led\" operation to an institutional-grade enterprise. Our team optimizes your internal controls and elevates your reporting to attract the next level of investment.\n  \n\n  \n    Growth without control leads to chaos. We implement the institutional-grade governance, ERP systems, and risk frameworks necessary to transform your high-performing business into a scalable, investor-ready enterprise.\n  \n\n  Key Solutions:\n\n  \n    Corporate Governance\n    ERP Selection & MIS Design\n    Risk Management & Internal Audit (SOX)\n    ESG Implementation\n    Capital Raising & Investor Pitch Decks\n    Actuarial & HR Consulting\n  \n\n  The Outcome:\n\n  \n    A scalable, transparent, and high-performance organization that operates like a market leader.",
+    "excerpt_html": "<h2>Drive Efficiency. Scale Performance. Attract Capital.</h2> <h4>Scaling with Precision: Optimizing Systems for Sustainable Expansion.</h4> <p> Once you’ve found your footing, growth requires discipline. We help you transition from a \"founder-led\" operation to an institutional-grade enterprise. Our team optimizes your internal controls and elevates your reporting to attract the next level of investment. </p> <p> Growth without control leads to chaos. We implement the institutional-grade governance, ERP systems, and risk frameworks necessary to transform your high-performing business into a scalable, investor-ready enterprise. </p> <h4>Key Solutions:</h4> <ul> <li>Corporate Governance</li> <li>ERP Selection & MIS Design</li> <li>Risk Management & Internal Audit (SOX)</li> <li>ESG Implementation</li> <li>Capital Raising & Investor Pitch Decks</li> <li>Actuarial & HR Consulting</li> </ul> <h4>The Outcome:</h4> <p> A scalable, transparent, and high-performance organization that operates like a market leader. </p>",
+    "parent": 89,
+    "blocks": [
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2026/05/business-team-situation-present-share-idea-scaled.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "0410c7e"
+        },
+        {
+            "type": "section_start",
+            "id": "f9e25a5"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Business Growth (The Engine Room)",
+            "html": "Business Growth (The Engine Room)",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Focuses on scaling operations, optimizing internal controls, and ensuring the business is robust enough to handle rapid expansion.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "d9d90d5"
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section_start",
+            "id": "9b997fb"
+        },
+        {
+            "type": "background",
+            "src": "https://beratung.vamtam.com/wp-content/uploads/2023/07/pexels-jopwell-2422293.jpg"
+        },
+        {
+            "type": "section_start",
+            "id": "e208685"
+        },
+        {
+            "type": "section_start",
+            "id": "f9f9ea5"
+        },
+        {
+            "type": "background",
+            "src": "/wp-content/uploads/2023/06/illustration-1.svg"
+        },
+        {
+            "type": "heading",
+            "level": "h3",
+            "text": "Internal Control & SOX Compliance",
+            "html": "Internal Control & SOX Compliance",
+            "link": ""
+        },
+        {
+            "type": "button",
+            "text": "Contact us",
+            "url": ""
+        },
+        {
+            "type": "card",
+            "title": "",
+            "text": "Strengthening the environment for potential public listings or audits. Robust internal controls are critical to safeguarding assets, ensuring compliance, and building stakeholder confidence. Our Internal Control & SOX Compliance advisory services help organizations design, implement, and strengthen control frameworks aligned with global standards and regulatory expectations.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "",
+            "text": "We assist in controlling framework development, risk and control assessments, process documentation, and testing support, ensuring alignment with SOX requirements and best practices. Our solutions are practical, proportionate and designed to support business objectives while maintaining strong governance and compliance.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "",
+            "text": "By embedding controls into everyday operations, we help organizations reduce risk, improve accountability, and enhance operational discipline.",
+            "link": "",
+            "image": ""
+        }
+    ]
+}

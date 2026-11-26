@@ -1,0 +1,225 @@
+{
+    "id": 6953,
+    "path": "/financial-planning/",
+    "title": "Financial Planning",
+    "excerpt": "Empowering Your Vision through Planning",
+    "excerpt_html": "Empowering Your Vision through Planning",
+    "parent": 0,
+    "blocks": [
+        {
+            "type": "section_start",
+            "id": "c00407d"
+        },
+        {
+            "type": "text",
+            "html": "<p>Our dedicated team collaborates closely with you to gain deep insights into your aspirations, and together, we craft a pragmatic blueprint that paves the way towards achieving your objectives.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/GettyImages-1125619200-square.jpg",
+            "alt": "",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "2946c1f"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our Mission",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "section_start",
+            "id": "d802b2e"
+        },
+        {
+            "type": "card",
+            "title": "Confidence",
+            "text": "We educate and empower you on investing, taxes, and insurance, instilling confidence in your financial journey.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Clarity",
+            "text": "We simplify complex financial concepts into plain, straightforward language, eliminating the need for deciphering jargon.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Empowerment",
+            "text": "We empower you with actionable recommendations, giving you complete control over your financial situation and future.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "7b0f61f"
+        },
+        {
+            "type": "template",
+            "id": "10889"
+        },
+        {
+            "type": "section_start",
+            "id": "68cff98"
+        },
+        {
+            "type": "list",
+            "items": [
+                {
+                    "text": "Our Capabilities",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Tailoring plans using listed capabilities",
+            "html": "Tailoring plans using listed capabilities",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "274c724"
+        },
+        {
+            "type": "card",
+            "title": "Investment Planning",
+            "text": "We analyze your current investment approach and engage in insightful discussions to provide recommendations for your next steps. For clients seeking ongoing investment services, we encourage you to explore our comprehensive Wealth Management service. By leveraging our expertise, we aim to optimize your investment strategy and assist you in achieving your financial objectives.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Retirement Planning",
+            "text": "Whether retirement is a distant goal or just around the corner, we are here to assist you in reviewing your current retirement plan and making necessary decisions to ensure its success. At every step of the way, our goal is to provide you with the information and support needed to make confident and well-informed choices.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "card",
+            "title": "Education Planning",
+            "text": "We understand the importance of balancing education planning with your overall financial goals, and we're here to assist you every step of the way. By working together, we can ensure that education planning becomes an integral part of your comprehensive financial plan, helping you make informed decisions, educational future while maintaining your overall financial well-being.",
+            "link": "",
+            "image": ""
+        },
+        {
+            "type": "section_start",
+            "id": "9f3ced3"
+        },
+        {
+            "type": "heading",
+            "level": "h2",
+            "text": "Our process",
+            "html": "Our process",
+            "link": ""
+        },
+        {
+            "type": "section_start",
+            "id": "5236c4c"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "01.",
+            "html": "01.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Getting to Know You</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>Prior to formal engagement, we prioritize understanding your personal situation, financial goals, and key concerns that drive your search for financial advice. This forms the basis for a mutually agreed-upon scope of work. Please find below a comprehensive list of our capabilities.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "7e4f62e"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "02.",
+            "html": "02.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Gaining Clarity on Your Finances</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>Our comprehensive planning engagements start by jointly assessing your balance sheet and cash flow. Access our secure client portal to upload documents or link your accounts electronically.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "f0f16fc"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "03.",
+            "html": "03.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Building Your Financial Vision</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>We collaborate with you to prioritize your goals and assess the financial choices and risks involved in achieving them. Through close partnership, we establish a baseline projection of your future financial wealth, providing a roadmap for your success.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "805701b"
+        },
+        {
+            "type": "heading",
+            "level": "span",
+            "text": "04.",
+            "html": "04.",
+            "link": ""
+        },
+        {
+            "type": "text",
+            "html": "<p>Analyzing Tradeoffs</p>"
+        },
+        {
+            "type": "text",
+            "html": "<p>We use our financial model to develop alternative scenarios, informing recommendations on taxes, insurance, and investments to align with your goals. Exploring scenarios to align recommendations.</p>"
+        },
+        {
+            "type": "section_start",
+            "id": "c80f128"
+        },
+        {
+            "type": "button",
+            "text": "Get a consultation",
+            "url": ""
+        },
+        {
+            "type": "section_start",
+            "id": "9295b96"
+        },
+        {
+            "type": "text",
+            "html": "<p>We are here to address any questions you may have as you implement your plan. Additionally, for clients seeking an ongoing partnership, we provide comprehensive <a href=\"/wealth-management\">Wealth Management Services</a>.</p>"
+        },
+        {
+            "type": "image",
+            "src": "/wp-content/uploads/2023/07/paths.svg",
+            "alt": "",
+            "link": ""
+        }
+    ]
+}
