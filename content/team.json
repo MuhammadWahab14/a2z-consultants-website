@@ -1,0 +1,19 @@
+{
+  "label": "Leadership",
+  "title": "Meet our professional team",
+  "sub": "Partners and directors who lead the Alif Group's practices across the Middle East, Asia and technology.",
+  "source": "Details taken from alifgroups.com/about (Leadership section).",
+  "partners": [
+    { "slug": "syed-asif-zaman", "name": "Syed Asif Zaman", "role": "Partner" },
+    { "slug": "afzal-dossani", "name": "Afzal Dossani", "role": "Partner" },
+    { "slug": "tahir-ali", "name": "Tahir Ali", "role": "Partner" }
+  ],
+  "directors": [
+    { "slug": "m-ashraf-diwan", "name": "M. Ashraf Diwan", "role": "Director & COO", "head": "Head of Asian Desk" },
+    { "slug": "dr-farrukh-habib", "name": "Dr. Farrukh Habib", "role": "Director", "head": "Head of Fintech & Technology" },
+    { "slug": "naveed-khatri", "name": "Naveed Khatri", "role": "Director", "head": "Head of Assurance, Middle East" },
+    { "slug": "alia-noor", "name": "Alia Noor", "role": "Director", "head": "Head of Taxation & Compliance" },
+    { "slug": "shereena-siyad", "name": "Shereena Siyad", "role": "Director", "head": "Head of Technology & Innovation" }
+  ],
+  "businessPartners": ["Ahmad Abdullah & Goh", "Famos Trustee Ltd.", "JCube Capital Partners Pte. Ltd.", "QNE Optimum Sdn. Bhd."]
+}

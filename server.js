@@ -12,7 +12,7 @@ const content = require('./lib/content');
 const helpers = require('./lib/helpers');
 const { handleEnquiry } = require('./lib/enquiry');
 
-const { site, home, about, forms, stages, stageById, services, nav, neighbours, stats } = content;
+const { site, home, about, forms, team, stages, stageById, services, nav, neighbours, stats } = content;
 const legal = require('./content/legal.json');
 
 const PORT = Number(process.env.PORT) || 3000;
@@ -33,7 +33,7 @@ app.set('x-powered-by', false);
 app.set('strict routing', true);
 if (!IS_PROD) app.set('view cache', false);
 
-app.locals = Object.assign(app.locals, helpers, { site, home, about, forms, stages, services, nav, stats, legal, baseUrl: BASE_URL });
+app.locals = Object.assign(app.locals, helpers, { site, home, about, forms, team, stages, services, nav, stats, legal, baseUrl: BASE_URL });
 
 app.use(helmet({
   contentSecurityPolicy: {

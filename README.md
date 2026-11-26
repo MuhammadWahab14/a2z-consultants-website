@@ -32,6 +32,7 @@ npm run test:forms   # form tests only
 | `src/css/*.css`, `src/js/*.js` | Styles and behaviour (built to `public/css/site.css`, `public/js/site.js`) |
 | `lib/enquiry.js` | Form validation, spam checks, storage, optional email |
 | `server.js` | Routes, security headers, sitemap/robots/manifest, legacy redirects, 404 |
+| `content/team.json`, `assets-src/team/` | Leadership team (copied from alifgroups.com/about); `npm run team-images` regenerates the photos |
 | `assets-src/` → `public/img/` | Original photos and the optimised WebP sizes (`npm run images` regenerates) |
 | `content/pages/` | Raw extract of the old WordPress pages, kept for reference only (not served) |
 

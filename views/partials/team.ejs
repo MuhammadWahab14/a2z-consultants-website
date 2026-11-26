@@ -1,0 +1,43 @@
+<%
+  /* Team section. Locals: tone ('mist' | ''), moreLink (bool) */
+  const toneV = typeof tone !== 'undefined' ? tone : '';
+  const moreV = typeof moreLink !== 'undefined' ? moreLink : false;
+%>
+<section class="section team<%= toneV === 'mist' ? ' section--mist' : '' %>" id="team" aria-labelledby="team-title">
+  <div class="wrap">
+    <header class="sechead team__head reveal">
+      <p class="eyebrow"><%= team.label %></p>
+      <h2 id="team-title"><%= team.title %></h2>
+      <p class="sechead__sub"><%= team.sub %></p>
+    </header>
+
+    <h3 class="team__group mono reveal">Partners</h3>
+    <ul class="tgrid tgrid--3">
+      <% team.partners.forEach(function (m, i) { %>
+      <li class="tcard reveal" data-delay="<%= i %>">
+        <div class="tcard__img"><%- teamPic(m.slug, m.name) %></div>
+        <div class="tcard__body"><h4><%= m.name %></h4><p class="mono"><%= m.role %></p></div>
+      </li>
+      <% }) %>
+    </ul>
+
+    <h3 class="team__group mono reveal">Directors</h3>
+    <ul class="tgrid tgrid--5">
+      <% team.directors.forEach(function (m, i) { %>
+      <li class="tcard reveal" data-delay="<%= i % 4 %>">
+        <div class="tcard__img"><%- teamPic(m.slug, m.name) %></div>
+        <div class="tcard__body"><h4><%= m.name %></h4><p class="mono"><%= m.role %></p><% if (m.head) { %><p class="tcard__head"><%= m.head %></p><% } %></div>
+      </li>
+      <% }) %>
+    </ul>
+
+    <% if (team.businessPartners && team.businessPartners.length) { %>
+    <div class="team__bp reveal">
+      <h3 class="mono">Business partners</h3>
+      <p><%= team.businessPartners.join(' · ') %></p>
+    </div>
+    <% } %>
+
+    <% if (moreV) { %><p class="team__more reveal"><a class="btn btn--navy" href="/about/#team">Meet the team on our About page <svg class="i"><use href="#i-arrow-right"/></svg></a></p><% } %>
+  </div>
+</section>

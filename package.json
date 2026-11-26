@@ -11,7 +11,8 @@
     "check:links": "node scripts/check-links.js",
     "test:forms": "node scripts/test-forms.js",
     "test": "node scripts/check-links.js && node scripts/test-forms.js",
-    "build:static": "node scripts/build-assets.js && node scripts/build-static.js"
+    "build:static": "node scripts/build-assets.js && node scripts/build-static.js",
+    "team-images": "node scripts/optimize-team.js"
   },
   "keywords": [],
   "author": "",

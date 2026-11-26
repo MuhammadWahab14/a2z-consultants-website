@@ -15,9 +15,9 @@
 .hdr.is-stuck, .hdr.mega-open, .hdr:has(.mega:hover), .hdr:has(.has-mega:hover) { background: #fff; border-color: var(--line); box-shadow: 0 8px 30px -12px rgba(0, 31, 63, 0.3); }
 .hdr.is-stuck { top: 0; }
 .hdr__bar { position: relative; width: min(100% - 2 * var(--gutter), var(--maxw)); margin-inline: auto; height: var(--hdr-h); display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 28px; }
-.hdr__logo { display: flex; align-items: center; padding: 6px 14px; border-radius: 12px; background: #fff; box-shadow: 0 6px 18px -8px rgba(0, 31, 63, 0.5); transition: box-shadow 0.3s; }
-.hdr.is-stuck .hdr__logo, .hdr.mega-open .hdr__logo { box-shadow: none; padding-inline: 0; }
-.hdr__logo img { height: 42px; width: auto; }
+.hdr__logo { display: flex; align-items: center; padding: 0; }
+.hdr__logo img { height: 42px; width: auto; filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7)); transition: filter 0.3s; }
+.hdr.is-stuck .hdr__logo img, .hdr.mega-open .hdr__logo img { filter: none; }
 
 .nav { justify-self: center; }
 .nav__list { display: flex; align-items: center; gap: 6px; }
@@ -111,10 +111,10 @@
 .ftr { background: #00152b; padding-top: clamp(56px, 7vw, 96px); }
 .ftr__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.4fr; gap: clamp(28px, 4vw, 56px); padding-bottom: 56px; }
 .ftr__brand p { margin: 20px 0; max-width: 34ch; font-size: 0.95rem; color: rgba(255, 255, 255, 0.7); }
-.ftr__logo { display: inline-block; padding: 10px 16px; background: #fff; border-radius: 14px; }
-.ftr__logo img { height: 44px; width: auto; }
+.ftr__logo { display: inline-block; }
+.ftr__logo img { height: 48px; width: auto; filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7)); }
 .ftr__group { display: inline-flex; align-items: center; gap: 12px; padding: 8px 16px 8px 8px; border-radius: 999px; background: rgba(255, 255, 255, 0.07); color: #fff !important; font-size: 0.85rem; text-decoration: none; }
-.ftr__group img { height: 32px; width: auto; background: #fff; border-radius: 50%; padding: 4px; }
+.ftr__group img { height: 36px; width: auto; }
 .ftr__col h3 { color: var(--sky); font-size: 0.72rem; margin-bottom: 18px; }
 .ftr__col ul, .ftr__col address { display: grid; gap: 10px; }
 .ftr__col a { color: rgba(255, 255, 255, 0.82) !important; text-decoration: none; font-size: 0.95rem; display: inline-flex; gap: 10px; align-items: flex-start; transition: color 0.2s; }
