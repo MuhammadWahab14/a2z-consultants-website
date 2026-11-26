@@ -110,7 +110,6 @@ p { text-wrap: pretty; }
 .btn--block { display: flex; width: 100%; white-space: normal; text-align: center; }
 .btn[disabled] { opacity: 0.6; pointer-events: none; }
 
-.tag { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(102, 204, 255, 0.22); color: var(--ice); }
 .pill { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px; border: 1.5px solid var(--line); font-weight: 600; font-size: 0.88rem; color: var(--navy); text-decoration: none; transition: background 0.2s, border-color 0.2s; }
 .pill:hover { background: var(--mist); border-color: var(--sky); }
 
@@ -131,3 +130,5 @@ p { text-wrap: pretty; }
 
 @view-transition { navigation: auto; }
 ::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.28s; }
+
+@media (max-width: 420px) { .btn { white-space: normal; text-align: center; line-height: 1.25; padding-block: 10px; } }

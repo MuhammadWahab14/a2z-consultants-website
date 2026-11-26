@@ -12,7 +12,7 @@ const content = require('./lib/content');
 const helpers = require('./lib/helpers');
 const { handleEnquiry } = require('./lib/enquiry');
 
-const { site, home, about, forms, team, stages, stageById, services, nav, neighbours, stats } = content;
+const { site, home, about, forms, team, stages, services, nav, neighbours, stats } = content;
 const legal = require('./content/legal.json');
 
 const PORT = Number(process.env.PORT) || 3000;
@@ -28,7 +28,7 @@ function assetVersion() {
 const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.set('trust proxy', 1);
+app.set('trust proxy', Number(process.env.TRUST_PROXY) || false); // set TRUST_PROXY=1 only when behind one reverse proxy
 app.set('x-powered-by', false);
 app.set('strict routing', true);
 if (!IS_PROD) app.set('view cache', false);
@@ -54,7 +54,14 @@ app.use(helmet({
   },
   crossOriginEmbedderPolicy: false,
   crossOriginResourcePolicy: { policy: 'same-site' },
+  strictTransportSecurity: { maxAge: 31536000, includeSubDomains: false }, // no includeSubDomains/preload: other hostnames are not ours to assume
+  referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
 }));
+app.use((req, res, next) => {
+  res.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+  if (IS_PROD && req.protocol === 'http' && app.get('trust proxy')) return res.redirect(301, `https://${req.hostname}${req.originalUrl}`);
+  next();
+});
 app.use(compression());
 
 /* Static files: fingerprinted-by-query CSS/JS and images/fonts cache for a long time. */
@@ -92,9 +99,15 @@ const crumbLd = (items) => ({
   itemListElement: items.map(([name, p], i) => ({ '@type': 'ListItem', position: i + 1, name, item: `${BASE_URL}${p}` })),
 });
 
+/* Meta descriptions read best at <= 155 characters. */
+const snip = (t, n = 155) => {
+  t = t.replace(/\s+/g, ' ').trim();
+  return t.length <= n ? t : `${t.slice(0, t.lastIndexOf(' ', n - 1)).replace(/[,.;:]+$/, '')}…`;
+};
+
 function render(res, view, page, data = {}) {
   const status = page.status || 200;
-  res.status(status).render('layout', Object.assign({
+  res.set('Cache-Control', 'no-cache').status(status).render('layout', Object.assign({
     view: `pages/${view}`,
     page: Object.assign({ key: view, cta: true, jsonld: [], bodyClass: '' }, page),
     year: new Date().getFullYear(),
@@ -108,29 +121,29 @@ app.get('/', (req, res) => {
   const m = content.images[helpers.base(slide0)];
   render(res, 'home', {
     key: 'home', title: site.name, path: '/', nav: '/', cta: false, bodyClass: 'is-home',
-    description: site.description,
+    description: snip(site.description),
     preload: m ? helpers.imgUrl(slide0, 1200) : undefined,
-    jsonld: [orgJsonLd()],
+    preloadSet: m ? m.widths.map((w) => `/img/${m.name}-${w}.webp ${w}w`).join(", ") : undefined,
+    jsonld: [orgJsonLd(), { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${BASE_URL}/#website`, url: `${BASE_URL}/`, name: site.name, publisher: { '@id': `${BASE_URL}/#org` } }],
   });
 });
 
 app.get('/about/', (req, res) => render(res, 'about', {
   key: 'about', title: 'Who We Are', path: '/about/', nav: '/about/',
-  description: 'A to Z Consultants provides end-to-end consultancy supporting businesses through creation, growth and managed exit, with deep regulatory and commercial expertise.',
+  description: 'End-to-end consultancy supporting businesses through creation, growth and managed exit, with deep regulatory and commercial expertise.',
   jsonld: [crumbLd([['Home', '/'], ['Who We Are', '/about/']])],
 }));
 
 app.get('/practice-areas/', (req, res) => render(res, 'practice-areas', {
   key: 'practice-areas', title: 'Practice Areas', path: '/practice-areas/', nav: '/practice-areas/',
-  description: `Explore ${services.length} advisory services across business creation, growth and managed exit, from business setup and UBO/AML compliance to valuation and transaction advisory.`,
+  description: `${services.length} advisory services across business creation, growth and managed exit, from business setup and UBO/AML compliance to valuation and transactions.`,
   jsonld: [crumbLd([['Home', '/'], ['Practice Areas', '/practice-areas/']])],
 }));
 
 stages.forEach((stage) => {
   app.get(stage.url, (req, res) => render(res, 'stage', {
     key: `stage-${stage.id}`, title: stage.name, path: stage.url, nav: '/practice-areas/',
-    description: `${stage.name} (${stage.code}): ${stage.intro}`.slice(0, 300),
-    image: undefined,
+    description: snip(`${stage.name} (${stage.code}): ${stage.intro}`),
     jsonld: [crumbLd([['Home', '/'], ['Practice Areas', '/practice-areas/'], [stage.name, stage.url]])],
   }, { stage }));
 });
@@ -138,7 +151,7 @@ stages.forEach((stage) => {
 services.forEach((service) => {
   app.get(service.url, (req, res) => render(res, 'service', {
     key: `service-${service.slug}`, title: service.title, path: service.url, nav: '/practice-areas/',
-    description: `${service.title}: ${service.summary} ${service.body[1] || ''}`.replace(/\s+/g, ' ').trim().slice(0, 300),
+    description: snip(`${service.title}: ${service.summary} ${service.body[1] || ''}`),
     jsonld: [
       crumbLd([['Home', '/'], ['Practice Areas', '/practice-areas/'], [service.stageInfo.name, service.stageInfo.url], [service.title, service.url]]),
       { '@context': 'https://schema.org', '@type': 'Service', name: service.title, description: service.summary, provider: { '@id': `${BASE_URL}/#org` }, areaServed: site.countries, url: `${BASE_URL}${service.url}` },
@@ -182,14 +195,11 @@ app.post('/api/enquiry', enquiryLimiter, handleEnquiry);
 
 /* ---------------------------------------------------------------- SEO files */
 const indexable = () => [
-  ['/', 1.0], ['/about/', 0.8], ['/practice-areas/', 0.9],
-  ...stages.map((s) => [s.url, 0.8]),
-  ...services.map((s) => [s.url, 0.7]),
-  ['/contact/', 0.7], ['/get-a-consultation/', 0.8], ['/privacy-policy/', 0.2], ['/terms-of-use/', 0.2],
+  '/', '/about/', '/practice-areas/', ...stages.map((s) => s.url), ...services.map((s) => s.url),
+  '/contact/', '/get-a-consultation/', '/privacy-policy/', '/terms-of-use/',
 ];
 app.get('/sitemap.xml', (req, res) => {
-  const lastmod = new Date().toISOString().slice(0, 10);
-  const body = indexable().map(([p, pr]) => `  <url><loc>${BASE_URL}${p}</loc><lastmod>${lastmod}</lastmod><priority>${pr.toFixed(1)}</priority></url>`).join('\n');
+  const body = indexable().map((p) => `  <url><loc>${BASE_URL}${p}</loc></url>`).join('\n');
   res.type('application/xml').send(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`);
 });
 app.get('/robots.txt', (req, res) => {
@@ -236,9 +246,11 @@ app.use((req, res) => {
 });
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
-  console.error(err);
-  if (req.path.startsWith('/api/')) return res.status(500).json({ ok: false, message: 'Something went wrong. Please try again or call us.' });
-  res.status(500).type('text/plain').send('Something went wrong. Please try again later.');
+  const status = err.status >= 400 && err.status < 500 ? err.status : 500; // keep body-parser's 400/413
+  if (status === 500) console.error(err);
+  const message = status === 413 ? 'That request is too large.' : status < 500 ? 'Invalid request.' : 'Something went wrong. Please try again or call us.';
+  if (req.path.startsWith('/api/')) return res.status(status).json({ ok: false, message });
+  res.status(status).type('text/plain').send(message);
 });
 
 if (require.main === module) {

@@ -24,14 +24,14 @@
       <a class="ftr__group" href="<%= site.group.url %>" target="_blank" rel="noopener"><%- logo('logo-alif', 44) %><span>Part of the <%= site.group.name %></span></a>
     </div>
     <nav class="ftr__col" aria-label="Practice areas">
-      <h3 class="mono">Practice areas</h3>
+      <h2 class="mono">Practice areas</h2>
       <ul>
         <% stages.forEach(function (st) { %><li><a href="<%= st.url %>"><%= st.name %></a></li><% }) %>
         <li><a href="/practice-areas/">All 24 services</a></li>
       </ul>
     </nav>
     <nav class="ftr__col" aria-label="Company">
-      <h3 class="mono">Company</h3>
+      <h2 class="mono">Company</h2>
       <ul>
         <li><a href="/about/">Who we are</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -41,7 +41,7 @@
       </ul>
     </nav>
     <div class="ftr__col">
-      <h3 class="mono">Reach us</h3>
+      <h2 class="mono">Reach us</h2>
       <address>
         <a href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg><%= site.phone %></a>
         <a href="mailto:<%= site.email %>"><svg class="i"><use href="#i-mail"/></svg><%= site.email %></a>

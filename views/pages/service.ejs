@@ -4,7 +4,7 @@
   <div class="wrap svcpage__grid">
     <article class="svcpage__main">
       <p class="eyebrow reveal"><%= service.tagline %></p>
-      <% service.body.forEach(function (p, i) { %><p class="<%= i === 0 ? 'lead ' : '' %>prose reveal"><%= p %></p><% }) %>
+      <% service.body.forEach(function (p, i) { %><p class="<%= i === 0 ? 'lead ' : '' %>prose reveal"><%= i === 0 && p.startsWith(service.summary) ? p.slice(service.summary.length).trim() : p %></p><% }) %>
       <div class="svcpage__cta reveal">
         <a class="btn btn--navy btn--lg" href="/get-a-consultation/">Request this service <svg class="i"><use href="#i-arrow-right"/></svg></a>
         <a class="btn btn--ghost btn--lg" href="/contact/">Ask a question</a>
@@ -12,14 +12,14 @@
     </article>
     <aside class="svcpage__side reveal" data-delay="1">
       <div class="sidecard">
-        <h3 class="mono">In this stage</h3>
+        <h2 class="mono">In this stage</h2>
         <ul class="sidelist">
           <% service.stageInfo.services.forEach(function (s) { %><li><a href="<%= s.url %>"<%- s.slug === service.slug ? ' aria-current="page"' : '' %>><%= s.title %></a></li><% }) %>
         </ul>
         <a class="link" href="<%= service.stageInfo.url %>">About <%= service.stageInfo.name %></a>
       </div>
       <div class="sidecard sidecard--navy dark">
-        <h3>Speak to an advisor</h3>
+        <h2>Speak to an advisor</h2>
         <p>Share your business details and we will get in touch.</p>
         <a class="btn btn--sky btn--block" href="tel:<%= site.phoneTel %>"><svg class="i"><use href="#i-phone"/></svg> <%= site.phone %></a>
         <a class="btn btn--glass btn--block" href="mailto:<%= site.email %>"><svg class="i"><use href="#i-mail"/></svg> Email us</a>

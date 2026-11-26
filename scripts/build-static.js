@@ -16,7 +16,8 @@ const root = path.join(__dirname, '..');
 const dist = path.join(root, 'dist');
 const SITE_URL = (process.env.SITE_URL || 'https://example.github.io/a2z-consultants').replace(/\/+$/, '');
 process.env.SITE_URL = SITE_URL;
-const ENDPOINT = (process.env.STATIC_FORM_ENDPOINT || '').trim();
+const ENDPOINT = process.env.STATIC_FORM_ENDPOINT ? new URL(process.env.STATIC_FORM_ENDPOINT.trim()).href : ''; // must be a valid URL
+if (ENDPOINT && !ENDPOINT.startsWith('https://')) throw new Error('STATIC_FORM_ENDPOINT must be an https:// URL');
 const BASE = new URL(SITE_URL).pathname.replace(/\/+$/, ''); // '' or '/repo'
 
 const app = require('../server');
@@ -33,7 +34,7 @@ const get = (p) => new Promise((resolve, reject) => {
 function rebase(html) {
   if (!BASE) return html;
   html = html.replace(/(\s(?:href|src|action|poster)=")\/(?!\/)/g, `$1${BASE}/`);
-  html = html.replace(/(\ssrcset=")([^"]*)(")/g, (m, a, v, c) => a + v.replace(/(^|,\s*)\/(?!\/)/g, `$1${BASE}/`) + c);
+  html = html.replace(/(\s(?:image)?srcset=")([^"]*)(")/g, (m, a, v, c) => a + v.replace(/(^|,\s*)\/(?!\/)/g, `$1${BASE}/`) + c);
   return html;
 }
 
@@ -42,6 +43,11 @@ function staticForms(html) {
   return html.replace(/<form class="form([^"]*)" method="post" action="\/api\/enquiry" data-enquiry/g,
     (m, cls) => `<form class="form${cls}" method="post" action="${ENDPOINT || '#'}" data-enquiry data-static data-thanks="${BASE}/thank-you/" data-mailto="${site.email}"${ENDPOINT ? ` data-endpoint="${ENDPOINT}"` : ''}`);
 }
+
+/* Static hosts (GitHub Pages) cannot send headers, so the same policy as server.js goes into a <meta> tag. */
+const FORM_ORIGIN = ENDPOINT ? ` ${new URL(ENDPOINT).origin}` : '';
+const CSP = `default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'${FORM_ORIGIN}; frame-src https://maps.google.com https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'${FORM_ORIGIN}`;
+const withCsp = (html) => html.replace('<meta charset="utf-8">', `<meta charset="utf-8">\n<meta http-equiv="Content-Security-Policy" content="${CSP}">\n<meta name="referrer" content="strict-origin-when-cross-origin">`);
 
 function write(file, data) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -71,11 +77,11 @@ let port;
   for (const r of routes) {
     const res = await get(r);
     if (res.status !== 200) throw new Error(`${r} returned ${res.status}`);
-    const html = rebase(staticForms(res.body.toString("utf8")));
+    const html = withCsp(rebase(staticForms(res.body.toString("utf8"))));
     write(path.join(dist, r.replace(/^\//, ''), 'index.html'), html);
   }
   const nf = await get('/this-page-does-not-exist/');
-  write(path.join(dist, '404.html'), rebase(staticForms(nf.body.toString("utf8"))));
+  write(path.join(dist, '404.html'), withCsp(rebase(staticForms(nf.body.toString("utf8")))));
 
   // generated files
   for (const f of ['sitemap.xml', 'robots.txt', 'manifest.webmanifest']) {

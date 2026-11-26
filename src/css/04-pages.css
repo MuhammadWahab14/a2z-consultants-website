@@ -15,8 +15,8 @@
 .crumbs ol { display: flex; flex-wrap: wrap; gap: 6px 0; font-size: 0.85rem; }
 .crumbs li { display: inline-flex; align-items: center; color: rgba(255, 255, 255, 0.7); }
 .crumbs li + li::before { content: "/"; margin-inline: 10px; opacity: 0.45; }
-.crumbs a { color: rgba(255, 255, 255, 0.85) !important; text-decoration: none; }
-.crumbs a:hover { color: #fff !important; text-decoration: underline; }
+.phero .crumbs a { color: rgba(255, 255, 255, 0.85); text-decoration: none; }
+.phero .crumbs a:hover { color: #fff; text-decoration: underline; }
 .crumbs [aria-current] { color: var(--ice); font-weight: 600; }
 
 /* ---------- practice areas hub ---------- */
@@ -77,9 +77,9 @@
 .svcpage__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 40px; }
 .svcpage__side { display: grid; gap: 16px; position: sticky; top: 130px; }
 .sidecard { padding: 28px; border-radius: var(--r-lg); background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-sm); display: grid; gap: 14px; }
-.sidecard h3 { color: var(--blue); font-size: 0.75rem; }
+.sidecard h2 { color: var(--blue); font-size: 0.75rem; }
 .sidecard--navy { background: var(--navy); border-color: var(--navy); }
-.sidecard--navy h3 { color: #fff; font-size: 1.3rem; }
+.sidecard--navy h2 { color: #fff; font-size: 1.3rem; }
 .sidecard--navy p { color: rgba(255, 255, 255, 0.78); font-size: 0.95rem; }
 .sidelist { display: grid; gap: 2px; }
 .sidelist a { display: block; padding: 8px 12px; margin-inline: -12px; border-radius: 10px; color: var(--muted); text-decoration: none; font-size: 0.92rem; line-height: 1.4; transition: background 0.2s, color 0.2s; }
@@ -111,9 +111,9 @@
 .contact__form .prose, .consult__intro { margin-bottom: 30px; }
 .contact__info, .consult__side { display: grid; gap: 16px; position: sticky; top: 130px; }
 .infocard { padding: 30px; border-radius: var(--r-lg); background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-sm); display: grid; gap: 16px; }
-.infocard h3 { color: var(--blue); font-size: 0.75rem; }
+.infocard h2 { color: var(--blue); font-size: 0.75rem; }
 .infocard--navy { background: var(--navy); border-color: var(--navy); }
-.infocard--navy h3 { color: #fff; font-size: 1.35rem; }
+.infocard--navy h2 { color: #fff; font-size: 1.35rem; }
 .infocard--navy p { color: rgba(255, 255, 255, 0.78); }
 .infolist { display: grid; gap: 18px; }
 .infolist li { display: flex; gap: 16px; align-items: flex-start; }

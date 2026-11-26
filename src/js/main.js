@@ -34,17 +34,14 @@ function initHeader() {
 
   const burger = $('.burger');
   const menu = $('#mobile-menu');
-  function closeMenu() {
-    if (!menu || menu.hidden) return;
-    menu.hidden = true; document.body.classList.remove('menu-open');
-    burger.setAttribute('aria-expanded', 'false'); burger.setAttribute('aria-label', 'Open menu');
+  function setMenu(open) {
+    menu.hidden = !open; document.body.classList.toggle('menu-open', open);
+    $$('main, .ctaband, .ftr, .dock').forEach((e) => { e.inert = open; }); // keyboard focus stays inside the open menu
+    burger.setAttribute('aria-expanded', String(open)); burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   }
+  function closeMenu() { if (menu && !menu.hidden) setMenu(false); }
   if (burger && menu) {
-    burger.addEventListener('click', () => {
-      const open = menu.hidden;
-      menu.hidden = !open; document.body.classList.toggle('menu-open', open);
-      burger.setAttribute('aria-expanded', String(open)); burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-    });
+    burger.addEventListener('click', () => setMenu(menu.hidden));
     $$('a', menu).forEach((a) => a.addEventListener('click', closeMenu));
     matchMedia('(min-width: 981px)').addEventListener('change', (e) => { if (e.matches) closeMenu(); });
   }
@@ -147,7 +144,7 @@ function initAnchors() {
     e.preventDefault();
     target.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
     history.pushState(null, '', a.getAttribute('href'));
-    if (target.hasAttribute('tabindex') || /^(H[1-6]|SECTION)$/.test(target.tagName)) target.setAttribute('tabindex', '-1'), target.focus({ preventScroll: true });
+    target.tabIndex = -1; target.focus({ preventScroll: true }); // moves keyboard/screen-reader focus to the section
   });
 }
 
